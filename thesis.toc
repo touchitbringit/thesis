@@ -42,6 +42,6 @@
 \contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{19}{chapter.7}
 \contentsline {section}{\numberline {7.1}Kesimpulan}{19}{section.7.1}
 \contentsline {section}{\numberline {7.2}Saran}{19}{section.7.2}
-\contentsline {chapter}{Daftar Referensi}{20}{section.7.2}
+\contentsline {chapter}{References}{20}{section.7.2}
 \contentsline {chapter}{LAMPIRAN}{1}{section*.19}
 \contentsline {chapter}{Lampiran 1}{2}{section*.20}

@@ -1,8 +1,29 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{aitchison1981lexical}
-Jean Aitchison and Miron Straf.
-\newblock Lexical storage and retrieval: a developing skill?
-\newblock {\em Linguistics}, 19(7-8):751--796, 1981.
+\bibitem [\protect \citeauthoryear {%
+Aitchison%
+\ \BBA {} Straf%
+}{%
+Aitchison%
+\ \BBA {} Straf%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+aitchison1981lexical}
+\APACinsertmetastar {%
+aitchison1981lexical}%
+\begin{APACrefauthors}%
+Aitchison, J.%
+\BCBT {}\ \BBA {} Straf, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lexical storage and retrieval: a developing skill?}
+  {Lexical storage and retrieval: a developing skill?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistics}{19}{7-8}{751--796}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
