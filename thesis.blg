@@ -34,43 +34,43 @@ Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 1 entry,
             6951 wiz_defined-function locations,
-            1295 strings with 11034 characters,
-and the built_in function-call counts, 1683 in all, are:
-= -- 202
-> -- 14
-< -- 68
-+ -- 67
+            1291 strings with 10964 characters,
+and the built_in function-call counts, 1399 in all, are:
+= -- 171
+> -- 10
+< -- 50
++ -- 45
 - -- 2
-* -- 107
-:= -- 325
+* -- 71
+:= -- 261
 add.period$ -- 4
 call.type$ -- 1
 change.case$ -- 17
 chr.to.int$ -- 0
 cite$ -- 2
-duplicate$ -- 42
-empty$ -- 73
-format.name$ -- 24
-if$ -- 322
+duplicate$ -- 34
+empty$ -- 71
+format.name$ -- 14
+if$ -- 282
 int.to.chr$ -- 0
 int.to.str$ -- 3
 missing$ -- 0
-newline$ -- 28
+newline$ -- 25
 num.names$ -- 8
-pop$ -- 23
+pop$ -- 45
 preamble$ -- 1
 purify$ -- 4
 quote$ -- 0
-skip$ -- 119
+skip$ -- 97
 stack$ -- 0
-substring$ -- 74
-swap$ -- 30
+substring$ -- 50
+swap$ -- 17
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 80
 warning$ -- 0
-while$ -- 7
+while$ -- 5
 width$ -- 0
-write$ -- 33
+write$ -- 26
 (There was 1 warning)
