@@ -1,5 +1,5 @@
 *.pdf
 /bin
 /bin/*
-y
-
+*.aux
+*.log
