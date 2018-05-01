@@ -24,6 +24,33 @@ Aitchison, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Birner%
+\ \BBA {} Ward%
+}{%
+Birner%
+\ \BBA {} Ward%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+birner_ward_1998}
+\APACinsertmetastar {%
+birner_ward_1998}%
+\begin{APACrefauthors}%
+Birner, B\BPBI J.%
+\BCBT {}\ \BBA {} Ward, G\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {Information Status and Noncanonical Word Order in English
+  (Studies in Language Companion Series)} {Information status and noncanonical
+  word order in english (studies in language companion series)}.
+\newblock
+\APACaddressPublisher{}{John Benjamins Publishing Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chomsky%
 }{%
 Chomsky%
@@ -72,6 +99,52 @@ Delahunty, G\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dryer%
+}{%
+Dryer%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+dryer1992greenbergian}
+\APACinsertmetastar {%
+dryer1992greenbergian}%
+\begin{APACrefauthors}%
+Dryer, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Greenbergian word order correlations} {The
+  greenbergian word order correlations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language}{}{}{81--138}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hawkins%
+}{%
+Hawkins%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+hawkins1994performance}
+\APACinsertmetastar {%
+hawkins1994performance}%
+\begin{APACrefauthors}%
+Hawkins, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {A performance theory of order and constituency} {A performance
+  theory of order and constituency}\ (\BVOL~73).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hawkins%
 }{%
 Hawkins%
@@ -92,6 +165,128 @@ Hawkins, J\BPBI A.%
   variation and efficiency}.
 \newblock
 \APACaddressPublisher{}{Oxford Univ. Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lambrecht%
+}{%
+Lambrecht%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+lambrecht_2000}
+\APACinsertmetastar {%
+lambrecht_2000}%
+\begin{APACrefauthors}%
+Lambrecht, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Information structure and sentence form: topic, focus, and the
+  mental representations of discourse referents} {Information structure and
+  sentence form: topic, focus, and the mental representations of discourse
+  referents}.
+\newblock
+\APACaddressPublisher{}{Cambridge Univ. Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+MacWhinney%
+\ \BBA {} Bates%
+}{%
+MacWhinney%
+\ \BBA {} Bates%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+macwhinney_bates_1989}
+\APACinsertmetastar {%
+macwhinney_bates_1989}%
+\begin{APACrefauthors}%
+MacWhinney, B.%
+\BCBT {}\ \BBA {} Bates, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {The Crosslinguistic study of sentence processing} {The
+  crosslinguistic study of sentence processing}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McWhorter%
+}{%
+McWhorter%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+mcwhorter2016efficient}
+\APACinsertmetastar {%
+mcwhorter2016efficient}%
+\begin{APACrefauthors}%
+McWhorter, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {The World?s Most Efficient Languages.} {The world?s most
+  efficient languages.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.theatlantic.com/international/archive/2016/06/complex-languages/489389/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Polinskaja%
+}{%
+Polinskaja%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+polinskaja1989object}
+\APACinsertmetastar {%
+polinskaja1989object}%
+\begin{APACrefauthors}%
+Polinskaja, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1989}{}{}.
+\newblock
+\APACrefbtitle {Object initiality: OSV.} {Object initiality: Osv.}
+\newblock
+\APACaddressPublisher{}{Walter de Gruyter, Berlin/New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Postman%
+}{%
+Postman%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+postman2004processing}
+\APACinsertmetastar {%
+postman2004processing}%
+\begin{APACrefauthors}%
+Postman, W\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Processing of complex sentences in a case of aphasia in
+  Indonesian: thematic vs. linear strategies} {Processing of complex sentences
+  in a case of aphasia in indonesian: thematic vs. linear strategies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Neurolinguistics}{17}{6}{455--489}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -153,9 +348,60 @@ Sapir, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Tesnière%
+Sneddon%
+, Adelaar%
+, Djenar%
+\BCBL {}\ \BBA {} Ewing%
 }{%
-Tesnière%
+Sneddon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+sneddon2010indonesian}
+\APACinsertmetastar {%
+sneddon2010indonesian}%
+\begin{APACrefauthors}%
+Sneddon, J\BPBI N.%
+, Adelaar, A.%
+, Djenar, D\BPBI N.%
+\BCBL {}\ \BBA {} Ewing, M\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Indonesian reference grammar} {Indonesian reference grammar}.
+\newblock
+\APACaddressPublisher{}{Allen \& Unwin}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stack%
+}{%
+Stack%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+stack2005word}
+\APACinsertmetastar {%
+stack2005word}%
+\begin{APACrefauthors}%
+Stack, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Word order and intonation in Indonesian} {Word order and
+  intonation in indonesian}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{LSO Working Papers in Linguistics}{5}{}{168--182}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tesni\`ere%
+}{%
+Tesni\`ere%
 }{%
 {\protect \APACyear {1959}}%
 }]{%
@@ -163,7 +409,7 @@ tesniere_1959}
 \APACinsertmetastar {%
 tesniere_1959}%
 \begin{APACrefauthors}%
-Tesnière, L.%
+Tesni\`ere, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -173,6 +419,33 @@ Tesnière, L.%
   structurale}.
 \newblock
 \APACaddressPublisher{}{Librairie C. Klincksieck}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsunoda%
+, Ueda%
+\BCBL {}\ \BBA {} Itoh%
+}{%
+Tsunoda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+tsunoda1995adpositions}
+\APACinsertmetastar {%
+tsunoda1995adpositions}%
+\begin{APACrefauthors}%
+Tsunoda, T.%
+, Ueda, S.%
+\BCBL {}\ \BBA {} Itoh, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adpositions in word-order typology} {Adpositions in
+  word-order typology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistics}{33}{4}{741--762}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
