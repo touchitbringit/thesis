@@ -28,6 +28,29 @@ Abney, S\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Aitchison%
+}{%
+Aitchison%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+aitchison2004change}
+\APACinsertmetastar {%
+aitchison2004change}%
+\begin{APACrefauthors}%
+Aitchison, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Language change: progress or decay?} {Language change: progress
+  or decay?}
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Beattie%
 }{%
 Beattie%
@@ -81,6 +104,33 @@ Bharati, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Birner%
+\ \BBA {} Ward%
+}{%
+Birner%
+\ \BBA {} Ward%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+birnerward1998noncanonical}
+\APACinsertmetastar {%
+birnerward1998noncanonical}%
+\begin{APACrefauthors}%
+Birner, B\BPBI J.%
+\BCBT {}\ \BBA {} Ward, G\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {Information Status and Noncanonical Word Order in English
+  (Studies in Language Companion Series)} {Information status and noncanonical
+  word order in english (studies in language companion series)}.
+\newblock
+\APACaddressPublisher{}{John Benjamins Publishing Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chomsky%
 }{%
 Chomsky%
@@ -123,6 +173,29 @@ Chomsky, N.%
   syntax.}
 \newblock
 \APACaddressPublisher{}{Cambridge: MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+}{%
+Chomsky%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+chomsky2005three}
+\APACinsertmetastar {%
+chomsky2005three}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Three factors in language design} {Three factors in
+  language design}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistic inquiry}{36}{1}{1--22}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -325,6 +398,29 @@ Hawkins%
 }{%
 Hawkins%
 }{%
+{\protect \APACyear {2004}}%
+}]{%
+hawkins2004efficiency}
+\APACinsertmetastar {%
+hawkins2004efficiency}%
+\begin{APACrefauthors}%
+Hawkins, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Efficiency and complexity in grammars} {Efficiency and
+  complexity in grammars}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press on Demand}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hawkins%
+}{%
+Hawkins%
+}{%
 {\protect \APACyear {2014}}%
 }]{%
 hawkins2014cross}
@@ -465,6 +561,31 @@ Kridalaksana, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lambrecht%
+}{%
+Lambrecht%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+lambrecht2000info}
+\APACinsertmetastar {%
+lambrecht2000info}%
+\begin{APACrefauthors}%
+Lambrecht, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Information structure and sentence form: topic, focus, and the
+  mental representations of discourse referents} {Information structure and
+  sentence form: topic, focus, and the mental representations of discourse
+  referents}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Liu%
 , Xu%
 \BCBL {}\ \BBA {} Liang%
@@ -490,6 +611,32 @@ Liu, H.%
   syntactic patterns in natural languages}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Physics of life reviews}{21}{}{171--193}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+MacWhinney%
+\ \BBA {} Bates%
+}{%
+MacWhinney%
+\ \BBA {} Bates%
+}{%
+{\protect \APACyear {1989}}%
+}]{%
+macwhinneybates1989cross}
+\APACinsertmetastar {%
+macwhinneybates1989cross}%
+\begin{APACrefauthors}%
+MacWhinney, B.%
+\BCBT {}\ \BBA {} Bates, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1989}.
+\newblock
+\APACrefbtitle {The crosslinguistic study of sentence processing} {The
+  crosslinguistic study of sentence processing}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -724,6 +871,41 @@ Postman, W\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Sag%
+\ \BBA {} Wasow%
+}{%
+Sag%
+\ \BBA {} Wasow%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+sagwasow2011pccg}
+\APACinsertmetastar {%
+sagwasow2011pccg}%
+\begin{APACrefauthors}%
+Sag, I\BPBI A.%
+\BCBT {}\ \BBA {} Wasow, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Performance-Compatible Competence Grammar}
+  {Performance-compatible competence grammar}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Non-Transformational Syntax} {Non-transformational
+  syntax}\ (\BPG~359-377).
+\newblock
+\APACaddressPublisher{}{Wiley-Blackwell}.
+\newblock
+\begin{APACrefURL}
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444395037.ch10}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1002/9781444395037.ch10} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sapir%
 }{%
 Sapir%
@@ -900,6 +1082,53 @@ Wang, Y.%
   dependency direction}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Language Sciences}{59}{}{135--147}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zipf%
+}{%
+Zipf%
+}{%
+{\protect \APACyear {1935}}%
+}]{%
+zipf1935psycho}
+\APACinsertmetastar {%
+zipf1935psycho}%
+\begin{APACrefauthors}%
+Zipf, G\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1935}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The psycho-biology of language.} {The psycho-biology of
+  language.}{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zipf%
+}{%
+Zipf%
+}{%
+{\protect \APACyear {1949}}%
+}]{%
+zipf1949human}
+\APACinsertmetastar {%
+zipf1949human}%
+\begin{APACrefauthors}%
+Zipf, G\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1949}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Human behaviour and the principle of least-effort.
+  Cambridge MA edn} {Human behaviour and the principle of least-effort.
+  cambridge ma edn}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Reading: Addison-Wesley}{}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
