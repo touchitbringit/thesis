@@ -23,4 +23,156 @@ Aitchison, J.%
 \APACaddressPublisher{}{Cambridge University Press}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+}{%
+Chomsky%
+}{%
+{\protect \APACyear {1965}}%
+}]{%
+chomsky_1965}
+\APACinsertmetastar {%
+chomsky_1965}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1965}.
+\newblock
+\APACrefbtitle {Syntactic structures} {Syntactic structures}.
+\newblock
+\APACaddressPublisher{}{Mouton}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Delahunty%
+\ \BBA {} Garvey%
+}{%
+Delahunty%
+\ \BBA {} Garvey%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+delahunty_garvey_2010}
+\APACinsertmetastar {%
+delahunty_garvey_2010}%
+\begin{APACrefauthors}%
+Delahunty, G\BPBI P.%
+\BCBT {}\ \BBA {} Garvey, J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {The English language: from sound to sense} {The english
+  language: from sound to sense}.
+\newblock
+\APACaddressPublisher{}{Parlor Press and the WAC Clearinghouse}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hawkins%
+}{%
+Hawkins%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+hawkins_2014}
+\APACinsertmetastar {%
+hawkins_2014}%
+\begin{APACrefauthors}%
+Hawkins, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Cross-linguistic variation and efficiency} {Cross-linguistic
+  variation and efficiency}.
+\newblock
+\APACaddressPublisher{}{Oxford Univ. Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sag%
+\ \BBA {} Wasow%
+}{%
+Sag%
+\ \BBA {} Wasow%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+sag_wasow_2011}
+\APACinsertmetastar {%
+sag_wasow_2011}%
+\begin{APACrefauthors}%
+Sag, I\BPBI A.%
+\BCBT {}\ \BBA {} Wasow, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Performance?Compatible Competence Grammar}
+  {Performance?compatible competence grammar}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Non?Transformational Syntax} {Non?transformational
+  syntax}\ (\BPG~359-377).
+\newblock
+\APACaddressPublisher{}{Wiley-Blackwell}.
+\newblock
+\begin{APACrefURL}
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444395037.ch10}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1002/9781444395037.ch10} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sapir%
+}{%
+Sapir%
+}{%
+{\protect \APACyear {1921}}%
+}]{%
+sapir_1921}
+\APACinsertmetastar {%
+sapir_1921}%
+\begin{APACrefauthors}%
+Sapir, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1921}.
+\newblock
+\APACrefbtitle {Language: an introduction to the study of speech} {Language: an
+  introduction to the study of speech}.
+\newblock
+\APACaddressPublisher{}{Harcourt, Brace & Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tesnière%
+}{%
+Tesnière%
+}{%
+{\protect \APACyear {1959}}%
+}]{%
+tesniere_1959}
+\APACinsertmetastar {%
+tesniere_1959}%
+\begin{APACrefauthors}%
+Tesnière, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1959}.
+\newblock
+\APACrefbtitle {Éléments de syntaxe structurale} {Éléments de syntaxe
+  structurale}.
+\newblock
+\APACaddressPublisher{}{Librairie C. Klincksieck}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

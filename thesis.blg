@@ -32,45 +32,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: pustaka.bib
 Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 1 entry,
+You've used 7 entries,
             6951 wiz_defined-function locations,
-            1291 strings with 10964 characters,
-and the built_in function-call counts, 1399 in all, are:
-= -- 171
-> -- 10
-< -- 50
-+ -- 45
-- -- 2
-* -- 71
-:= -- 261
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 17
+            1325 strings with 11673 characters,
+and the built_in function-call counts, 10700 in all, are:
+= -- 1387
+> -- 85
+< -- 381
++ -- 379
+- -- 14
+* -- 562
+:= -- 1778
+add.period$ -- 30
+call.type$ -- 7
+change.case$ -- 120
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 34
-empty$ -- 71
-format.name$ -- 14
-if$ -- 282
+cite$ -- 14
+duplicate$ -- 278
+empty$ -- 518
+format.name$ -- 118
+if$ -- 2215
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 25
-num.names$ -- 8
-pop$ -- 45
+newline$ -- 169
+num.names$ -- 56
+pop$ -- 330
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 28
 quote$ -- 0
-skip$ -- 97
+skip$ -- 747
 stack$ -- 0
-substring$ -- 50
-swap$ -- 17
-text.length$ -- 2
+substring$ -- 444
+swap$ -- 142
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 80
+type$ -- 624
 warning$ -- 0
-while$ -- 5
+while$ -- 40
 width$ -- 0
-write$ -- 26
+write$ -- 190
 (There was 1 warning)
