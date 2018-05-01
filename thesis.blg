@@ -33,47 +33,48 @@ Database file #1: pustaka.bib
 Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No school in dillon2011structured
+Warning--No journal in irmawati2015dependency
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in zipf1935psycho
-You've used 45 entries,
+You've used 53 entries,
             6951 wiz_defined-function locations,
-            1521 strings with 17398 characters,
-and the built_in function-call counts, 78605 in all, are:
-= -- 9860
-> -- 594
-< -- 3677
-+ -- 3619
-- -- 96
-* -- 4705
-:= -- 14269
-add.period$ -- 185
-call.type$ -- 45
-change.case$ -- 768
+            1563 strings with 18790 characters,
+and the built_in function-call counts, 93773 in all, are:
+= -- 11908
+> -- 728
+< -- 4265
++ -- 4212
+- -- 112
+* -- 5540
+:= -- 16669
+add.period$ -- 226
+call.type$ -- 53
+change.case$ -- 908
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 2003
-empty$ -- 3272
-format.name$ -- 924
-if$ -- 15288
+cite$ -- 109
+duplicate$ -- 2395
+empty$ -- 3882
+format.name$ -- 1122
+if$ -- 18400
 int.to.chr$ -- 0
-int.to.str$ -- 135
+int.to.str$ -- 159
 missing$ -- 0
-newline$ -- 1060
-num.names$ -- 360
-pop$ -- 1831
+newline$ -- 1261
+num.names$ -- 424
+pop$ -- 2189
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 212
 quote$ -- 0
-skip$ -- 5085
+skip$ -- 6208
 stack$ -- 0
-substring$ -- 3959
-swap$ -- 1061
-text.length$ -- 113
+substring$ -- 4648
+swap$ -- 1291
+text.length$ -- 148
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3856
-warning$ -- 3
-while$ -- 320
+type$ -- 4816
+warning$ -- 4
+while$ -- 388
 width$ -- 0
-write$ -- 1243
-(There were 4 warnings)
+write$ -- 1494
+(There were 5 warnings)

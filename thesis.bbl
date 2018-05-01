@@ -371,6 +371,35 @@ Gibson, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Green%
+, Larasati%
+\BCBL {}\ \BBA {} {\v{Z}}abokrtsk{\`y}%
+}{%
+Green%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+green2012indonesian}
+\APACinsertmetastar {%
+green2012indonesian}%
+\begin{APACrefauthors}%
+Green, N.%
+, Larasati, S\BPBI D.%
+\BCBL {}\ \BBA {} {\v{Z}}abokrtsk{\`y}, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Indonesian dependency treebank: Annotation and parsing}
+  {Indonesian dependency treebank: Annotation and parsing}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 26th Pacific Asia Conference on
+  Language, Information, and Computation} {Proceedings of the 26th pacific asia
+  conference on language, information, and computation}\ (\BPGS\ 137--145).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hawkins%
 }{%
 Hawkins%
@@ -485,6 +514,58 @@ Hudson, R\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Irmawati%
+\ \BBA {} Matsumoto%
+}{%
+Irmawati%
+\ \BBA {} Matsumoto%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+irmawati2015dependency}
+\APACinsertmetastar {%
+irmawati2015dependency}%
+\begin{APACrefauthors}%
+Irmawati, B.%
+\BCBT {}\ \BBA {} Matsumoto, H\BPBI S\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Dependency Annotation Scheme for Indonesian} {A
+  dependency annotation scheme for indonesian}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jaeger%
+}{%
+Jaeger%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+jaeger2006redundancy}
+\APACinsertmetastar {%
+jaeger2006redundancy}%
+\begin{APACrefauthors}%
+Jaeger, T\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\unskip\
+\newblock
+\APACrefbtitle {Redundancy and syntactic reduction in spontaneous speech}
+  {Redundancy and syntactic reduction in spontaneous speech}\
+  \APACtypeAddressSchool {\BUPhD}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Stanford University Stanford, CA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Jiang%
 \ \BBA {} Liu%
 }{%
@@ -514,6 +595,34 @@ Jiang, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kamayani%
+\ \BBA {} Purwarianti%
+}{%
+Kamayani%
+\ \BBA {} Purwarianti%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+kamayani2011dependency}
+\APACinsertmetastar {%
+kamayani2011dependency}%
+\begin{APACrefauthors}%
+Kamayani, M.%
+\BCBT {}\ \BBA {} Purwarianti, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency parsing for Indonesian} {Dependency parsing
+  for indonesian}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Electrical Engineering and Informatics (ICEEI), 2011
+  International Conference on} {Electrical engineering and informatics (iceei),
+  2011 international conference on}\ (\BPGS\ 1--5).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Key%
 \ \BBA {} Noble%
 }{%
@@ -539,6 +648,35 @@ Key, L\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Klein%
+\ \BBA {} Manning%
+}{%
+Klein%
+\ \BBA {} Manning%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+klein2004corpus}
+\APACinsertmetastar {%
+klein2004corpus}%
+\begin{APACrefauthors}%
+Klein, D.%
+\BCBT {}\ \BBA {} Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Corpus-based induction of syntactic structure: Models of
+  dependency and constituency} {Corpus-based induction of syntactic structure:
+  Models of dependency and constituency}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 42nd Annual Meeting on Association
+  for Computational Linguistics} {Proceedings of the 42nd annual meeting on
+  association for computational linguistics}\ (\BPG~478).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kridalaksana%
 }{%
 Kridalaksana%
@@ -558,6 +696,33 @@ Kridalaksana, H.%
 {\BBOQ}\APACrefatitle {Kamus Linguistik} {Kamus linguistik}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Gramedia Pustaka Umum, Jakarta}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+K{\"u}bler%
+, McDonald%
+\BCBL {}\ \BBA {} Nivre%
+}{%
+K{\"u}bler%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+kubler2009dependency}
+\APACinsertmetastar {%
+kubler2009dependency}%
+\begin{APACrefauthors}%
+K{\"u}bler, S.%
+, McDonald, R.%
+\BCBL {}\ \BBA {} Nivre, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency parsing} {Dependency parsing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Synthesis Lectures on Human Language
+  Technologies}{1}{1}{1--127}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -719,6 +884,32 @@ Mel?{\v{c}}uk, I\BPBI A.%
   theory and practice}.
 \newblock
 \APACaddressPublisher{}{SUNY press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Miller%
+\ \BBA {} Miller%
+}{%
+Miller%
+\ \BBA {} Miller%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+miller2011critical}
+\APACinsertmetastar {%
+miller2011critical}%
+\begin{APACrefauthors}%
+Miller, J\BPBI E.%
+\BCBT {}\ \BBA {} Miller, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {A critical introduction to syntax} {A critical introduction to
+  syntax}.
+\newblock
+\APACaddressPublisher{}{A\&C Black}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -926,6 +1117,34 @@ Sapir, E.%
   introduction to the study of speech}.
 \newblock
 \APACaddressPublisher{}{Harcourt, Brace & Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+\ \BBA {} Eisner%
+}{%
+Smith%
+\ \BBA {} Eisner%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+smith2006minimum}
+\APACinsertmetastar {%
+smith2006minimum}%
+\begin{APACrefauthors}%
+Smith, D\BPBI A.%
+\BCBT {}\ \BBA {} Eisner, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Minimum risk annealing for training log-linear models}
+  {Minimum risk annealing for training log-linear models}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the COLING/ACL on Main conference poster
+  sessions} {Proceedings of the coling/acl on main conference poster sessions}\
+  (\BPGS\ 787--794).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
