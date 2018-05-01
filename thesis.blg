@@ -49,46 +49,47 @@ Warning--I didn't find a database entry for "birner_ward_1998"
 Warning--I didn't find a database entry for "lambrecht_2000"
 Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No school in dillon2011structured
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 18 entries,
+You've used 23 entries,
             6951 wiz_defined-function locations,
-            1397 strings with 13933 characters,
-and the built_in function-call counts, 31945 in all, are:
-= -- 4019
-> -- 267
-< -- 1412
-+ -- 1429
-- -- 42
-* -- 1886
-:= -- 5582
-add.period$ -- 74
-call.type$ -- 18
-change.case$ -- 308
+            1423 strings with 14660 characters,
+and the built_in function-call counts, 40517 in all, are:
+= -- 5123
+> -- 330
+< -- 1793
++ -- 1808
+- -- 52
+* -- 2386
+:= -- 7087
+add.period$ -- 94
+call.type$ -- 23
+change.case$ -- 393
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 870
-empty$ -- 1343
-format.name$ -- 430
-if$ -- 6256
+cite$ -- 47
+duplicate$ -- 1081
+empty$ -- 1699
+format.name$ -- 528
+if$ -- 7952
 int.to.chr$ -- 0
-int.to.str$ -- 54
+int.to.str$ -- 69
 missing$ -- 0
-newline$ -- 427
-num.names$ -- 144
-pop$ -- 765
+newline$ -- 543
+num.names$ -- 184
+pop$ -- 924
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 92
 quote$ -- 0
-skip$ -- 2110
+skip$ -- 2733
 stack$ -- 0
-substring$ -- 1568
-swap$ -- 474
-text.length$ -- 52
+substring$ -- 1983
+swap$ -- 588
+text.length$ -- 62
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1640
-warning$ -- 1
-while$ -- 154
+type$ -- 2104
+warning$ -- 2
+while$ -- 188
 width$ -- 0
-write$ -- 510
+write$ -- 647
 (There was 1 error message)

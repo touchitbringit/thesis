@@ -54,6 +54,54 @@ Covington, M\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Delahunty%
+\ \BBA {} Garvey%
+}{%
+Delahunty%
+\ \BBA {} Garvey%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+delahuntygarvey2010soundsense}
+\APACinsertmetastar {%
+delahuntygarvey2010soundsense}%
+\begin{APACrefauthors}%
+Delahunty, G\BPBI P.%
+\BCBT {}\ \BBA {} Garvey, J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {The English language: from sound to sense} {The english
+  language: from sound to sense}.
+\newblock
+\APACaddressPublisher{}{Parlor Press and the WAC Clearinghouse}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dillon%
+}{%
+Dillon%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+dillon2011structured}
+\APACinsertmetastar {%
+dillon2011structured}%
+\begin{APACrefauthors}%
+Dillon, B\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\unskip\
+\newblock
+\APACrefbtitle {Structured access in sentence comprehension} {Structured access
+  in sentence comprehension}\ \APACtypeAddressSchool {\BUPhD}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dryer%
 }{%
 Dryer%
@@ -74,6 +122,59 @@ Dryer, M\BPBI S.%
   greenbergian word order correlations}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Language}{}{}{81--138}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Futrell%
+, Mahowald%
+\BCBL {}\ \BBA {} Gibson%
+}{%
+Futrell%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+futrell2015large}
+\APACinsertmetastar {%
+futrell2015large}%
+\begin{APACrefauthors}%
+Futrell, R.%
+, Mahowald, K.%
+\BCBL {}\ \BBA {} Gibson, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Large-scale evidence of dependency length minimization
+  in 37 languages} {Large-scale evidence of dependency length minimization in
+  37 languages}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{112}{33}{10336--10341}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gibson%
+}{%
+Gibson%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+gibson2000dependency}
+\APACinsertmetastar {%
+gibson2000dependency}%
+\begin{APACrefauthors}%
+Gibson, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The dependency locality theory: A distance-based theory
+  of linguistic complexity} {The dependency locality theory: A distance-based
+  theory of linguistic complexity}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Image, language, brain}{}{}{95--126}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -202,6 +303,29 @@ McWhorter, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mel?{\v{c}}uk%
+}{%
+Mel?{\v{c}}uk%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+mel?vcuk1988dependency}
+\APACinsertmetastar {%
+mel?vcuk1988dependency}%
+\begin{APACrefauthors}%
+Mel?{\v{c}}uk, I\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1988}.
+\newblock
+\APACrefbtitle {Dependency syntax: theory and practice} {Dependency syntax:
+  theory and practice}.
+\newblock
+\APACaddressPublisher{}{SUNY press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nivre%
 \ \protect \BOthers {.}}{%
 Nivre%
@@ -233,7 +357,7 @@ Nivre, J.%
 
 \bibitem [\protect \citeauthoryear {%
 Nivre%
-, ?Zeljko~Agic%
+, Zeljko~Agic%
 \BCBL {}\ \protect \BOthers {.}}{%
 Nivre%
 \ \protect \BOthers {.}}{%
@@ -244,7 +368,7 @@ nivre2017universal}
 nivre2017universal}%
 \begin{APACrefauthors}%
 Nivre, J.%
-, ?Zeljko~Agic, L\BPBI A.%
+, Zeljko~Agic, L\BPBI A.%
 \BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
 \unskip\
 \newblock
