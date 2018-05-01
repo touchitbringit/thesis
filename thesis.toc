@@ -5,43 +5,55 @@
 \contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{vi}{section*.9}
 \contentsline {chapter}{ABSTRAK}{vii}{section*.10}
 \contentsline {chapter}{Daftar Isi}{ix}{section*.11}
-\contentsline {chapter}{Daftar Gambar}{xi}{section*.12}
-\contentsline {chapter}{Daftar Tabel}{xii}{section*.13}
+\contentsline {chapter}{Daftar Gambar}{xii}{section*.12}
+\contentsline {chapter}{Daftar Tabel}{xiii}{section*.13}
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Permasalahan}{5}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Definisi Permasalahan}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Batasan Permasalahan}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Batasan Permasalahan}{5}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Tujuan}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Posisi Penelitian}{6}{section.1.4}
 \contentsline {section}{\numberline {1.5}Metodologi Penelitian}{6}{section.1.5}
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{6}{section.1.6}
 \contentsline {chapter}{\numberline {2}\uppercase {Sekilas Mengenai \LaTeX }}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}\LaTeX \nobreakspace {}Secara Singkat}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}\LaTeX \nobreakspace {}Kompiler dan IDE}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Bold, Italic, dan Underline}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Memasukan Gambar}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Membuat Tabel}{10}{section.2.5}
-\contentsline {chapter}{\numberline {3}\uppercase {Notasi Matematik}}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Satu Persamaan}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}Lebih dari Satu Persamaan}{12}{section.3.2}
-\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}thesis.tex}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}laporan\_setting.tex}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}istilah.tex}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}hype.indonesia.tex}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}pustaka.tex}{15}{section.4.5}
-\contentsline {section}{\numberline {4.6}bab[1 - 6].tex}{15}{section.4.6}
-\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}Memberikan Catatan}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{17}{section.5.3}
-\contentsline {section}{\numberline {5.4}Memasukan PDF}{17}{section.5.4}
-\contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{21}{section.5.5}
-\contentsline {chapter}{\numberline {6}\uppercase {??}}{22}{chapter.6}
-\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{23}{chapter.7}
-\contentsline {section}{\numberline {7.1}Kesimpulan}{23}{section.7.1}
-\contentsline {section}{\numberline {7.2}Saran}{23}{section.7.2}
-\contentsline {chapter}{References}{24}{section.7.2}
+\contentsline {section}{\numberline {2.1}Konteks Penelitian}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Kemampuan (\textit {Competence}) dan Penampilan (\textit {Performance})}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Efisiensi dan Urutan Kata (\textit {Word Order}) dalam Ranah Ilmu Sintaksis}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Relasi dan Struktur Ujaran}{10}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Penelitian Terdahulu dan \textit {Positioning}}{10}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Konsep Dependensi}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Konstituen Induk (\textit {Root/Head}) dan Simpai (\textit {Node})}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Panjang Dependensi (\textit {Dependency Length}) dan Jarak Dependensi (\textit {Dependency Distance})}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Faktor-faktor yang Mempengaruhi Tautan Dependensi}{12}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Kognisi Manusia dan Produksi Ujaran}{12}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Karakter Bahasa dan Ketatabahasaan}{12}{subsubsection.2.2.3.2}
+\contentsline {section}{\numberline {2.3}Efisiensi Ujaran dari Segi Dependensi}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Perubahan Valensi Konstituen Induk (\textit {Root}) Verbal}{13}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Dependensi dan Urutan Kata dalam Bahasa Indonesia}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Urutan Kata dalam Tata Bahasa Indonesia}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Simpai Sentral (\textit {Central Node}) dalam Bahasa Indonesia}{13}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}\uppercase {Notasi Matematik}}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Satu Persamaan}{14}{section.3.1}
+\contentsline {section}{\numberline {3.2}Lebih dari Satu Persamaan}{14}{section.3.2}
+\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}thesis.tex}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}laporan\_setting.tex}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}istilah.tex}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}hype.indonesia.tex}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}pustaka.tex}{17}{section.4.5}
+\contentsline {section}{\numberline {4.6}bab[1 - 6].tex}{17}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Memberikan Catatan}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{19}{section.5.3}
+\contentsline {section}{\numberline {5.4}Memasukan PDF}{19}{section.5.4}
+\contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{23}{section.5.5}
+\contentsline {chapter}{\numberline {6}\uppercase {??}}{24}{chapter.6}
+\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Kesimpulan}{25}{section.7.1}
+\contentsline {section}{\numberline {7.2}Saran}{25}{section.7.2}
+\contentsline {chapter}{References}{26}{section.7.2}
 \contentsline {chapter}{LAMPIRAN}{1}{section*.20}
 \contentsline {chapter}{Lampiran 1}{2}{section*.21}

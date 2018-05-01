@@ -1,101 +1,56 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Aitchison%
+Bharati%
+, Chaitanya%
+, Sangal%
+\BCBL {}\ \BBA {} Ramakrishnamacharyulu%
 }{%
-Aitchison%
-}{%
-{\protect \APACyear {2004}}%
+Bharati%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
 }]{%
-aitchison_2004}
+bharati1995natural}
 \APACinsertmetastar {%
-aitchison_2004}%
+bharati1995natural}%
 \begin{APACrefauthors}%
-Aitchison, J.%
+Bharati, A.%
+, Chaitanya, V.%
+, Sangal, R.%
+\BCBL {}\ \BBA {} Ramakrishnamacharyulu, K.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2004}.
+\APACrefYear{1995}.
 \newblock
-\APACrefbtitle {Language change: progress or decay?} {Language change: progress
-  or decay?}
+\APACrefbtitle {Natural language processing: a Paninian perspective} {Natural
+  language processing: a paninian perspective}.
 \newblock
-\APACaddressPublisher{}{Cambridge University Press}.
+\APACaddressPublisher{}{Prentice-Hall of India New Delhi}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Birner%
-\ \BBA {} Ward%
+Covington%
 }{%
-Birner%
-\ \BBA {} Ward%
+Covington%
 }{%
-{\protect \APACyear {1998}}%
+{\protect \APACyear {1984}}%
 }]{%
-birner_ward_1998}
+covington1984syntactic}
 \APACinsertmetastar {%
-birner_ward_1998}%
+covington1984syntactic}%
 \begin{APACrefauthors}%
-Birner, B\BPBI J.%
-\BCBT {}\ \BBA {} Ward, G\BPBI L.%
+Covington, M\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1998}.
+\APACrefYearMonthDay{1984}{}{}.
 \newblock
-\APACrefbtitle {Information Status and Noncanonical Word Order in English
-  (Studies in Language Companion Series)} {Information status and noncanonical
-  word order in english (studies in language companion series)}.
+{\BBOQ}\APACrefatitle {Syntactic theory in the High Middle Ages. Modistic
+  models of sentence structure} {Syntactic theory in the high middle ages.
+  modistic models of sentence structure}.{\BBCQ}
 \newblock
-\APACaddressPublisher{}{John Benjamins Publishing Company}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Chomsky%
-}{%
-Chomsky%
-}{%
-{\protect \APACyear {1965}}%
-}]{%
-chomsky_1965}
-\APACinsertmetastar {%
-chomsky_1965}%
-\begin{APACrefauthors}%
-Chomsky, N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1965}.
-\newblock
-\APACrefbtitle {Syntactic structures} {Syntactic structures}.
-\newblock
-\APACaddressPublisher{}{Mouton}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Delahunty%
-\ \BBA {} Garvey%
-}{%
-Delahunty%
-\ \BBA {} Garvey%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-delahunty_garvey_2010}
-\APACinsertmetastar {%
-delahunty_garvey_2010}%
-\begin{APACrefauthors}%
-Delahunty, G\BPBI P.%
-\BCBT {}\ \BBA {} Garvey, J\BPBI J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2010}.
-\newblock
-\APACrefbtitle {The English language: from sound to sense} {The english
-  language: from sound to sense}.
-\newblock
-\APACaddressPublisher{}{Parlor Press and the WAC Clearinghouse}.
+\APACjournalVolNumPages{Cambridge Studies in Linguistics London}{}{39}{1--163}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -145,77 +100,80 @@ Hawkins, J\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hawkins%
+Hudson%
 }{%
-Hawkins%
+Hudson%
 }{%
-{\protect \APACyear {2014}}%
+{\protect \APACyear {1984}}%
 }]{%
-hawkins_2014}
+hudson1984word}
 \APACinsertmetastar {%
-hawkins_2014}%
+hudson1984word}%
 \begin{APACrefauthors}%
-Hawkins, J\BPBI A.%
+Hudson, R\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2014}.
+\APACrefYear{1984}.
 \newblock
-\APACrefbtitle {Cross-linguistic variation and efficiency} {Cross-linguistic
-  variation and efficiency}.
+\APACrefbtitle {Word grammar} {Word grammar}.
 \newblock
-\APACaddressPublisher{}{Oxford Univ. Press}.
+\APACaddressPublisher{}{Blackwell Oxford}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Lambrecht%
+Hudson%
 }{%
-Lambrecht%
+Hudson%
 }{%
-{\protect \APACyear {2000}}%
+{\protect \APACyear {2007}}%
 }]{%
-lambrecht_2000}
+hudson2007language}
 \APACinsertmetastar {%
-lambrecht_2000}%
+hudson2007language}%
 \begin{APACrefauthors}%
-Lambrecht, K.%
+Hudson, R\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2000}.
+\APACrefYear{2007}.
 \newblock
-\APACrefbtitle {Information structure and sentence form: topic, focus, and the
-  mental representations of discourse referents} {Information structure and
-  sentence form: topic, focus, and the mental representations of discourse
-  referents}.
+\APACrefbtitle {Language networks: The new word grammar} {Language networks:
+  The new word grammar}.
 \newblock
-\APACaddressPublisher{}{Cambridge Univ. Press}.
+\APACaddressPublisher{}{Oxford University Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-MacWhinney%
-\ \BBA {} Bates%
-}{%
-MacWhinney%
-\ \BBA {} Bates%
-}{%
-{\protect \APACyear {1989}}%
+McDonald%
+\ \protect \BOthers {.}}{%
+McDonald%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
 }]{%
-macwhinney_bates_1989}
+mcdonald2013universal}
 \APACinsertmetastar {%
-macwhinney_bates_1989}%
+mcdonald2013universal}%
 \begin{APACrefauthors}%
-MacWhinney, B.%
-\BCBT {}\ \BBA {} Bates, E.%
+McDonald, R.%
+, Nivre, J.%
+, Quirmbach-Brundage, Y.%
+, Goldberg, Y.%
+, Das, D.%
+, Ganchev, K.%
+\BDBL {}others%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1989}.
+\APACrefYearMonthDay{2013}{}{}.
 \newblock
-\APACrefbtitle {The Crosslinguistic study of sentence processing} {The
-  crosslinguistic study of sentence processing}.
+{\BBOQ}\APACrefatitle {Universal dependency annotation for multilingual
+  parsing} {Universal dependency annotation for multilingual parsing}.{\BBCQ}
 \newblock
-\APACaddressPublisher{}{Cambridge University Press}.
+\BIn{} \APACrefbtitle {Proceedings of the 51st Annual Meeting of the
+  Association for Computational Linguistics (Volume 2: Short Papers)}
+  {Proceedings of the 51st annual meeting of the association for computational
+  linguistics (volume 2: Short papers)}\ (\BVOL~2, \BPGS\ 92--97).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -235,12 +193,115 @@ McWhorter, J.%
 \newblock
 \APACrefYearMonthDay{2016}{}{}.
 \newblock
-\APACrefbtitle {The World?s Most Efficient Languages.} {The world?s most
+\APACrefbtitle {The World's Most Efficient Languages.} {The world's most
   efficient languages.}
 \newblock
 \begin{APACrefURL}
   \url{https://www.theatlantic.com/international/archive/2016/06/complex-languages/489389/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nivre%
+\ \protect \BOthers {.}}{%
+Nivre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+nivre2016universal}
+\APACinsertmetastar {%
+nivre2016universal}%
+\begin{APACrefauthors}%
+Nivre, J.%
+, de Marneffe, M\BHBI C.%
+, Ginter, F.%
+, Goldberg, Y.%
+, Hajic, J.%
+, Manning, C\BPBI D.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Universal Dependencies v1: A Multilingual Treebank
+  Collection.} {Universal dependencies v1: A multilingual treebank
+  collection.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {LREC.} {Lrec.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nivre%
+, ?Zeljko~Agic%
+\BCBL {}\ \protect \BOthers {.}}{%
+Nivre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+nivre2017universal}
+\APACinsertmetastar {%
+nivre2017universal}%
+\begin{APACrefauthors}%
+Nivre, J.%
+, ?Zeljko~Agic, L\BPBI A.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Universal Dependencies 2.0. LINDAT/CLARIN digital library at
+  the Institute of Formal and Applied Linguistics, Charles University, Prague.}
+  {Universal dependencies 2.0. lindat/clarin digital library at the institute
+  of formal and applied linguistics, charles university, prague.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Owens%
+}{%
+Owens%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+owens1988foundations}
+\APACinsertmetastar {%
+owens1988foundations}%
+\begin{APACrefauthors}%
+Owens, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1988}.
+\newblock
+\APACrefbtitle {The foundations of grammar: An introduction to medieval Arabic
+  grammatical theory} {The foundations of grammar: An introduction to medieval
+  arabic grammatical theory}\ (\BVOL~45).
+\newblock
+\APACaddressPublisher{}{John Benjamins Publishing}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Percival%
+}{%
+Percival%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+percival1990reflections}
+\APACinsertmetastar {%
+percival1990reflections}%
+\begin{APACrefauthors}%
+Percival, W\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reflections on the history of dependency notions in
+  linguistics} {Reflections on the history of dependency notions in
+  linguistics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Historiographia linguistica}{17}{1}{29--47}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -287,64 +348,6 @@ Postman, W\BPBI A.%
   in a case of aphasia in indonesian: thematic vs. linear strategies}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Neurolinguistics}{17}{6}{455--489}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Sag%
-\ \BBA {} Wasow%
-}{%
-Sag%
-\ \BBA {} Wasow%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-sag_wasow_2011}
-\APACinsertmetastar {%
-sag_wasow_2011}%
-\begin{APACrefauthors}%
-Sag, I\BPBI A.%
-\BCBT {}\ \BBA {} Wasow, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Performance?Compatible Competence Grammar}
-  {Performance?compatible competence grammar}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Non?Transformational Syntax} {Non?transformational
-  syntax}\ (\BPG~359-377).
-\newblock
-\APACaddressPublisher{}{Wiley-Blackwell}.
-\newblock
-\begin{APACrefURL}
-  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444395037.ch10}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1002/9781444395037.ch10} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Sapir%
-}{%
-Sapir%
-}{%
-{\protect \APACyear {1921}}%
-}]{%
-sapir_1921}
-\APACinsertmetastar {%
-sapir_1921}%
-\begin{APACrefauthors}%
-Sapir, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1921}.
-\newblock
-\APACrefbtitle {Language: an introduction to the study of speech} {Language: an
-  introduction to the study of speech}.
-\newblock
-\APACaddressPublisher{}{Harcourt, Brace & Co.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -405,9 +408,9 @@ Tesni\`ere%
 }{%
 {\protect \APACyear {1959}}%
 }]{%
-tesniere_1959}
+tesniere1959elements}
 \APACinsertmetastar {%
-tesniere_1959}%
+tesniere1959elements}%
 \begin{APACrefauthors}%
 Tesni\`ere, L.%
 \end{APACrefauthors}%
@@ -415,7 +418,7 @@ Tesni\`ere, L.%
 \newblock
 \APACrefYear{1959}.
 \newblock
-\APACrefbtitle {Éléments de syntaxe structurale} {Éléments de syntaxe
+\APACrefbtitle {\?El\?ements de syntaxe structurale} {\?el\?ements de syntaxe
   structurale}.
 \newblock
 \APACaddressPublisher{}{Librairie C. Klincksieck}.

@@ -17,31 +17,43 @@
 \BOOKMARK [1][-]{section.1.5}{1.5 Metodologi Penelitian}{chapter.1}% 17
 \BOOKMARK [1][-]{section.1.6}{1.6 Sistematika Penulisan}{chapter.1}% 18
 \BOOKMARK [0][-]{chapter.2}{2 Sekilas Mengenai LaTeX}{}% 19
-\BOOKMARK [1][-]{section.2.1}{2.1 LaTeX Secara Singkat}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.2}{2.2 LaTeX Kompiler dan IDE}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.3}{2.3 Bold, Italic, dan Underline}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.4}{2.4 Memasukan Gambar}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.5}{2.5 Membuat Tabel}{chapter.2}% 24
-\BOOKMARK [0][-]{chapter.3}{3 Notasi Matematik}{}% 25
-\BOOKMARK [1][-]{section.3.1}{3.1 Satu Persamaan}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.2}{3.2 Lebih dari Satu Persamaan}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{4 Struktur Berkas}{}% 28
-\BOOKMARK [1][-]{section.4.1}{4.1 thesis.tex}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.2}{4.2 laporan\137setting.tex}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.3}{4.3 istilah.tex}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.4}{4.4 hype.indonesia.tex}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.5}{4.5 pustaka.tex}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.6}{4.6 bab[1 - 6].tex}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{5 Perintah dalam uithesis.sty}{}% 35
-\BOOKMARK [1][-]{section.5.1}{5.1 Mengubah Tampilan Teks}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{5.2 Memberikan Catatan}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.3}{5.3 Menambah Isi Daftar Isi}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.4}{5.4 Memasukan PDF}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.5}{5.5 Membuat Perintah Baru}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{6 ??}{}% 41
-\BOOKMARK [0][-]{chapter.7}{7 Kesimpulan dan Saran}{}% 42
-\BOOKMARK [1][-]{section.7.1}{7.1 Kesimpulan}{chapter.7}% 43
-\BOOKMARK [1][-]{section.7.2}{7.2 Saran}{chapter.7}% 44
-\BOOKMARK [0][-]{section.7.2}{References}{}% 45
-\BOOKMARK [0][-]{section*.20}{LAMPIRAN}{}% 46
-\BOOKMARK [0][-]{section*.21}{Lampiran 1}{}% 47
+\BOOKMARK [1][-]{section.2.1}{2.1 Konteks Penelitian}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Kemampuan \(Competence\) dan Penampilan \(Performance\)}{section.2.1}% 21
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Efisiensi dan Urutan Kata \(Word Order\) dalam Ranah Ilmu Sintaksis}{section.2.1}% 22
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Relasi dan Struktur Ujaran}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 Penelitian Terdahulu dan Positioning}{section.2.1}% 24
+\BOOKMARK [1][-]{section.2.2}{2.2 Konsep Dependensi}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Konstituen Induk \(Root/Head\) dan Simpai \(Node\)}{section.2.2}% 26
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Panjang Dependensi \(Dependency Length\) dan Jarak Dependensi \(Dependency Distance\)}{section.2.2}% 27
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Faktor-faktor yang Mempengaruhi Tautan Dependensi}{section.2.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{2.2.3.1 Kognisi Manusia dan Produksi Ujaran}{subsection.2.2.3}% 29
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{2.2.3.2 Karakter Bahasa dan Ketatabahasaan}{subsection.2.2.3}% 30
+\BOOKMARK [1][-]{section.2.3}{2.3 Efisiensi Ujaran dari Segi Dependensi}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{section.2.3}% 32
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Perubahan Valensi Konstituen Induk \(Root\) Verbal}{section.2.3}% 33
+\BOOKMARK [1][-]{section.2.4}{2.4 Dependensi dan Urutan Kata dalam Bahasa Indonesia}{chapter.2}% 34
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Urutan Kata dalam Tata Bahasa Indonesia}{section.2.4}% 35
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Simpai Sentral \(Central Node\) dalam Bahasa Indonesia}{section.2.4}% 36
+\BOOKMARK [0][-]{chapter.3}{3 Notasi Matematik}{}% 37
+\BOOKMARK [1][-]{section.3.1}{3.1 Satu Persamaan}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.2}{3.2 Lebih dari Satu Persamaan}{chapter.3}% 39
+\BOOKMARK [0][-]{chapter.4}{4 Struktur Berkas}{}% 40
+\BOOKMARK [1][-]{section.4.1}{4.1 thesis.tex}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.2}{4.2 laporan\137setting.tex}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{4.3 istilah.tex}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{4.4 hype.indonesia.tex}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{4.5 pustaka.tex}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.6}{4.6 bab[1 - 6].tex}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{5 Perintah dalam uithesis.sty}{}% 47
+\BOOKMARK [1][-]{section.5.1}{5.1 Mengubah Tampilan Teks}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{5.2 Memberikan Catatan}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.3}{5.3 Menambah Isi Daftar Isi}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.4}{5.4 Memasukan PDF}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.5}{5.5 Membuat Perintah Baru}{chapter.5}% 52
+\BOOKMARK [0][-]{chapter.6}{6 ??}{}% 53
+\BOOKMARK [0][-]{chapter.7}{7 Kesimpulan dan Saran}{}% 54
+\BOOKMARK [1][-]{section.7.1}{7.1 Kesimpulan}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.2}{7.2 Saran}{chapter.7}% 56
+\BOOKMARK [0][-]{section.7.2}{References}{}% 57
+\BOOKMARK [0][-]{section*.20}{LAMPIRAN}{}% 58
+\BOOKMARK [0][-]{section*.21}{Lampiran 1}{}% 59
