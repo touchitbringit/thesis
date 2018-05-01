@@ -1,6 +1,57 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Abney%
+\ \BBA {} Johnson%
+}{%
+Abney%
+\ \BBA {} Johnson%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+abney1991memory}
+\APACinsertmetastar {%
+abney1991memory}%
+\begin{APACrefauthors}%
+Abney, S\BPBI P.%
+\BCBT {}\ \BBA {} Johnson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Memory requirements and local ambiguities of parsing
+  strategies} {Memory requirements and local ambiguities of parsing
+  strategies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Psycholinguistic Research}{20}{3}{233--250}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Beattie%
+}{%
+Beattie%
+}{%
+{\protect \APACyear {1788}}%
+}]{%
+beattie1788theory}
+\APACinsertmetastar {%
+beattie1788theory}%
+\begin{APACrefauthors}%
+Beattie, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1788}.
+\newblock
+\APACrefbtitle {The Theory of Language, And, Considerations Concerning the
+  First Formation of Languages} {The theory of language, and, considerations
+  concerning the first formation of languages}.
+\newblock
+\APACaddressPublisher{}{Routledge, Thoemmes Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bharati%
 , Chaitanya%
 , Sangal%
@@ -27,6 +78,51 @@ Bharati, A.%
   language processing: a paninian perspective}.
 \newblock
 \APACaddressPublisher{}{Prentice-Hall of India New Delhi}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+}{%
+Chomsky%
+}{%
+{\protect \APACyear {1957}}%
+}]{%
+chomsky1957syntactic}
+\APACinsertmetastar {%
+chomsky1957syntactic}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1957}.
+\newblock
+\APACrefbtitle {Syntactic structure} {Syntactic structure}.
+\newblock
+\APACaddressPublisher{}{Mouton}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+}{%
+Chomsky%
+}{%
+{\protect \APACyear {1965}}%
+}]{%
+chomsky1965syntactic}
+\APACinsertmetastar {%
+chomsky1965syntactic}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1965}{}{}.
+\newblock
+\APACrefbtitle {Aspects of the Theory of Syntax.} {Aspects of the theory of
+  syntax.}
+\newblock
+\APACaddressPublisher{}{Cambridge: MIT Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -77,6 +173,30 @@ Delahunty, G\BPBI P.%
   language: from sound to sense}.
 \newblock
 \APACaddressPublisher{}{Parlor Press and the WAC Clearinghouse}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Diderot%
+}{%
+Diderot%
+}{%
+{\protect \APACyear {1751}}%
+}]{%
+diderot1751lettre}
+\APACinsertmetastar {%
+diderot1751lettre}%
+\begin{APACrefauthors}%
+Diderot, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1751}.
+\newblock
+\APACrefbtitle {Lettre sur les sourds et muets {\`a} l'usage de ceux qui
+  entendent et qui parlent..} {Lettre sur les sourds et muets {\`a} l'usage de
+  ceux qui entendent et qui parlent..}
+\newblock
+\APACaddressPublisher{}{publisher not identified}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -201,6 +321,29 @@ Hawkins, J\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hawkins%
+}{%
+Hawkins%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+hawkins2014cross}
+\APACinsertmetastar {%
+hawkins2014cross}%
+\begin{APACrefauthors}%
+Hawkins, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {Cross-linguistic variation and efficiency} {Cross-linguistic
+  variation and efficiency}.
+\newblock
+\APACaddressPublisher{}{Oxford Univ. Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hudson%
 }{%
 Hudson%
@@ -243,6 +386,110 @@ Hudson, R\BPBI A.%
   The new word grammar}.
 \newblock
 \APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jiang%
+\ \BBA {} Liu%
+}{%
+Jiang%
+\ \BBA {} Liu%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+jiang2015effects}
+\APACinsertmetastar {%
+jiang2015effects}%
+\begin{APACrefauthors}%
+Jiang, J.%
+\BCBT {}\ \BBA {} Liu, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effects of sentence length on dependency distance,
+  dependency direction and the implications--Based on a parallel
+  English--Chinese dependency treebank} {The effects of sentence length on
+  dependency distance, dependency direction and the implications--based on a
+  parallel english--chinese dependency treebank}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language Sciences}{50}{}{93--104}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Key%
+\ \BBA {} Noble%
+}{%
+Key%
+\ \BBA {} Noble%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+key2017course}
+\APACinsertmetastar {%
+key2017course}%
+\begin{APACrefauthors}%
+Key, L\BPBI E.%
+\BCBT {}\ \BBA {} Noble, B\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Course in general linguistics} {Course in general linguistics}.
+\newblock
+\APACaddressPublisher{}{Macat Library}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kridalaksana%
+}{%
+Kridalaksana%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+kridalaksana2008kamus}
+\APACinsertmetastar {%
+kridalaksana2008kamus}%
+\begin{APACrefauthors}%
+Kridalaksana, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Kamus Linguistik} {Kamus linguistik}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Gramedia Pustaka Umum, Jakarta}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Xu%
+\BCBL {}\ \BBA {} Liang%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+liu2017dependency}
+\APACinsertmetastar {%
+liu2017dependency}%
+\begin{APACrefauthors}%
+Liu, H.%
+, Xu, C.%
+\BCBL {}\ \BBA {} Liang, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency distance: a new perspective on syntactic
+  patterns in natural languages} {Dependency distance: a new perspective on
+  syntactic patterns in natural languages}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physics of life reviews}{21}{}{171--193}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -300,6 +547,8 @@ McWhorter, J.%
 \begin{APACrefURL}
   \url{https://www.theatlantic.com/international/archive/2016/06/complex-languages/489389/}
   \end{APACrefURL}
+\newblock
+\APACrefnote{Online; posted 29-June-2016}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -475,6 +724,29 @@ Postman, W\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Sapir%
+}{%
+Sapir%
+}{%
+{\protect \APACyear {1921}}%
+}]{%
+sapir1921intro}
+\APACinsertmetastar {%
+sapir1921intro}%
+\begin{APACrefauthors}%
+Sapir, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1921}.
+\newblock
+\APACrefbtitle {Language: an introduction to the study of speech} {Language: an
+  introduction to the study of speech}.
+\newblock
+\APACaddressPublisher{}{Harcourt, Brace & Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sneddon%
 , Adelaar%
 , Djenar%
@@ -573,6 +845,61 @@ Tsunoda, T.%
   word-order typology}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Linguistics}{33}{4}{741--762}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+von Humboldt%
+}{%
+von Humboldt%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+von1972origin}
+\APACinsertmetastar {%
+von1972origin}%
+\begin{APACrefauthors}%
+von Humboldt, W\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1972}.
+\newblock
+\APACrefbtitle {On the origin of grammatical forms and on their influence on
+  the development of ideas; Letter to M. Abel R {\ 'e} musat on the nature of
+  grammatical forms in general and on the genius of the Chinese language in
+  particular} {On the origin of grammatical forms and on their influence on the
+  development of ideas; letter to m. abel r {\ 'e} musat on the nature of
+  grammatical forms in general and on the genius of the chinese language in
+  particular}.
+\newblock
+\APACaddressPublisher{}{Anagram}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+\ \BBA {} Liu%
+}{%
+Wang%
+\ \BBA {} Liu%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+wang2017effects}
+\APACinsertmetastar {%
+wang2017effects}%
+\begin{APACrefauthors}%
+Wang, Y.%
+\BCBT {}\ \BBA {} Liu, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effects of genre on dependency distance and
+  dependency direction} {The effects of genre on dependency distance and
+  dependency direction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language Sciences}{59}{}{135--147}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

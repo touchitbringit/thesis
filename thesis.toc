@@ -18,42 +18,42 @@
 \contentsline {section}{\numberline {1.6}Sistematika Penulisan}{6}{section.1.6}
 \contentsline {chapter}{\numberline {2}\uppercase {Sekilas Mengenai \LaTeX }}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Konteks Penelitian}{8}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Kemampuan (\textit {Competence}) dan Penampilan (\textit {Performance})}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Efisiensi dan Urutan Kata (\textit {Word Order}) dalam Ranah Ilmu Sintaksis}{10}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Relasi dan Struktur Ujaran}{10}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Penelitian Terdahulu dan \textit {Positioning}}{11}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Konsep Dependensi}{12}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Konstituen Induk (\textit {Root/Head}) dan Simpai (\textit {Node})}{12}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Panjang Dependensi (\textit {Dependency Length}) dan Jarak Dependensi (\textit {Dependency Distance})}{12}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Faktor-faktor yang Mempengaruhi Tautan Dependensi}{13}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}Kognisi Manusia dan Produksi Ujaran}{13}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}Karakter Bahasa dan Ketatabahasaan}{13}{subsubsection.2.2.3.2}
-\contentsline {section}{\numberline {2.3}Efisiensi Ujaran dari Segi Dependensi}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Perubahan Valensi Konstituen Induk (\textit {Root}) Verbal}{13}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Dependensi dan Urutan Kata dalam Bahasa Indonesia}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Urutan Kata dalam Tata Bahasa Indonesia}{14}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Simpai Sentral (\textit {Central Node}) dalam Bahasa Indonesia}{14}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}\uppercase {Notasi Matematik}}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Satu Persamaan}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Lebih dari Satu Persamaan}{15}{section.3.2}
-\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}thesis.tex}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}laporan\_setting.tex}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}istilah.tex}{17}{section.4.3}
-\contentsline {section}{\numberline {4.4}hype.indonesia.tex}{17}{section.4.4}
-\contentsline {section}{\numberline {4.5}pustaka.tex}{18}{section.4.5}
-\contentsline {section}{\numberline {4.6}bab[1 - 6].tex}{18}{section.4.6}
-\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Memberikan Catatan}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Memasukan PDF}{20}{section.5.4}
-\contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{24}{section.5.5}
-\contentsline {chapter}{\numberline {6}\uppercase {??}}{25}{chapter.6}
-\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{26}{chapter.7}
-\contentsline {section}{\numberline {7.1}Kesimpulan}{26}{section.7.1}
-\contentsline {section}{\numberline {7.2}Saran}{26}{section.7.2}
-\contentsline {chapter}{References}{27}{section.7.2}
+\contentsline {subsection}{\numberline {2.1.1}Kemampuan (\textit {Competence}) dan Penampilan (\textit {Performance})}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Efisiensi dan Urutan Kata (\textit {Word Order}) dalam Ranah Ilmu Sintaksis}{12}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Relasi dan Struktur Ujaran}{13}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Penelitian Terdahulu dan \textit {Positioning}}{13}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Konsep Dependensi}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Konstituen Induk (\textit {Root/Head}) dan Simpai (\textit {Node})}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Panjang Dependensi (\textit {Dependency Length}) dan Jarak Dependensi (\textit {Dependency Distance})}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Faktor-faktor yang Mempengaruhi Tautan Dependensi}{15}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Kognisi Manusia dan Produksi Ujaran}{15}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Karakter Bahasa dan Ketatabahasaan}{15}{subsubsection.2.2.3.2}
+\contentsline {section}{\numberline {2.3}Efisiensi Ujaran dari Segi Dependensi}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Perubahan Valensi Konstituen Induk (\textit {Root}) Verbal}{16}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Dependensi dan Urutan Kata dalam Bahasa Indonesia}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Urutan Kata dalam Tata Bahasa Indonesia}{16}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Simpai Sentral (\textit {Central Node}) dalam Bahasa Indonesia}{16}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}\uppercase {Notasi Matematik}}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Satu Persamaan}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Lebih dari Satu Persamaan}{17}{section.3.2}
+\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}thesis.tex}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}laporan\_setting.tex}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}istilah.tex}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}hype.indonesia.tex}{19}{section.4.4}
+\contentsline {section}{\numberline {4.5}pustaka.tex}{20}{section.4.5}
+\contentsline {section}{\numberline {4.6}bab[1 - 6].tex}{20}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Memberikan Catatan}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{22}{section.5.3}
+\contentsline {section}{\numberline {5.4}Memasukan PDF}{22}{section.5.4}
+\contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{26}{section.5.5}
+\contentsline {chapter}{\numberline {6}\uppercase {??}}{27}{chapter.6}
+\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{28}{chapter.7}
+\contentsline {section}{\numberline {7.1}Kesimpulan}{28}{section.7.1}
+\contentsline {section}{\numberline {7.2}Saran}{28}{section.7.2}
+\contentsline {chapter}{References}{29}{section.7.2}
 \contentsline {chapter}{LAMPIRAN}{1}{section*.20}
 \contentsline {chapter}{Lampiran 1}{2}{section*.21}

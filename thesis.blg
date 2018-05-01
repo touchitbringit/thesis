@@ -30,13 +30,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: pustaka.bib
-Warning--entry type for "mcwhorter2016efficient" isn't style-file defined
---line 151 of file pustaka.bib
-I was expecting a `,' or a `}'---line 157 of file pustaka.bib
- :   
- :   note={Online; posted 29-June-2016}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "aitchison_2004"
 Warning--I didn't find a database entry for "sapir_1921"
 Warning--I didn't find a database entry for "chomsky_1965"
@@ -51,45 +44,45 @@ Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No school in dillon2011structured
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 23 entries,
+You've used 36 entries,
             6951 wiz_defined-function locations,
-            1423 strings with 14660 characters,
-and the built_in function-call counts, 40517 in all, are:
-= -- 5123
-> -- 330
-< -- 1793
-+ -- 1808
-- -- 52
-* -- 2386
-:= -- 7087
-add.period$ -- 94
-call.type$ -- 23
-change.case$ -- 393
+            1492 strings with 16468 characters,
+and the built_in function-call counts, 63464 in all, are:
+= -- 7923
+> -- 485
+< -- 2998
++ -- 2962
+- -- 78
+* -- 3827
+:= -- 11577
+add.period$ -- 147
+call.type$ -- 36
+change.case$ -- 614
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 1081
-empty$ -- 1699
-format.name$ -- 528
-if$ -- 7952
+cite$ -- 73
+duplicate$ -- 1626
+empty$ -- 2625
+format.name$ -- 768
+if$ -- 12280
 int.to.chr$ -- 0
-int.to.str$ -- 69
+int.to.str$ -- 108
 missing$ -- 0
-newline$ -- 543
-num.names$ -- 184
-pop$ -- 924
+newline$ -- 847
+num.names$ -- 288
+pop$ -- 1481
 preamble$ -- 1
-purify$ -- 92
+purify$ -- 144
 quote$ -- 0
-skip$ -- 2733
+skip$ -- 4056
 stack$ -- 0
-substring$ -- 1983
-swap$ -- 588
-text.length$ -- 62
+substring$ -- 3221
+swap$ -- 868
+text.length$ -- 88
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2104
+type$ -- 3072
 warning$ -- 2
-while$ -- 188
+while$ -- 268
 width$ -- 0
-write$ -- 647
-(There was 1 error message)
+write$ -- 1000
+(There were 13 warnings)
