@@ -1,6 +1,32 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Abeill{\'e}%
+\ \BBA {} Barrier%
+}{%
+Abeill{\'e}%
+\ \BBA {} Barrier%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+abeille2004enriching}
+\APACinsertmetastar {%
+abeille2004enriching}%
+\begin{APACrefauthors}%
+Abeill{\'e}, A.%
+\BCBT {}\ \BBA {} Barrier, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Enriching a French Treebank.} {Enriching a french
+  treebank.}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {LREC.} {Lrec.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Abney%
 \ \BBA {} Johnson%
 }{%
@@ -25,6 +51,30 @@ Abney, S\BPBI P.%
   strategies}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Psycholinguistic Research}{20}{3}{233--250}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aissen%
+}{%
+Aissen%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+aissen1999markedness}
+\APACinsertmetastar {%
+aissen1999markedness}%
+\begin{APACrefauthors}%
+Aissen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Markedness and subject choice in Optimality Theory}
+  {Markedness and subject choice in optimality theory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Natural Language \& Linguistic
+  Theory}{17}{4}{673--711}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -72,6 +122,30 @@ Beattie, J.%
   concerning the first formation of languages}.
 \newblock
 \APACaddressPublisher{}{Routledge, Thoemmes Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bever%
+}{%
+Bever%
+}{%
+{\protect \APACyear {1970}}%
+}]{%
+bever1970cognitive}
+\APACinsertmetastar {%
+bever1970cognitive}%
+\begin{APACrefauthors}%
+Bever, T\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1970}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The cognitive basis for linguistic structures} {The
+  cognitive basis for linguistic structures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognition and the development of
+  language}{279}{362}{1--61}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -131,6 +205,85 @@ Birner, B\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bloomfield%
+}{%
+Bloomfield%
+}{%
+{\protect \APACyear {1933}}%
+}]{%
+bloomfield1933language}
+\APACinsertmetastar {%
+bloomfield1933language}%
+\begin{APACrefauthors}%
+Bloomfield, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1933}.
+\newblock
+\APACrefbtitle {Language} {Language}.
+\newblock
+\APACaddressPublisher{}{Holt, Rinehart and Winston}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bresnan%
+, Dingare%
+\BCBL {}\ \BBA {} Manning%
+}{%
+Bresnan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+bresnan2001soft}
+\APACinsertmetastar {%
+bresnan2001soft}%
+\begin{APACrefauthors}%
+Bresnan, J.%
+, Dingare, S.%
+\BCBL {}\ \BBA {} Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Soft constraints mirror hard constraints: Voice and
+  person in English and Lummi} {Soft constraints mirror hard constraints: Voice
+  and person in english and lummi}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the LFG01 Conference} {Proceedings of the
+  lfg01 conference}\ (\BPGS\ 13--32).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Carroll%
+, Minnen%
+\BCBL {}\ \BBA {} Briscoe%
+}{%
+Carroll%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+carroll2003parser}
+\APACinsertmetastar {%
+carroll2003parser}%
+\begin{APACrefauthors}%
+Carroll, J.%
+, Minnen, G.%
+\BCBL {}\ \BBA {} Briscoe, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Parser evaluation} {Parser evaluation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Treebanks} {Treebanks}\ (\BPGS\ 299--316).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Chomsky%
 }{%
 Chomsky%
@@ -173,6 +326,28 @@ Chomsky, N.%
   syntax.}
 \newblock
 \APACaddressPublisher{}{Cambridge: MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chomsky%
+}{%
+Chomsky%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+chomsky1986barriers}
+\APACinsertmetastar {%
+chomsky1986barriers}%
+\begin{APACrefauthors}%
+Chomsky, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1986}.
+\newblock
+\APACrefbtitle {Barriers} {Barriers}\ (\BVOL~13).
+\newblock
+\APACaddressPublisher{}{MIT press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -223,6 +398,30 @@ Covington, M\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Covington%
+}{%
+Covington%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+covington2001fundamental}
+\APACinsertmetastar {%
+covington2001fundamental}%
+\begin{APACrefauthors}%
+Covington, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A fundamental algorithm for dependency parsing} {A
+  fundamental algorithm for dependency parsing}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 39th annual ACM southeast conference}
+  {Proceedings of the 39th annual acm southeast conference}\ (\BPGS\ 95--102).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Delahunty%
 \ \BBA {} Garvey%
 }{%
@@ -246,6 +445,32 @@ Delahunty, G\BPBI P.%
   language: from sound to sense}.
 \newblock
 \APACaddressPublisher{}{Parlor Press and the WAC Clearinghouse}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Marneffe%
+\ \BBA {} Manning%
+}{%
+De~Marneffe%
+\ \BBA {} Manning%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+de2008stanford}
+\APACinsertmetastar {%
+de2008stanford}%
+\begin{APACrefauthors}%
+De~Marneffe, M\BHBI C.%
+\BCBT {}\ \BBA {} Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+\APACrefbtitle {Stanford typed dependencies manual} {Stanford typed
+  dependencies manual}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{Technical report, Stanford University}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -318,6 +543,85 @@ Dryer, M\BPBI S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dryer%
+}{%
+Dryer%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+dryer2007word}
+\APACinsertmetastar {%
+dryer2007word}%
+\begin{APACrefauthors}%
+Dryer, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Word order} {Word order}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language typology and syntactic
+  description}{1}{}{61--131}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dryer%
+\ \protect \BOthers {.}}{%
+Dryer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+dryer2005world}
+\APACinsertmetastar {%
+dryer2005world}%
+\begin{APACrefauthors}%
+Dryer, M\BPBI S.%
+, Gil, D.%
+, Comrie, B.%
+, Jung, H.%
+, Schmidt, C.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The world atlas of language structures} {The world atlas
+  of language structures}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Frank%
+\ \BBA {} Jaeger%
+}{%
+Frank%
+\ \BBA {} Jaeger%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+frank2008speaking}
+\APACinsertmetastar {%
+frank2008speaking}%
+\begin{APACrefauthors}%
+Frank, A\BPBI F.%
+\BCBT {}\ \BBA {} Jaeger, T\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Speaking rationally: Uniform information density as an
+  optimal strategy for language production} {Speaking rationally: Uniform
+  information density as an optimal strategy for language production}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the Annual Meeting of the Cognitive
+  Science Society} {Proceedings of the annual meeting of the cognitive science
+  society}\ (\BVOL~30).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Futrell%
 , Mahowald%
 \BCBL {}\ \BBA {} Gibson%
@@ -347,6 +651,111 @@ Futrell, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Garde%
+}{%
+Garde%
+}{%
+{\protect \APACyear {1977}}%
+}]{%
+garde1977ordre}
+\APACinsertmetastar {%
+garde1977ordre}%
+\begin{APACrefauthors}%
+Garde, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1977}.
+\newblock
+\APACrefbtitle {Ordre lin{\'e}aire et d{\'e}pendance syntaxique: contribution
+  {\`a} une typologie} {Ordre lin{\'e}aire et d{\'e}pendance syntaxique:
+  contribution {\`a} une typologie}.
+\newblock
+\APACaddressPublisher{}{Klincksieck}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gell-Mann%
+\ \BBA {} Ruhlen%
+}{%
+Gell-Mann%
+\ \BBA {} Ruhlen%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+gell2011origin}
+\APACinsertmetastar {%
+gell2011origin}%
+\begin{APACrefauthors}%
+Gell-Mann, M.%
+\BCBT {}\ \BBA {} Ruhlen, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The origin and evolution of word order} {The origin and
+  evolution of word order}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{108}{42}{17290--17295}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gelman%
+\ \BBA {} Hill%
+}{%
+Gelman%
+\ \BBA {} Hill%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+gelman2007data}
+\APACinsertmetastar {%
+gelman2007data}%
+\begin{APACrefauthors}%
+Gelman, A.%
+\BCBT {}\ \BBA {} Hill, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Data analysis using regression and multilevelhierarchical
+  models} {Data analysis using regression and multilevelhierarchical models}\
+  (\BVOL~1).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press New York, NY, USA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gerdes%
+\ \BBA {} Kahane%
+}{%
+Gerdes%
+\ \BBA {} Kahane%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+gerdes2013defining}
+\APACinsertmetastar {%
+gerdes2013defining}%
+\begin{APACrefauthors}%
+Gerdes, K.%
+\BCBT {}\ \BBA {} Kahane, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Defining dependencies (and constituents)} {Defining
+  dependencies (and constituents)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Artificial Intelligence and
+  Applications}{258}{}{1--25}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gibson%
 }{%
 Gibson%
@@ -368,6 +777,187 @@ Gibson, E.%
   theory of linguistic complexity}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Image, language, brain}{}{}{95--126}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gil%
+}{%
+Gil%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+gil2001creoles}
+\APACinsertmetastar {%
+gil2001creoles}%
+\begin{APACrefauthors}%
+Gil, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Creoles, Complexity and Riau Indonesian.} {Creoles,
+  complexity and riau indonesian.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistic typology}{5}{}{325--371}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gildea%
+\ \BBA {} Jaeger%
+}{%
+Gildea%
+\ \BBA {} Jaeger%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+gildea2015human}
+\APACinsertmetastar {%
+gildea2015human}%
+\begin{APACrefauthors}%
+Gildea, D.%
+\BCBT {}\ \BBA {} Jaeger, T\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Human languages order information efficiently} {Human
+  languages order information efficiently}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1510.02823}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gildea%
+\ \BBA {} Temperley%
+}{%
+Gildea%
+\ \BBA {} Temperley%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+gildea2010grammars}
+\APACinsertmetastar {%
+gildea2010grammars}%
+\begin{APACrefauthors}%
+Gildea, D.%
+\BCBT {}\ \BBA {} Temperley, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Do grammars minimize dependency length?} {Do grammars
+  minimize dependency length?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cognitive Science}{34}{2}{286--310}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Giv{\'o}n%
+}{%
+Giv{\'o}n%
+}{%
+{\protect \APACyear {1979}}%
+}]{%
+givon1979syntax}
+\APACinsertmetastar {%
+givon1979syntax}%
+\begin{APACrefauthors}%
+Giv{\'o}n, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1979}.
+\newblock
+\APACrefbtitle {Syntax and Semantics. 12, Discourse and Syntax} {Syntax and
+  semantics. 12, discourse and syntax}.
+\newblock
+\APACaddressPublisher{}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Giv{\'o}n%
+}{%
+Giv{\'o}n%
+}{%
+{\protect \APACyear {1991}}%
+}]{%
+givon1991markedness}
+\APACinsertmetastar {%
+givon1991markedness}%
+\begin{APACrefauthors}%
+Giv{\'o}n, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Markedness in grammar: Distributional, communicative and
+  cognitive correlates of syntactic structure} {Markedness in grammar:
+  Distributional, communicative and cognitive correlates of syntactic
+  structure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Studies in Language. International Journal sponsored by
+  the Foundation ?Foundations of Language?}{15}{2}{335--370}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gladkij%
+}{%
+Gladkij%
+}{%
+{\protect \APACyear {1966}}%
+}]{%
+gladkij1966lekcii}
+\APACinsertmetastar {%
+gladkij1966lekcii}%
+\begin{APACrefauthors}%
+Gladkij, A\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1966}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lekcii po matemati{\v{c}}eskoj lingvistike dlja
+  studentov NGU.[Lectures on Mathematical Linguistics for Students of
+  Novosibirsk University.] Novosibirsk: Novosibirskij Gos. Universitet.. 1968.
+  Ob opisanii sintaksi{\v{c}}eskoj struktury predlo{\v{z}}en ija.[On Describing
+  the Syntactic Structure of a Sentence.]} {Lekcii po matemati{\v{c}}eskoj
+  lingvistike dlja studentov ngu.[lectures on mathematical linguistics for
+  students of novosibirsk university.] novosibirsk: Novosibirskij gos.
+  universitet.. 1968. ob opisanii sintaksi{\v{c}}eskoj struktury
+  predlo{\v{z}}en ija.[on describing the syntactic structure of a
+  sentence.]}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Pro-ceedings of the National Symposium on Machine
+  Translation, Englewood Cliffs, NJ: Prentice-Hall} {Pro-ceedings of the
+  national symposium on machine translation, englewood cliffs, nj:
+  Prentice-hall}\ (\BPGS\ 259--266).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gleason%
+}{%
+Gleason%
+}{%
+{\protect \APACyear {1961}}%
+}]{%
+gleason1961introduction}
+\APACinsertmetastar {%
+gleason1961introduction}%
+\begin{APACrefauthors}%
+Gleason, H\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1961}.
+\newblock
+\APACrefbtitle {An Introduction to Descriptive Linguistics: Rev. Ed} {An
+  introduction to descriptive linguistics: Rev. ed}.
+\newblock
+\APACaddressPublisher{}{Holt, Rinehart and Winston}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -397,6 +987,101 @@ Green, N.%
 \BIn{} \APACrefbtitle {Proceedings of the 26th Pacific Asia Conference on
   Language, Information, and Computation} {Proceedings of the 26th pacific asia
   conference on language, information, and computation}\ (\BPGS\ 137--145).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Greenberg%
+}{%
+Greenberg%
+}{%
+{\protect \APACyear {1963}}%
+}]{%
+greenberg1963some}
+\APACinsertmetastar {%
+greenberg1963some}%
+\begin{APACrefauthors}%
+Greenberg, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1963}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Some universals of grammar with particular reference to
+  the order of meaningful elements} {Some universals of grammar with particular
+  reference to the order of meaningful elements}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Universals of language}{2}{}{73--113}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Greenberg%
+}{%
+Greenberg%
+}{%
+{\protect \APACyear {1966}}%
+}]{%
+greenberg1966language}
+\APACinsertmetastar {%
+greenberg1966language}%
+\begin{APACrefauthors}%
+Greenberg, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1966}.
+\newblock
+\APACrefbtitle {Language Universals: With Special Reference to Feature
+  Hierachies} {Language universals: With special reference to feature
+  hierachies}.
+\newblock
+\APACaddressPublisher{}{Mouton}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haegeman%
+}{%
+Haegeman%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+haegeman1994introduction}
+\APACinsertmetastar {%
+haegeman1994introduction}%
+\begin{APACrefauthors}%
+Haegeman, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {Introduction to government and binding theory} {Introduction to
+  government and binding theory}.
+\newblock
+\APACaddressPublisher{}{Wiley-Blackwell}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haspelmath%
+}{%
+Haspelmath%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+haspelmath1999optimality}
+\APACinsertmetastar {%
+haspelmath1999optimality}%
+\begin{APACrefauthors}%
+Haspelmath, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimality and diachronic adaptation} {Optimality and
+  diachronic adaptation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Zeitschrift f{\"u}r
+  Sprachwissenschaft}{18}{2}{180--205}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -469,9 +1154,129 @@ Hawkins, J\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hudson%
+Heringer%
 }{%
-Hudson%
+Heringer%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+heringer1993dependency}
+\APACinsertmetastar {%
+heringer1993dependency}%
+\begin{APACrefauthors}%
+Heringer, H\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency syntax-basic ideas and the classical model}
+  {Dependency syntax-basic ideas and the classical model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Syntax-An International Handbook of Contemporary
+  Research}{1}{}{298--316}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heringer%
+, Strecker%
+\BCBL {}\ \BBA {} Wimmer%
+}{%
+Heringer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1980}}%
+}]{%
+heringer1980syntax}
+\APACinsertmetastar {%
+heringer1980syntax}%
+\begin{APACrefauthors}%
+Heringer, H\BPBI J.%
+, Strecker, B.%
+\BCBL {}\ \BBA {} Wimmer, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1980}.
+\newblock
+\APACrefbtitle {Syntax} {Syntax}\ (\BVOL~251).
+\newblock
+\APACaddressPublisher{}{W. Fink}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Hudson%
+}{%
+R.~Hudson%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+hudson1994discontinuous}
+\APACinsertmetastar {%
+hudson1994discontinuous}%
+\begin{APACrefauthors}%
+Hudson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Discontinuous phrases in dependency grammar}
+  {Discontinuous phrases in dependency grammar}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{UCL Working Papers in Linguistics}{6}{}{89--120}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Hudson%
+}{%
+R.~Hudson%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+hudson2003psychological}
+\APACinsertmetastar {%
+hudson2003psychological}%
+\begin{APACrefauthors}%
+Hudson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The psychological reality of syntactic dependency
+  relations} {The psychological reality of syntactic dependency
+  relations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{MTT2003, Paris}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R.~Hudson%
+}{%
+R.~Hudson%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+hudson2010introduction}
+\APACinsertmetastar {%
+hudson2010introduction}%
+\begin{APACrefauthors}%
+Hudson, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {An introduction to word grammar} {An introduction to word
+  grammar}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+R\BPBI A.~Hudson%
+}{%
+R\BPBI A.~Hudson%
 }{%
 {\protect \APACyear {1984}}%
 }]{%
@@ -491,9 +1296,9 @@ Hudson, R\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Hudson%
+R\BPBI A.~Hudson%
 }{%
-Hudson%
+R\BPBI A.~Hudson%
 }{%
 {\protect \APACyear {2007}}%
 }]{%
@@ -514,12 +1319,62 @@ Hudson, R\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+i Cancho%
+}{%
+i Cancho%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+i2004euclidean}
+\APACinsertmetastar {%
+i2004euclidean}%
+\begin{APACrefauthors}%
+i Cancho, R\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Euclidean distance between syntactically linked words}
+  {Euclidean distance between syntactically linked words}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physical Review E}{70}{5}{056135}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+i Cancho%
+, Sol{\'e}%
+\BCBL {}\ \BBA {} K{\"o}hler%
+}{%
+i Cancho%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+i2004patterns}
+\APACinsertmetastar {%
+i2004patterns}%
+\begin{APACrefauthors}%
+i Cancho, R\BPBI F.%
+, Sol{\'e}, R\BPBI V.%
+\BCBL {}\ \BBA {} K{\"o}hler, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Patterns in syntactic dependency networks} {Patterns in
+  syntactic dependency networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physical Review E}{69}{5}{051915}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Irmawati%
-\ \BBA {} Matsumoto%
+, Shindo%
+\BCBL {}\ \BBA {} Matsumoto%
 }{%
 Irmawati%
-\ \BBA {} Matsumoto%
-}{%
+\ \protect \BOthers {.}}{%
 {\protect \APACyear {2015}}%
 }]{%
 irmawati2015dependency}
@@ -527,7 +1382,8 @@ irmawati2015dependency}
 irmawati2015dependency}%
 \begin{APACrefauthors}%
 Irmawati, B.%
-\BCBT {}\ \BBA {} Matsumoto, H\BPBI S\BPBI Y.%
+, Shindo, Y.%
+\BCBL {}\ \BBA {} Matsumoto, H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -563,6 +1419,34 @@ Jaeger, T\BPBI F.%
 \unskip\
 \newblock
 \APACaddressSchool {}{Stanford University Stanford, CA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jaeger%
+\ \BBA {} Levy%
+}{%
+Jaeger%
+\ \BBA {} Levy%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+jaeger2007speakers}
+\APACinsertmetastar {%
+jaeger2007speakers}%
+\begin{APACrefauthors}%
+Jaeger, T\BPBI F.%
+\BCBT {}\ \BBA {} Levy, R\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Speakers optimize information density through syntactic
+  reduction} {Speakers optimize information density through syntactic
+  reduction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in neural information processing systems}
+  {Advances in neural information processing systems}\ (\BPGS\ 849--856).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -645,6 +1529,30 @@ Key, L\BPBI E.%
 \APACrefbtitle {Course in general linguistics} {Course in general linguistics}.
 \newblock
 \APACaddressPublisher{}{Macat Library}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kirby%
+}{%
+Kirby%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+kirby1999function}
+\APACinsertmetastar {%
+kirby1999function}%
+\begin{APACrefauthors}%
+Kirby, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1999}.
+\newblock
+\APACrefbtitle {Function, selection, and innateness: The emergence of language
+  universals} {Function, selection, and innateness: The emergence of language
+  universals}.
+\newblock
+\APACaddressPublisher{}{OUP Oxford}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -751,6 +1659,78 @@ Lambrecht, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lecerf%
+}{%
+Lecerf%
+}{%
+{\protect \APACyear {1960}}%
+}]{%
+lecerf1960programme}
+\APACinsertmetastar {%
+lecerf1960programme}%
+\begin{APACrefauthors}%
+Lecerf, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1960}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Programme des conflits, modele des conflits} {Programme
+  des conflits, modele des conflits}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin bimestriel de l?ATALA}{1}{4}{11--18}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lin%
+}{%
+Lin%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+lin2003dependency}
+\APACinsertmetastar {%
+lin2003dependency}%
+\begin{APACrefauthors}%
+Lin, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency-based evaluation of MINIPAR}
+  {Dependency-based evaluation of minipar}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Treebanks} {Treebanks}\ (\BPGS\ 317--329).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+}{%
+Liu%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+liu2008dependency}
+\APACinsertmetastar {%
+liu2008dependency}%
+\begin{APACrefauthors}%
+Liu, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency distance as a metric of language
+  comprehension difficulty} {Dependency distance as a metric of language
+  comprehension difficulty}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Cognitive Science}{9}{2}{159--191}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Liu%
 , Xu%
 \BCBL {}\ \BBA {} Liang%
@@ -802,6 +1782,56 @@ MacWhinney, B.%
   crosslinguistic study of sentence processing}.
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Manning%
+}{%
+Manning%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+manning2003probabilistic}
+\APACinsertmetastar {%
+manning2003probabilistic}%
+\begin{APACrefauthors}%
+Manning, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Probabilistic syntax} {Probabilistic syntax}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Probabilistic linguistics}{289341}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marcus%
+, Marcinkiewicz%
+\BCBL {}\ \BBA {} Santorini%
+}{%
+Marcus%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+marcus1993building}
+\APACinsertmetastar {%
+marcus1993building}%
+\begin{APACrefauthors}%
+Marcus, M\BPBI P.%
+, Marcinkiewicz, M\BPBI A.%
+\BCBL {}\ \BBA {} Santorini, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Building a large annotated corpus of English: The Penn
+  Treebank} {Building a large annotated corpus of english: The penn
+  treebank}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational linguistics}{19}{2}{313--330}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -864,17 +1894,17 @@ McWhorter, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Mel?{\v{c}}uk%
+Mel'{\v{c}}uk%
 }{%
-Mel?{\v{c}}uk%
+Mel'{\v{c}}uk%
 }{%
 {\protect \APACyear {1988}}%
 }]{%
-mel?vcuk1988dependency}
+mel'vcuk1988dependency}
 \APACinsertmetastar {%
-mel?vcuk1988dependency}%
+mel'vcuk1988dependency}%
 \begin{APACrefauthors}%
-Mel?{\v{c}}uk, I\BPBI A.%
+Mel'{\v{c}}uk, I\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -913,6 +1943,85 @@ Miller, J\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Moll{\'a}%
+, Schneider%
+, Schwitter%
+\BCBL {}\ \BBA {} Hess%
+}{%
+Moll{\'a}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+molla2000answer}
+\APACinsertmetastar {%
+molla2000answer}%
+\begin{APACrefauthors}%
+Moll{\'a}, D.%
+, Schneider, G.%
+, Schwitter, R.%
+\BCBL {}\ \BBA {} Hess, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Answer extraction using a dependency grammar in ExtrAns}
+  {Answer extraction using a dependency grammar in extrans}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Traitement Automatique de Langues (TAL), Special Issue
+  on Dependency Grammar}{41}{1}{127--156}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Newmeyer%
+}{%
+Newmeyer%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+newmeyer2000language}
+\APACinsertmetastar {%
+newmeyer2000language}%
+\begin{APACrefauthors}%
+Newmeyer, F\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Language form and language function} {Language form and
+  language function}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nivre%
+}{%
+Nivre%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+nivre2004incrementality}
+\APACinsertmetastar {%
+nivre2004incrementality}%
+\begin{APACrefauthors}%
+Nivre, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Incrementality in deterministic dependency parsing}
+  {Incrementality in deterministic dependency parsing}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the Workshop on Incremental Parsing:
+  Bringing Engineering and Cognition Together} {Proceedings of the workshop on
+  incremental parsing: Bringing engineering and cognition together}\ (\BPGS\
+  50--57).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Nivre%
 \ \protect \BOthers {.}}{%
 Nivre%
@@ -940,6 +2049,63 @@ Nivre, J.%
   collection.}{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {LREC.} {Lrec.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nivre%
+, Hall%
+\BCBL {}\ \BBA {} Nilsson%
+}{%
+Nivre%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+nivre2006maltparser}
+\APACinsertmetastar {%
+nivre2006maltparser}%
+\begin{APACrefauthors}%
+Nivre, J.%
+, Hall, J.%
+\BCBL {}\ \BBA {} Nilsson, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Maltparser: A data-driven parser-generator for
+  dependency parsing} {Maltparser: A data-driven parser-generator for
+  dependency parsing}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of LREC} {Proceedings of lrec}\ (\BVOL~6,
+  \BPGS\ 2216--2219).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nivre%
+\ \BBA {} Kubler%
+}{%
+Nivre%
+\ \BBA {} Kubler%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+nivre2006dependency}
+\APACinsertmetastar {%
+nivre2006dependency}%
+\begin{APACrefauthors}%
+Nivre, J.%
+\BCBT {}\ \BBA {} Kubler, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dependency parsing: tutorial at Coling-ACL 2006}
+  {Dependency parsing: tutorial at coling-acl 2006}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the International Conference on Computer
+  Linguistics (COLING?06).} {Proceedings of the international conference on
+  computer linguistics (coling?06).}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1016,6 +2182,32 @@ Percival, W\BPBI K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Plotkin%
+\ \BBA {} Nowak%
+}{%
+Plotkin%
+\ \BBA {} Nowak%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+plotkin2000language}
+\APACinsertmetastar {%
+plotkin2000language}%
+\begin{APACrefauthors}%
+Plotkin, J\BPBI B.%
+\BCBT {}\ \BBA {} Nowak, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Language evolution and information theory} {Language
+  evolution and information theory}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Theoretical Biology}{205}{1}{147--159}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Polinskaja%
 }{%
 Polinskaja%
@@ -1035,6 +2227,32 @@ Polinskaja, M\BPBI S.%
 \APACrefbtitle {Object initiality: OSV.} {Object initiality: Osv.}
 \newblock
 \APACaddressPublisher{}{Walter de Gruyter, Berlin/New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pollard%
+\ \BBA {} Sag%
+}{%
+Pollard%
+\ \BBA {} Sag%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+pollard1994head}
+\APACinsertmetastar {%
+pollard1994head}%
+\begin{APACrefauthors}%
+Pollard, C.%
+\BCBT {}\ \BBA {} Sag, I\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1994}.
+\newblock
+\APACrefbtitle {Head-driven phrase structure grammar} {Head-driven phrase
+  structure grammar}.
+\newblock
+\APACaddressPublisher{}{University of Chicago Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1116,7 +2334,54 @@ Sapir, E.%
 \APACrefbtitle {Language: an introduction to the study of speech} {Language: an
   introduction to the study of speech}.
 \newblock
-\APACaddressPublisher{}{Harcourt, Brace & Co.}
+\APACaddressPublisher{}{Harcourt, Brace \& Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schubert%
+}{%
+Schubert%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+schubert1987metataxis}
+\APACinsertmetastar {%
+schubert1987metataxis}%
+\begin{APACrefauthors}%
+Schubert, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1987}.
+\newblock
+\APACrefbtitle {Metataxis: contrastive dependency syntax for machine
+  translation} {Metataxis: contrastive dependency syntax for machine
+  translation}\ (\BVOL~2).
+\newblock
+\APACaddressPublisher{}{Foris Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Slobin%
+}{%
+Slobin%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+slobin1973cognitive}
+\APACinsertmetastar {%
+slobin1973cognitive}%
+\begin{APACrefauthors}%
+Slobin, D\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cognitive prerequisites for the development of grammar}
+  {Cognitive prerequisites for the development of grammar}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Studies of child language development}{1}{}{75--208}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1215,7 +2480,7 @@ Tesni\`ere, L.%
 \newblock
 \APACrefYear{1959}.
 \newblock
-\APACrefbtitle {\?El\?ements de syntaxe structurale} {\?el\?ements de syntaxe
+\APACrefbtitle {\'El\'ements de syntaxe structurale} {\'el\'ements de syntaxe
   structurale}.
 \newblock
 \APACaddressPublisher{}{Librairie C. Klincksieck}.
@@ -1266,10 +2531,10 @@ von Humboldt, W\BPBI F.%
 \APACrefYear{1972}.
 \newblock
 \APACrefbtitle {On the origin of grammatical forms and on their influence on
-  the development of ideas; Letter to M. Abel R {\ 'e} musat on the nature of
+  the development of ideas; Letter to M. Abel R{\'e}musat on the nature of
   grammatical forms in general and on the genius of the Chinese language in
   particular} {On the origin of grammatical forms and on their influence on the
-  development of ideas; letter to m. abel r {\ 'e} musat on the nature of
+  development of ideas; letter to m. abel r{\'e}musat on the nature of
   grammatical forms in general and on the genius of the chinese language in
   particular}.
 \newblock
@@ -1348,6 +2613,28 @@ Zipf, G\BPBI K.%
   cambridge ma edn}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Reading: Addison-Wesley}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zwicky%
+}{%
+Zwicky%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+zwicky1985heads}
+\APACinsertmetastar {%
+zwicky1985heads}%
+\begin{APACrefauthors}%
+Zwicky, A\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Heads} {Heads}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of linguistics}{21}{1}{1--29}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -29,52 +29,56 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10040 items from 5000.
 Database file #1: pustaka.bib
 Warning--I didn't find a database entry for "latex.intro"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in de2008stanford
 Warning--No school in dillon2011structured
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in dryer2005world
 Warning--No journal in irmawati2015dependency
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No journal in zipf1935psycho
-You've used 53 entries,
+You've used 104 entries,
             6951 wiz_defined-function locations,
-            1563 strings with 18790 characters,
-and the built_in function-call counts, 93773 in all, are:
-= -- 11908
-> -- 728
-< -- 4265
-+ -- 4212
-- -- 112
-* -- 5540
-:= -- 16669
-add.period$ -- 226
-call.type$ -- 53
-change.case$ -- 908
+            1819 strings with 25667 characters,
+and the built_in function-call counts, 182313 in all, are:
+= -- 23239
+> -- 1423
+< -- 8110
++ -- 7940
+- -- 216
+* -- 10761
+:= -- 31841
+add.period$ -- 452
+call.type$ -- 104
+change.case$ -- 1786
 chr.to.int$ -- 0
-cite$ -- 109
-duplicate$ -- 2395
-empty$ -- 3882
-format.name$ -- 1122
-if$ -- 18400
+cite$ -- 213
+duplicate$ -- 4769
+empty$ -- 7632
+format.name$ -- 2159
+if$ -- 36053
 int.to.chr$ -- 0
-int.to.str$ -- 159
+int.to.str$ -- 312
 missing$ -- 0
-newline$ -- 1261
-num.names$ -- 424
-pop$ -- 2189
+newline$ -- 2458
+num.names$ -- 832
+pop$ -- 4032
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 416
 quote$ -- 0
-skip$ -- 6208
+skip$ -- 12461
 stack$ -- 0
-substring$ -- 4648
-swap$ -- 1291
-text.length$ -- 148
+substring$ -- 8842
+swap$ -- 2668
+text.length$ -- 313
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4816
-warning$ -- 4
-while$ -- 388
+type$ -- 9600
+warning$ -- 7
+while$ -- 769
 width$ -- 0
-write$ -- 1494
-(There were 5 warnings)
+write$ -- 2903
+(There were 8 warnings)
