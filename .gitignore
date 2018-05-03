@@ -4,3 +4,8 @@
 *.aux
 *.log
 *.bbl
+*.lof
+*.toc
+*.gz
+*.auc
+*.out
