@@ -1,46 +1,44 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces \textit {Creative Common License 1.0 Generic}\relax }}{iv}{figure.caption.7}
 \contentsline {figure}{\numberline {2}{\ignorespaces Dokumen Dibuat dengan PDFLatex\relax }}{v}{figure.caption.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Contoh perbedaan dependensi dalam bahasa Indonesia\relax }}{4}{figure.caption.14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Contoh perbedaan dependensi dalam bahasa Indonesia\relax }}{3}{figure.caption.14}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Diagram alur kerangka konseptual penelitian\relax }}{11}{figure.caption.15}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Contoh data mentah ragam tulis\relax }}{44}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh hasil transkripsi data ragam lisan\relax }}{45}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Elemen-elemen dari tautan dependensi\relax }}{47}{figure.caption.19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh hasil penguraian kalimat untuk data ragam tulis\relax }}{47}{figure.caption.20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Contoh hasil penguraian kalimat untuk ragam lisan\relax }}{48}{figure.caption.21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Contoh hasil ekstraksi lemma dengan memanfaatkan MorphInd (Larasati, Kubo?, & Zeman, 2011) \relax }}{50}{figure.caption.22}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Contoh hasil olahan penghitungan jarak antarkata data ragam tulis\relax }}{51}{figure.caption.23}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Contoh hasil olahan penghitungan jarak antarkata data ragam lisan\relax }}{51}{figure.caption.24}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Contoh data mentah ragam tulis\relax }}{43}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Contoh hasil transkripsi data ragam lisan\relax }}{44}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Elemen-elemen dari tautan dependensi\relax }}{46}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh hasil penguraian kalimat untuk data ragam tulis\relax }}{46}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Contoh hasil penguraian kalimat untuk ragam lisan\relax }}{47}{figure.caption.21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Contoh hasil ekstraksi lemma dengan memanfaatkan MorphInd (Larasati, Kubo?, & Zeman, 2011) \relax }}{49}{figure.caption.22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Contoh hasil olahan penghitungan jarak antarkata data ragam tulis\relax }}{50}{figure.caption.23}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Contoh hasil olahan penghitungan jarak antarkata data ragam lisan\relax }}{50}{figure.caption.24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Contoh visualisasi penguraian kalimat berdasarkan dependensi\relax }}{56}{figure.caption.25}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Contoh hasil percobaan acak\relax }}{57}{figure.caption.26}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafik nilai DL data ragam tulis dan lisan\relax }}{61}{figure.caption.27}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik nilai MDD data ragam tulis dan lisan\relax }}{62}{figure.caption.28}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 10 konstituen\relax }}{64}{figure.caption.29}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 14 konstituen\relax }}{64}{figure.caption.30}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 21 konstituen\relax }}{65}{figure.caption.31}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 5 konstituen pada ragam lisan\relax }}{66}{figure.caption.32}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 12 konstituen pada ragam lisan\relax }}{66}{figure.caption.33}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 22 konstituen pada ragam lisan\relax }}{67}{figure.caption.34}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagram perbandingan jumlah konstituen data ragam lisan dan tulis\relax }}{69}{figure.caption.35}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Kalimat T31a pada data ragam tulis\relax }}{72}{figure.caption.36}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Kalimat T31b pada data ragam tulis\relax }}{73}{figure.caption.37}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Kalimat L31a pada data ragam lisan\relax }}{74}{figure.caption.38}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Kalimat L31b pada data ragam lisan\relax }}{75}{figure.caption.39}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Kalimat L31c pada data ragam lisan\relax }}{76}{figure.caption.40}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Grafik nilai DL positif dan negatif data ragam tulis\relax }}{80}{figure.caption.41}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Grafik nilai DL positif dan negatif data ragam tulis\relax }}{81}{figure.caption.42}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Kalimat L\textit {root}a pada data ragam lisan\relax }}{82}{figure.caption.43}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Kalimat L\textit {root}b pada data ragam lisan\relax }}{82}{figure.caption.44}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Grafik nilai DL positif dan negatif pada simpai sentral dengan root berupa verba data ragam tulis\relax }}{83}{figure.caption.45}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Grafik nilai DL positif dan negatif pada simpai sentral dengan root berupa verba data ragam lisan\relax }}{84}{figure.caption.46}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Kalimat Troota pada data ragam tulis\relax }}{86}{figure.caption.47}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Kalimat Trootb pada data ragam tulis\relax }}{87}{figure.caption.48}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Kalimat Trootc pada data ragam tulis\relax }}{88}{figure.caption.49}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Kalimat Trootc pada data ragam tulis\relax }}{89}{figure.caption.50}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Kalimat Lroote pada data ragam lisan\relax }}{90}{figure.caption.51}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Contoh visualisasi penguraian kalimat berdasarkan dependensi\relax }}{55}{figure.caption.26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Contoh hasil percobaan acak\relax }}{56}{figure.caption.27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafik nilai DL data ragam tulis dan lisan\relax }}{60}{figure.caption.29}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Grafik nilai MDD data ragam tulis dan lisan\relax }}{61}{figure.caption.30}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 10 konstituen\relax }}{63}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 14 konstituen\relax }}{63}{figure.caption.32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 21 konstituen\relax }}{64}{figure.caption.33}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 5 konstituen pada ragam lisan\relax }}{65}{figure.caption.34}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 12 konstituen pada ragam lisan\relax }}{65}{figure.caption.35}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 22 konstituen pada ragam lisan\relax }}{66}{figure.caption.36}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagram perbandingan jumlah konstituen data ragam lisan dan tulis\relax }}{68}{figure.caption.37}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Kalimat T31a pada data ragam tulis\relax }}{71}{figure.caption.38}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Kalimat T31b pada data ragam tulis\relax }}{72}{figure.caption.39}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Kalimat L31a pada data ragam lisan\relax }}{73}{figure.caption.40}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Kalimat L31b pada data ragam lisan\relax }}{73}{figure.caption.41}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Kalimat L31c pada data ragam lisan\relax }}{73}{figure.caption.42}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Grafik nilai DL positif dan negatif data ragam tulis\relax }}{77}{figure.caption.43}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Grafik nilai DL positif dan negatif data ragam tulis\relax }}{78}{figure.caption.44}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Kalimat L\textit {root}a pada data ragam lisan\relax }}{79}{figure.caption.45}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Kalimat L\textit {root}b pada data ragam lisan\relax }}{79}{figure.caption.46}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Grafik nilai DL positif dan negatif pada simpai sentral dengan root berupa verba data ragam tulis\relax }}{80}{figure.caption.47}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Grafik nilai DL positif dan negatif pada simpai sentral dengan root berupa verba data ragam lisan\relax }}{81}{figure.caption.48}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Kalimat Troota pada data ragam tulis\relax }}{83}{figure.caption.49}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Kalimat Trootb pada data ragam tulis\relax }}{84}{figure.caption.50}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Kalimat Trootc pada data ragam tulis\relax }}{85}{figure.caption.51}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Kalimat Trootc pada data ragam tulis\relax }}{86}{figure.caption.52}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Kalimat Lroote pada data ragam lisan\relax }}{87}{figure.caption.53}
 \addvspace {10\p@ }
