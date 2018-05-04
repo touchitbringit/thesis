@@ -50,8 +50,10 @@ Sebelum melalui tahap berikutnya, verifikasi terhadap isi rekaman saya lakukan u
 
 \begin{figure}
 	\centering \includegraphics[width=1
-	\textwidth] {pics/contoh-transkripsi-lisan.png} \caption{Contoh hasil transkripsi data ragam lisan} 
-\label{fig:contoh-transkripsi-lisan} \end{figure}
+	\textwidth] {pics/contoh-transkripsi-lisan.png} 
+	\caption{Contoh hasil transkripsi data ragam lisan} 
+	\label{fig:contoh-transkripsi-lisan} 
+\end{figure}
 
 %-----------------------------------------------------------------------------%
 \section{Pengolahan Data}
@@ -59,7 +61,7 @@ Sebelum melalui tahap berikutnya, verifikasi terhadap isi rekaman saya lakukan u
 %-----------------------------------------------------------------------------%
 \subsection{Klasifikasi Data}
 %-----------------------------------------------------------------------------%
-Berdasarkan pokok masalah yang telah dijabarkan, beberapa klasifikasi data saya lakukan untuk memperoleh analisis yang dapat menjawab pertanyaan penelitian secara tepat sasaran \tab~\ref{tab:tabel_klasifikasi_data}.
+Berdasarkan pokok masalah yang telah dijabarkan, beberapa klasifikasi data saya lakukan untuk memperoleh analisis yang dapat menjawab pertanyaan penelitian secara tepat sasaran (Tabel \ref{tab:tabel_klasifikasi_data}).
 
 
 \begin{itemize}
@@ -68,10 +70,9 @@ Berdasarkan pokok masalah yang telah dijabarkan, beberapa klasifikasi data saya 
 	\item Sebanyak 10 kalimat yang mewakili pola terbanyak saya klasifikasikan menjadi 2 berdasarkan simpai sentralnya (central node), yaitu simpai verba dan simpai non-verba untuk analisis kualitatif guna mengeksplorasi perubahan valensi verba induk.
 
 \end{itemize}
-
-
+\begin{table}
 \begin{center}
- \label{table:tabel_klasifikasi_data}
+  \caption{Klasifikasi data penelitian}\label{tab:tabel_klasifikasi_data}
   \begin{tabular}{ | l | l | l | l |}
     \hline
     Ragam / Panjang kalimat & \textless 10 kata & 11 - 20 kata & \textgreater 20 kata \\ \hline
@@ -80,6 +81,7 @@ Berdasarkan pokok masalah yang telah dijabarkan, beberapa klasifikasi data saya 
     \hline
   \end{tabular}
 \end{center}
+\end{table}
 
 %-----------------------------------------------------------------------------%
 \subsection{Perangkat Pengolahan Data}
@@ -112,8 +114,9 @@ Penguraian kalimat merupakan tahapan komputasional utama untuk pengolahan data p
 Penelitian ini mengikuti panduan dependensi milik Stanford Parser (De Marneffe & Manning, 2016 [2008]) yang mengikutsertakan tanda baca yang terlibat dalam kalimat. Penelitian ini tidak mengikutsertakan tanda baca pada akhir kalimat dalam penghitungan jarak dependensi karena tanda baca di akhir kalimat tidak memberikan pengaruh terhadap jumlah tautan dependensi yang terjadi dalam sebuah kalimat. Namun, tanda baca pada akhir kalimat tetap diperhatikan untuk analisis karena dapat menjadi indikasi perbedaan jenis kalimat maka yang mendorong perbedaan perilaku tautan dependensi yang ada. Dependensi tipe Stanford (De Marneffe & Manning, 2016 [2008]) umumnya memilih kata penuh dibandingkan dengan kata tugas sebagai induk sintaktis, kecuali untuk konstruksi kopula (tergantung kasus) dan frasa adposisi, seperti pada treebank Bahasa Indonesia dalam Universal Dependencies 2.0 (Nivre dkk, 2017). \tab~\ref{tab:tipe_anotasi} berikut berisi anotasi tipe dependensi dan deskripsi singkat berdasarkan Universal Dependencies 2.0 (Nivre dkk, 2017).
 
 \begin{center}
- \label{table:tipe_anotasi}
-  \begin{tabular}{ | l | l |}
+\begin{small}
+\begin{longtable}{| p{.20\textwidth} | p{.80\textwidth} |} 
+\caption{Tipe anotasi dan deskripsi singkat berdasarkan Universal Dependencies 2.0 \citep{nivre2006maltparser}} \label{tab:tipe_anotasi}
     \hline
 Anotasi & Deskripsi Tipe Anotasi \\ \hline
 ROOT & Induk pohon dependensi \\ \hline
@@ -158,7 +161,8 @@ rel & Pronomina atau adverbia relatif dengan fungsi yang tidak terklasifikasi \\
 vmod & Pewatas verbal \\ \hline
 xcomp & Pelengkap infinit serupa klausa \\ \hline
     \hline
-  \end{tabular}
+  \end{longtable}
+\end{small}
 \end{center}
 
 Kontekstualisasi treebank dependensi yang bersifat lintas bahasa dilakukan dengan melibatkan MorphInd (Larasati, Kubo?, & Zeman, 2011), sebuah pendekatan morfologis dan penguraian lemma untuk pengolahan bahasa. MorphInd memiliki aturan morfofonemik dan morfosintaktis untuk menganalisis kata-kata Bahasa Indonesia yang mengalami infleksi dan derivasi. Hasil olahan MorphInd mengintegrasikan penandaan morfologis pada sebuah kata seperti pada \pic~\ref{fig:morphind_schema}.
@@ -175,15 +179,13 @@ Kontekstualisasi treebank dependensi yang bersifat lintas bahasa dilakukan denga
 %-----------------------------------------------------------------------------%
 \subsection{Jarak Dependensi Antarkata}
 %-----------------------------------------------------------------------------%
-Kalimat-kalimat di dalam korpus diperlakukan sebagai deretan kata W1...Wi...Wn. Jarak dependensi antara kata Wa dengan kata Wb dapat dihitung dari selisih a-b (Liu, 2009; Futrell, 2015) sehingga kata-kata yang bersebelahan memiliki jarak dependensi sejumlah 1. Untuk memperhitungkan arah dependensi, maka apabila a lebih besar dari b (konstituen utama setelah konstituen terikat) akan diberi anotasi positif. Sedangkan, apabila a lebih kecil dari b (konstituen utama sebelum konstituen terikat) akan diberi anotasi negatif. Namun, ukuran jumlah keseluruhan dan rata-rata jarak dependensi bersifat absolut. Penelitian ini menggunakan pendekatan Jarak Dependensi atau Dependency Distance (DD) (Liu, 2007) dengan rumus penghitungan Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) dari sebuah kalimat dengan rumus:
+Kalimat-kalimat di dalam korpus diperlakukan sebagai deretan kata $W1...Wi...Wn$. Jarak dependensi antara kata $Wa$ dengan kata $Wb$ dapat dihitung dari selisih $a-b$ (Liu, 2009; Futrell, 2015) sehingga kata-kata yang bersebelahan memiliki jarak dependensi sejumlah 1. Untuk memperhitungkan arah dependensi, maka apabila $a$ lebih besar dari $b$ (konstituen utama setelah konstituen terikat) akan diberi anotasi positif. Sedangkan, apabila $a$ lebih kecil dari $b$ (konstituen utama sebelum konstituen terikat) akan diberi anotasi negatif. Namun, ukuran jumlah keseluruhan dan rata-rata jarak dependensi bersifat absolut. Penelitian ini menggunakan pendekatan Jarak Dependensi atau Dependency Distance (DD) (Liu, 2007) dengan rumus penghitungan Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) dari sebuah kalimat dengan rumus:
 
 \noindent \begin{align}\label{eq:bola}
-	\underbrace{|\overline{ab}|}_{\text{pada bola $|\overline{ab}| = r$}} 
-		= \sqrt[2]{(x_{b} - x_{a})^{2} + (y_{b} - y_{a})^{2} + 
-				\vert\vert(z_{b} - z_{a})^{2}}
+	\frac{1}{n-1} \displaystyle\sum_{i=1}^{n-1} |DD_i|
 \end{align}
 
-Pada rumus tersebut, n adalah jumlah kata di sebuah kelimat. DDi adalah jarak dependensi dengan tautan sejumlah i. Dalam kata lain, rata-rata jarak dependensi adalah jumlah dari nilai absolut jarak dependensi dibagi dengan jumlah tautan dependensi dalam kalimat tersebut.
+Pada rumus tersebut, $n$ adalah jumlah kata di sebuah kelimat. $DDi$ adalah jarak dependensi dengan tautan sejumlah $i$. Dalam kata lain, rata-rata jarak dependensi adalah jumlah dari nilai absolut jarak dependensi dibagi dengan jumlah tautan dependensi dalam kalimat tersebut.
 
 \begin{figure}
 	\centering \includegraphics[width=1
@@ -202,14 +204,14 @@ Pada contoh di atas, kalimat dari ragam tulis pada \pic~\ref{fig:contohtulis_DLM
 %-----------------------------------------------------------------------------%
 \subsection{Pola Pengurangan Jarak Dependensi Antarkata}
 %-----------------------------------------------------------------------------%
-Berdasarkan klasifikasi data untuk penghitungan jarak dependensi antarkata melalui nilai MDD, maka saya mengadopsi beberapa pendekatan yang dilakukan oleh Liu (2017), Futrell dkk (2015) dan Gellman & Hill (2007). Jarak dependensi memiliki hubungan dekat dengan struktur hierarkis dan urutan linear sebuah ujaran, dan ketiga penelitian tersebut menunjukan adanya kecenderungan terhadap Pengurangan Panjang Dependensi atau Dependency Length Minimization (DLM) (Gildea & Temperley, 2010; Futrell dkk, 2015) serta Pengurangan Jarak Dependensi atau Dependency Distance Minimization (DDM) (Liu, 2009; Hudson, 2010; Ferrer-i-Cancho, 2015). Menindaklanjuti pendekatan penghitungan MDD maka penelitian ini mengacu pada hipotesis DDM dengan memanfaatkan korpus data yang telah terkumpul. Analisis pertama yang dilakukan adalah studi perbandingan MDD korpus dengan panjang kalimat terkontrol (controlled sentence length) antara korpus data hasil observasi dan korpus data kalimat acak. Dalam korpus data kalimat acak, kata-kata dalam kalimat diacak untuk menemukan nilai MDD minimum dan maksimum. Analisis ini dilakukan untuk menguji hipotesis DDM pada ujaran formal (ragam tulis) dan ujaran yang lebih spontan (ragam lisan) pada setiap golongan panjang kalimat. Uji signifikansi perlu dilakukan untuk memastikan akurasi dari pengujian hipotesis tersebut. Analisis secara kualitatif saya lakukan untuk melihat perbedaan perilaku DDM yang mungkin dipengaruhi faktor yang berbeda seperti yang dijabarkan pada uraian permasalahan.
+Berdasarkan klasifikasi data untuk penghitungan jarak dependensi antarkata melalui nilai MDD, maka saya mengadopsi beberapa pendekatan yang dilakukan oleh \cite{liu2017dependency}, \cite{futrell2015large} dan Gellman & Hill (2007). Jarak dependensi memiliki hubungan dekat dengan struktur hierarkis dan urutan linear sebuah ujaran, dan ketiga penelitian tersebut menunjukan adanya kecenderungan terhadap Pengurangan Panjang Dependensi atau Dependency Length Minimization (DLM) (Gildea & Temperley, 2010; Futrell dkk, 2015) serta Pengurangan Jarak Dependensi atau Dependency Distance Minimization (DDM) (Liu, 2009; Hudson, 2010; Ferrer-i-Cancho, 2015). Menindaklanjuti pendekatan penghitungan MDD maka penelitian ini mengacu pada hipotesis DDM dengan memanfaatkan korpus data yang telah terkumpul. Analisis pertama yang dilakukan adalah studi perbandingan MDD korpus dengan panjang kalimat terkontrol (controlled sentence length) antara korpus data hasil observasi dan korpus data kalimat acak. Dalam korpus data kalimat acak, kata-kata dalam kalimat diacak untuk menemukan nilai MDD minimum dan maksimum. Analisis ini dilakukan untuk menguji hipotesis DDM pada ujaran formal (ragam tulis) dan ujaran yang lebih spontan (ragam lisan) pada setiap golongan panjang kalimat. Uji signifikansi perlu dilakukan untuk memastikan akurasi dari pengujian hipotesis tersebut. Analisis secara kualitatif saya lakukan untuk melihat perbedaan perilaku DDM yang mungkin dipengaruhi faktor yang berbeda seperti yang dijabarkan pada uraian permasalahan.
 
 %-----------------------------------------------------------------------------%
 \subsection{Analisis Perubahan Valensi Verbal Induk}
 %-----------------------------------------------------------------------------%
 Pada tahap ini, saya memilih 10 kalimat dari studi perbandingan korpus dengan controlled sentence length untuk dianalisis lebih dalam secara kualitatif. Analisis ini saya lakukan untuk melihat tautan dependensi dan hubungan konstituen induk dengan konstituen terikat secara lebih dekat terutama terkait dengan perubahan valensi verbal induk. 10 kalimat dibagi menjadi 2, yaitu kalimat dengan pola dependensi yang paling banyak muncul dan kalimat dengan pola dependensi yang tidak umum dalam Bahasa Indonesia. Analisis yang dilakukan menggunakan dasar teori dependensi (Tesnière, 1959) dan Word Grammar (Hudson, 2007, 2010) dalam menguraikan pola dependensi pada simpai sentral dengan verba sebagai konstituen induk.
 
-Contoh kalimat ragam tulis dan lisan pada Gambar 7 dapat digunakan untuk mengilustrasikan analisis valensi konstituen induk. Apabila disesuaikan dengan tata bahasa yang berlaku dalam Bahasa Indonesia, kata menggelar pada kalimat Menggelar program kuratorialnya di Cassina Cuccagna dan kata mencapai pada kalimat Sejak beberapa pekan yang lalu, mencapai ribuan orang yang tersebar ke-15 titik pengungsian seharusnya sama-sama mengikat setidaknya dua actant: actant1 menggelar/mencapai actant2. Namun, kedua temuan ini sama-sama hanya mengikat satu actant yaitu actant2. 
+Contoh kalimat ragam tulis dan lisan pada \pic~\ref{fig:contohtulis_DLMDD} dan \pic~\ref{fig:contohlisan_DLMDD}  dapat digunakan untuk mengilustrasikan analisis valensi konstituen induk. Apabila disesuaikan dengan tata bahasa yang berlaku dalam Bahasa Indonesia, kata menggelar pada kalimat Menggelar program kuratorialnya di Cassina Cuccagna dan kata mencapai pada kalimat Sejak beberapa pekan yang lalu, mencapai ribuan orang yang tersebar ke-15 titik pengungsian seharusnya sama-sama mengikat setidaknya dua actant: actant1 menggelar/mencapai actant2. Namun, kedua temuan ini sama-sama hanya mengikat satu actant yaitu actant2. 
 
 Pertama, root dan semua konstituen terikat yang memiliki tautan dependensi langsung pada data observasi diidentifikasi kemudian diacak urutan katanya (level tautan dependensi pertama atau simpai sentral). Kemudian, konstituen terikat pada level di bawahnya yang memiliki tautan dependensi langsung diacak urutan katanya (level tautan dependensi kedua atau simpai cabang), dan seterusnya. Oleh karena itu, percobaan acak ini tidak menggunakan aturan urutan kata tertentu. Sebagai contoh, tidak ada konsistensi apakah aktor pelaku mendahului atau berada setelah verba. 
 

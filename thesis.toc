@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {3.4.1}Jarak Dependensi Antarkata}{50}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Pola Pengurangan Jarak Dependensi Antarkata}{51}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Analisis Perubahan Valensi Verbal Induk}{52}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4}\uppercase {Struktur Berkas}}{54}{chapter.4}
+\contentsline {chapter}{\numberline {4}\uppercase {Analisis}}{54}{chapter.4}
 \contentsline {section}{\numberline {4.1}Pendahuluan}{54}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}thesis.tex}{54}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Panjang Dependensi atau Dependency Length (DL) dan Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) pada Data Jurnalistik Ragam Lisan dan Tulis}{59}{section.4.2}
@@ -65,16 +65,16 @@
 \contentsline {subsection}{\numberline {4.7.1}Temuan 6: Penempatan root verbal dan/atau klausa bebas utama di awal ujaran tanpa pengurangan valensi verbal}{85}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Temuan 7: Penempatan root verbal dan klausa bebas di awal ujaran disertai pengurangan valensi verbal}{88}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Diskusi temuan 6 dan 7}{90}{subsection.4.7.3}
-\contentsline {chapter}{\numberline {5}\uppercase {Perintah dalam uithesis.sty}}{93}{chapter.5}
+\contentsline {chapter}{\numberline {5}}{93}{chapter.5}
 \contentsline {section}{\numberline {5.1}Mengubah Tampilan Teks}{93}{section.5.1}
 \contentsline {section}{\numberline {5.2}Memberikan Catatan}{93}{section.5.2}
 \contentsline {section}{\numberline {5.3}Menambah Isi Daftar Isi}{94}{section.5.3}
 \contentsline {section}{\numberline {5.4}Memasukan PDF}{94}{section.5.4}
 \contentsline {section}{\numberline {5.5}Membuat Perintah Baru}{98}{section.5.5}
-\contentsline {chapter}{\numberline {6}\uppercase {??}}{99}{chapter.6}
-\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan dan Saran}}{100}{chapter.7}
+\contentsline {chapter}{\numberline {6}}{99}{chapter.6}
+\contentsline {chapter}{\numberline {7}\uppercase {Kesimpulan}}{100}{chapter.7}
 \contentsline {section}{\numberline {7.1}Kesimpulan}{100}{section.7.1}
 \contentsline {section}{\numberline {7.2}Saran}{100}{section.7.2}
 \contentsline {chapter}{References}{101}{section.7.2}
-\contentsline {chapter}{LAMPIRAN}{1}{section*.51}
-\contentsline {chapter}{Lampiran 1}{2}{section*.52}
+\contentsline {chapter}{LAMPIRAN}{1}{section*.52}
+\contentsline {chapter}{Lampiran 1}{2}{section*.53}
