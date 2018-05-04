@@ -16,7 +16,7 @@
 \BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 Manfaat untuk kepentingan masyarakat luas \(praktis\)}{section.1.4}% 16
 \BOOKMARK [1][-]{section.1.5}{1.5 Batasan Penelitian}{chapter.1}% 17
 \BOOKMARK [1][-]{section.1.6}{1.6 Kerangka Konseptual}{chapter.1}% 18
-\BOOKMARK [0][-]{chapter.2}{2 Sekilas Mengenai LaTeX}{}% 19
+\BOOKMARK [0][-]{chapter.2}{2 Tinjauan Pustaka}{}% 19
 \BOOKMARK [1][-]{section.2.1}{2.1 Konteks Penelitian}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Dualisme Kemampuan \(Competence\) dan Penampilan \(Performance\)}{section.2.1}% 21
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Efisiensi dan Urutan Kata \(Word Order\) dalam Ranah Ilmu Sintaksis}{section.2.1}% 22
@@ -34,26 +34,47 @@
 \BOOKMARK [1][-]{section.2.4}{2.4 Dependensi dan Urutan Kata dalam Bahasa Indonesia}{chapter.2}% 34
 \BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Urutan Kata dalam Tata Bahasa Indonesia}{section.2.4}% 35
 \BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Simpai Sentral \(Central Node\) dalam Bahasa Indonesia}{section.2.4}% 36
-\BOOKMARK [0][-]{chapter.3}{3 Notasi Matematik}{}% 37
-\BOOKMARK [1][-]{section.3.1}{3.1 Satu Persamaan}{chapter.3}% 38
-\BOOKMARK [1][-]{section.3.2}{3.2 Lebih dari Satu Persamaan}{chapter.3}% 39
-\BOOKMARK [0][-]{chapter.4}{4 Struktur Berkas}{}% 40
-\BOOKMARK [1][-]{section.4.1}{4.1 thesis.tex}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.2}{4.2 laporan\137setting.tex}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.3}{4.3 istilah.tex}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.4}{4.4 hype.indonesia.tex}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.5}{4.5 pustaka.tex}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.6}{4.6 bab[1 - 6].tex}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter.5}{5 Perintah dalam uithesis.sty}{}% 47
-\BOOKMARK [1][-]{section.5.1}{5.1 Mengubah Tampilan Teks}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{5.2 Memberikan Catatan}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.3}{5.3 Menambah Isi Daftar Isi}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.4}{5.4 Memasukan PDF}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.5}{5.5 Membuat Perintah Baru}{chapter.5}% 52
-\BOOKMARK [0][-]{chapter.6}{6 ??}{}% 53
-\BOOKMARK [0][-]{chapter.7}{7 Kesimpulan dan Saran}{}% 54
-\BOOKMARK [1][-]{section.7.1}{7.1 Kesimpulan}{chapter.7}% 55
-\BOOKMARK [1][-]{section.7.2}{7.2 Saran}{chapter.7}% 56
-\BOOKMARK [0][-]{section.7.2}{References}{}% 57
-\BOOKMARK [0][-]{section*.16}{LAMPIRAN}{}% 58
-\BOOKMARK [0][-]{section*.17}{Lampiran 1}{}% 59
+\BOOKMARK [0][-]{chapter.3}{3 Metode Penelitian}{}% 37
+\BOOKMARK [1][-]{section.3.1}{3.1 Metode Penelitian}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.2}{3.2 Sumber Data}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Data Jurnalistik Ragam Tulis}{section.3.2}% 40
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Data Jurnalistik Ragam Lisan}{section.3.2}% 41
+\BOOKMARK [1][-]{section.3.3}{3.3 Pengolahan Data}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Klasifikasi Data}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Perangkat Pengolahan Data}{section.3.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Penguraian Kalimat}{section.3.3}% 45
+\BOOKMARK [1][-]{section.3.4}{3.4 Teknik Analsis Data}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Jarak Dependensi Antarkata}{section.3.4}% 47
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Pola Pengurangan Jarak Dependensi Antarkata}{section.3.4}% 48
+\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 Analisis Perubahan Valensi Verbal Induk}{section.3.4}% 49
+\BOOKMARK [0][-]{chapter.4}{4 Struktur Berkas}{}% 50
+\BOOKMARK [1][-]{section.4.1}{4.1 Pendahuluan}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 thesis.tex}{section.4.1}% 52
+\BOOKMARK [1][-]{section.4.2}{4.2 Panjang Dependensi atau Dependency Length \(DL\) dan Rata-rata Jarak Dependensi atau Mean Dependency Distance \(MDD\) pada Data Jurnalistik Ragam Lisan dan Tulis}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Perbandingan nilai Panjang Dependensi atau Dependency Length \(DL\) antara data ragam tulis dan data ragam lisan}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Perbandingan nilai Rata-rata Jarak Dependensi atau Mean Dependency Distance \(MDD\) antara data ragam tulis dan data ragam lisan}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{4.3 Perbandingan Nilai Data Hasil Observasi dengan Hasil Percobaan Acak}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Temuan 1: Pengurangan Panjang Dependensi atau Dependency Length Minimization \(DLM\) terjadi pada kedua korpus data}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Diskusi Temuan I}{section.4.3}% 58
+\BOOKMARK [1][-]{section.4.4}{4.4 Persebaran Ujaran dan Kaitannya terhadap Nilai DL dan MDD}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.5}{4.5 Temuan 2: Pemusatan data ragam lisan pada klasifikasi kalimat pendek \(<= 10 konstituen\)}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Temuan 3: Perbandingan nilai DL dan MDD antara data ragam tulis dan lisan pada klasifikasi kalimat menengah \(11-20 konstituen\)}{section.4.5}% 61
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Temuan 4: Perbandingan struktur ujaran data ragam tulis dan lisan pada klasifikasi kalimat panjang \(>20 konstituen\) terkait nilai DL dan MDD}{section.4.5}% 62
+\BOOKMARK [1][-]{section.4.6}{4.6 Diskusi Temuan 2, 3, dan 4}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.7}{4.7 Penghindaran Tautan dengan Nilai Dependensi Negatif}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Temuan 6: Penempatan root verbal dan/atau klausa bebas utama di awal ujaran tanpa pengurangan valensi verbal}{section.4.7}% 65
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Temuan 7: Penempatan root verbal dan klausa bebas di awal ujaran disertai pengurangan valensi verbal}{section.4.7}% 66
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Diskusi temuan 6 dan 7}{section.4.7}% 67
+\BOOKMARK [0][-]{chapter.5}{5 Perintah dalam uithesis.sty}{}% 68
+\BOOKMARK [1][-]{section.5.1}{5.1 Mengubah Tampilan Teks}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.2}{5.2 Memberikan Catatan}{chapter.5}% 70
+\BOOKMARK [1][-]{section.5.3}{5.3 Menambah Isi Daftar Isi}{chapter.5}% 71
+\BOOKMARK [1][-]{section.5.4}{5.4 Memasukan PDF}{chapter.5}% 72
+\BOOKMARK [1][-]{section.5.5}{5.5 Membuat Perintah Baru}{chapter.5}% 73
+\BOOKMARK [0][-]{chapter.6}{6 ??}{}% 74
+\BOOKMARK [0][-]{chapter.7}{7 Kesimpulan dan Saran}{}% 75
+\BOOKMARK [1][-]{section.7.1}{7.1 Kesimpulan}{chapter.7}% 76
+\BOOKMARK [1][-]{section.7.2}{7.2 Saran}{chapter.7}% 77
+\BOOKMARK [0][-]{section.7.2}{References}{}% 78
+\BOOKMARK [0][-]{section*.51}{LAMPIRAN}{}% 79
+\BOOKMARK [0][-]{section*.52}{Lampiran 1}{}% 80
