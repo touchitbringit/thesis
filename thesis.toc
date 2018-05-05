@@ -5,14 +5,14 @@
 \contentsline {chapter}{LEMBAR PERSETUJUAN PUBLIKASI ILMIAH}{vi}{section*.9}
 \contentsline {chapter}{ABSTRAK}{vii}{section*.10}
 \contentsline {chapter}{Daftar Isi}{ix}{section*.11}
-\contentsline {chapter}{Daftar Gambar}{x}{section*.12}
-\contentsline {chapter}{Daftar Tabel}{xi}{section*.13}
+\contentsline {chapter}{Daftar Gambar}{xii}{section*.12}
+\contentsline {chapter}{Daftar Tabel}{xiv}{section*.13}
 \contentsline {chapter}{\numberline {1}\uppercase {Pendahuluan}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Perumusan Masalah}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Tujuan Penilitian}{5}{section.1.3}
+\contentsline {section}{\numberline {1.3}Tujuan Penilitian}{6}{section.1.3}
 \contentsline {section}{\numberline {1.4}Manfaat Penelitian}{6}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Manfaat untuk pengembangan ilmu linguistik (teoretis)}{6}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Manfaat untuk pengembangan ilmu linguistik (teoretis)}{7}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Manfaat untuk kepentingan masyarakat luas (praktis)}{7}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Batasan Penelitian}{7}{section.1.5}
 \contentsline {section}{\numberline {1.6}Kerangka Konseptual}{9}{section.1.6}
@@ -21,52 +21,52 @@
 \contentsline {subsection}{\numberline {2.1.1}Dualisme Kemampuan (\textit {Competence}) dan Penampilan (\textit {Performance})}{14}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Efisiensi dan Urutan Kata (\textit {Word Order}) dalam Ranah Ilmu Sintaksis}{17}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Relasi dan Struktur Ujaran pada Struktur Frasa dan Dependensi}{19}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Penelitian Terdahulu}{21}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Konsep Dependensi}{26}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.4}Penelitian Terdahulu}{22}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Konsep Dependensi}{27}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Akar (\textit {Root}), Induk (\textit {Head}), Konstituen Terikat (\textit {Dependent}), dan Simpai (\textit {Node})}{27}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Panjang Dependensi (\textit {Dependency Length}) dan Jarak Dependensi (\textit {Dependency Distance})}{30}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Faktor-faktor yang Mempengaruhi Tautan Dependensi}{30}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}Kognisi Manusia dan Produksi Ujaran}{31}{subsubsection.2.2.3.1}
-\contentsline {subsubsection}{\numberline {2.2.3.2}Karakter Bahasa dan Ketatabahasaan}{32}{subsubsection.2.2.3.2}
-\contentsline {section}{\numberline {2.3}Efisiensi Ujaran dari Segi Dependensi}{33}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{35}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Perubahan Valensi Konstituen Induk (\textit {Root}) Verbal}{36}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Dependensi dan Urutan Kata dalam Bahasa Indonesia}{37}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Urutan Kata dalam Tata Bahasa Indonesia}{39}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Simpai Sentral (\textit {Central Node}) dalam Bahasa Indonesia}{40}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}\uppercase {Metode Penelitian}}{41}{chapter.3}
-\contentsline {section}{\numberline {3.1}Metode Penelitian}{41}{section.3.1}
-\contentsline {section}{\numberline {3.2}Sumber Data}{42}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Data Jurnalistik Ragam Tulis}{42}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Data Jurnalistik Ragam Lisan}{43}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Pengolahan Data}{44}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Klasifikasi Data}{44}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Perangkat Pengolahan Data}{45}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Penguraian Kalimat}{45}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Teknik Analsis Data}{49}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Jarak Dependensi Antarkata}{49}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Pola Pengurangan Jarak Dependensi Antarkata}{50}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Analisis Perubahan Valensi Verbal Induk}{51}{subsection.3.4.3}
-\contentsline {chapter}{\numberline {4}\uppercase {Analisis}}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}Pendahuluan}{53}{section.4.1}
-\contentsline {section}{\numberline {4.2}Panjang Dependensi atau Dependency Length (DL) dan Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) pada Data Jurnalistik Ragam Lisan dan Tulis}{58}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Perbandingan nilai Panjang Dependensi atau Dependency Length (DL) antara data ragam tulis dan data ragam lisan}{58}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Perbandingan nilai Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) antara data ragam tulis dan data ragam lisan}{60}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Perbandingan Nilai Data Hasil Observasi dengan Hasil Percobaan Acak}{61}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Temuan 1: Pengurangan Panjang Dependensi atau Dependency Length Minimization (DLM) terjadi pada kedua korpus data}{62}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Diskusi Temuan I}{66}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Persebaran Ujaran dan Kaitannya terhadap Nilai DL dan MDD}{67}{section.4.4}
-\contentsline {section}{\numberline {4.5}Temuan 2: Pemusatan data ragam lisan pada klasifikasi kalimat pendek (\textless = 10 konstituen)}{68}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Temuan 3: Perbandingan nilai DL dan MDD antara data ragam tulis dan lisan pada klasifikasi kalimat menengah (11-20 konstituen)}{69}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Temuan 4: Perbandingan struktur ujaran data ragam tulis dan lisan pada klasifikasi kalimat panjang (\textgreater 20 konstituen) terkait nilai DL dan MDD}{70}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Diskusi Temuan 2, 3, dan 4}{74}{section.4.6}
-\contentsline {section}{\numberline {4.7}Penghindaran Tautan dengan Nilai Dependensi Negatif}{76}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Temuan 6: Penempatan root verbal dan/atau klausa bebas utama di awal ujaran tanpa pengurangan valensi verbal}{82}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Temuan 7: Penempatan root verbal dan klausa bebas di awal ujaran disertai pengurangan valensi verbal}{85}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Diskusi temuan 6 dan 7}{87}{subsection.4.7.3}
-\contentsline {chapter}{\numberline {5}\uppercase {Kesimpulan}}{90}{chapter.5}
-\contentsline {section}{\numberline {5.1}Kesimpulan}{90}{section.5.1}
-\contentsline {section}{\numberline {5.2}Saran}{90}{section.5.2}
-\contentsline {chapter}{References}{91}{section.5.2}
-\contentsline {chapter}{LAMPIRAN}{1}{section*.54}
-\contentsline {chapter}{Lampiran 1}{2}{section*.55}
+\contentsline {subsection}{\numberline {2.2.2}Panjang Dependensi (\textit {Dependency Length}) dan Jarak Dependensi (\textit {Dependency Distance})}{31}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Faktor-faktor yang Mempengaruhi Tautan Dependensi}{31}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Kognisi Manusia dan Produksi Ujaran}{32}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Karakter Bahasa dan Ketatabahasaan}{33}{subsubsection.2.2.3.2}
+\contentsline {section}{\numberline {2.3}Efisiensi Ujaran dari Segi Dependensi}{34}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Pengurangan Panjang dan Jarak Dependensi Terkait Memori Kerja}{36}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Perubahan Valensi Konstituen Induk (\textit {Root}) Verbal}{37}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Dependensi dan Urutan Kata dalam Bahasa Indonesia}{38}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Urutan Kata dalam Tata Bahasa Indonesia}{40}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Simpai Sentral (\textit {Central Node}) dalam Bahasa Indonesia}{41}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}\uppercase {Metode Penelitian}}{42}{chapter.3}
+\contentsline {section}{\numberline {3.1}Metode Penelitian}{42}{section.3.1}
+\contentsline {section}{\numberline {3.2}Sumber Data}{43}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Data Jurnalistik Ragam Tulis}{43}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Data Jurnalistik Ragam Lisan}{44}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Pengolahan Data}{45}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Klasifikasi Data}{45}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Perangkat Pengolahan Data}{46}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Penguraian Kalimat}{46}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Teknik Analsis Data}{50}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Jarak Dependensi Antarkata}{50}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Pola Pengurangan Jarak Dependensi Antarkata}{51}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Analisis Perubahan Valensi Verbal Induk}{52}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}\uppercase {Analisis}}{54}{chapter.4}
+\contentsline {section}{\numberline {4.1}Pendahuluan}{54}{section.4.1}
+\contentsline {section}{\numberline {4.2}Panjang Dependensi atau Dependency Length (DL) dan Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) pada Data Jurnalistik Ragam Lisan dan Tulis}{59}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Perbandingan nilai Panjang Dependensi atau Dependency Length (DL) antara data ragam tulis dan data ragam lisan}{59}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Perbandingan nilai Rata-rata Jarak Dependensi atau Mean Dependency Distance (MDD) antara data ragam tulis dan data ragam lisan}{61}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Perbandingan Nilai Data Hasil Observasi dengan Hasil Percobaan Acak}{62}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Temuan 1: Pengurangan Panjang Dependensi atau Dependency Length Minimization (DLM) terjadi pada kedua korpus data}{63}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Diskusi Temuan I}{68}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Persebaran Ujaran dan Kaitannya terhadap Nilai DL dan MDD}{69}{section.4.4}
+\contentsline {section}{\numberline {4.5}Temuan 2: Pemusatan data ragam lisan pada klasifikasi kalimat pendek (\textless = 10 konstituen)}{70}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Temuan 3: Perbandingan nilai DL dan MDD antara data ragam tulis dan lisan pada klasifikasi kalimat menengah (11-20 konstituen)}{71}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Temuan 4: Perbandingan struktur ujaran data ragam tulis dan lisan pada klasifikasi kalimat panjang (\textgreater 20 konstituen) terkait nilai DL dan MDD}{72}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Diskusi Temuan 2, 3, dan 4}{76}{section.4.6}
+\contentsline {section}{\numberline {4.7}Penghindaran Tautan dengan Nilai Dependensi Negatif}{78}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Temuan 6: Penempatan root verbal dan/atau klausa bebas utama di awal ujaran tanpa pengurangan valensi verbal}{84}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Temuan 7: Penempatan root verbal dan klausa bebas di awal ujaran disertai pengurangan valensi verbal}{87}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Diskusi temuan 6 dan 7}{89}{subsection.4.7.3}
+\contentsline {chapter}{\numberline {5}\uppercase {Kesimpulan}}{92}{chapter.5}
+\contentsline {section}{\numberline {5.1}Kesimpulan}{92}{section.5.1}
+\contentsline {section}{\numberline {5.2}Saran}{92}{section.5.2}
+\contentsline {chapter}{References}{93}{section.5.2}
+\contentsline {chapter}{LAMPIRAN}{1}{section*.60}
+\contentsline {chapter}{Lampiran 1}{2}{section*.61}
