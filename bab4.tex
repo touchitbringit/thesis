@@ -117,31 +117,41 @@ Berbeda dengan penghitungan nilai DL, Rata-rata Jarak Dependensi atau Mean Depen
 %%-----------------------------------------------------------------------------%
 \section{Perbandingan Nilai Data Hasil Observasi dengan Hasil Percobaan Acak}
 %%-----------------------------------------------------------------------------%
-Setelah mendapatkan gambaran umum mengenai nilai DL dan MDD untuk kedua korpus data, percobaan acak terhadap kedua korpus data dilakukan untuk melihat apakah ujaran-ujaran dalam data hasil observasi, baik ragam tulis maupun lisan, memiliki kecenderungan untuk menghindari nilai tautan dependensi yang lebih besar. Berdasarkan hipotesis DLM, Futrell dkk (2015) mengajukan bahwa jika bahasa berevolusi untuk mendukung komunikasi yang lebih mudah, maka seharusnya urutan kata yang dimanfaatkan penutur dalam penggunaan bahasa secara nyata sehingga tidak menghasilkan nilai panjang dependensi yang besar. Hal ini dikarenakan nilai panjang dependensi yang besar mencerminkan kompleksitas produksi ataupun pemahaman yang lebih tinggi. Percobaan acak dengan pendekatan Free Word Order Baseline menghasilkan 100 bentuk urutan kata acak dengan mempertahankan struktur tautan-tautan dependensi yang sama dengan ujaran dalam data observasi. Gambar 5 dan 6 menunjukkan grafik perbandingan antara nilai DL yang dihasilkan percobaan acak dan nilai DL dari semua ujaran dalam data observasi ragam tulis (\pic~\ref{fig:lisantulis_MDD}) serta ragam lisan (\pic~\ref{fig:lisantulis_MDD}). 
+Setelah mendapatkan gambaran umum mengenai nilai DL dan MDD untuk kedua korpus data, percobaan acak terhadap kedua korpus data dilakukan untuk melihat apakah ujaran-ujaran dalam data hasil observasi, baik ragam tulis maupun lisan, memiliki kecenderungan untuk menghindari nilai tautan dependensi yang lebih besar. Berdasarkan hipotesis DLM, Futrell dkk (2015) mengajukan bahwa jika bahasa berevolusi untuk mendukung komunikasi yang lebih mudah, maka seharusnya urutan kata yang dimanfaatkan penutur dalam penggunaan bahasa secara nyata sehingga tidak menghasilkan nilai panjang dependensi yang besar. Hal ini dikarenakan nilai panjang dependensi yang besar mencerminkan kompleksitas produksi ataupun pemahaman yang lebih tinggi. Percobaan acak dengan pendekatan Free Word Order Baseline menghasilkan 100 bentuk urutan kata acak dengan mempertahankan struktur tautan-tautan dependensi yang sama dengan ujaran dalam data observasi. \pic~\ref{fig:trandomobs} dan \pic~\ref{fig:lrandomobs} menunjukkan grafik perbandingan antara nilai DL yang dihasilkan percobaan acak dan nilai DL dari semua ujaran dalam data observasi ragam tulis (\pic~\ref{fig:trandomobs}) serta ragam lisan (\pic~\ref{fig:lrandomobs}). 
 
 %%-----------------------------------------------------------------------------%
 \subsection{Temuan 1: Pengurangan Panjang Dependensi atau Dependency Length Minimization (DLM) terjadi pada kedua korpus data}
 %%-----------------------------------------------------------------------------%
-\pic~\ref{fig:t10randomobs}, \pic~\ref{fig:t14randomobs},dan \pic~\ref{fig:t21randomobs} memperlihatkan histogram perbandingan nilai DL antara hasil percobaan acak dan data observasi untuk jumlah konstituen 10, 14, dan 21. Jumlah-jumlah konstituen ini memili frekuensi terbanyak mewakili setiap kelompok klasifikasi kalimat pada data ragam tulis.  Histogram hasil percobaan acak terlihat jelas membentuk kurva yang lebih rendah dibandingkan dengan kurva yang dibentuk oleh data observasi. Hal ini berarti a hasil percobaan acak memiliki distribusi nilai DL yang lebih besar dibandingkan dengan data observasi. Berdasarkan histogram ini, dapat dilihat juga bahwa pada jumlah konstituen yang semakin banyak, irisan antara kurva nilai DL data observasi dan hasil percobaan acak semakin sedikit.
+\pic~\ref{fig:trandomobs} memperlihatkan histogram perbandingan nilai DL antara hasil percobaan acak dan data observasi untuk jumlah konstituen 10, 14, dan 21. Jumlah-jumlah konstituen ini memili frekuensi terbanyak mewakili setiap kelompok klasifikasi kalimat pada data ragam tulis.  Histogram hasil percobaan acak terlihat jelas membentuk kurva yang lebih rendah dibandingkan dengan kurva yang dibentuk oleh data observasi. Hal ini berarti hasil percobaan acak memiliki distribusi nilai DL yang lebih besar dibandingkan dengan data observasi. Berdasarkan histogram ini, dapat dilihat juga bahwa pada jumlah konstituen yang semakin banyak, irisan antara kurva nilai DL data observasi dan hasil percobaan acak semakin sedikit.
 
 \begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/t10randomobs.png} 
-	\caption{ nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 10 konstituen} 
-\label{fig:t10randomobs} 
+\centering
+
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/t10randomobs.png}
+  \caption{10 konstituen}
+  \label{fig:t10randomobs} 
+\end{subfigure}
+%
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/t14randomobs.png}
+  \caption{14 konstituen}
+  \label{fig:t14randomobs} 
+\end{subfigure}
+%
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/t21randomobs.png}
+  \caption{21 konstituen}
+  \label{fig:t21randomobs} 
+\end{subfigure}
+
+\caption{Nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 10,14, dan 21 konstituen pada data ragam tulis}
+\label{fig:trandomobs}
 \end{figure}
 
-\begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/t14randomobs.png} 
-	\caption{ nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 14 konstituen}\label{fig:t14randomobs} 
-\end{figure}
-
-\begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/t21randomobs.png} 
-	\caption{Nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 21 konstituen}\label{fig:t21randomobs} 
-\end{figure}
 
 \tab~\ref{tab:perbandingan_DL_tulis} menunjukkan perbedaan rata-rata nilai DL yang cukup jauh antara hasil percobaan acak dan data observasi untuk data ragam tulis dengan efek yang signifikan pada semua jumlah konstituen (P \textless 0,001). Tes signifikansi ini dilakukan dengan menerapkan pendekatan tes Stouffer.
 
@@ -160,27 +170,34 @@ Setelah mendapatkan gambaran umum mengenai nilai DL dan MDD untuk kedua korpus d
 \end{center}
 \end{table}
 
-Sesuai dengan ekspektasi, percobaan acak terhadap data ragam lisan menunjukkan hasil yang serupa dengan percobaan terhadap data ragam tulis. Gambar 6 merupakan histogram perbandingan nilai DL antara hasil percobaan acak dan data observasi untuk jumlah konstituen 5, 12, dan 22 yang mewakili setiap kelompok klasifikasi kalimat pada data ragam lisan. Histogram hasil percobaan acak untuk ragam lisan juga membentuk kurva yang secara jelas terlihat lebih rendah dan juga menandakan bahwa  acak memiliki distribusi nilai DL yang lebih besar dibandingkan dengan data observasi. Bahkan untuk jumlah konstituen 5 yang tergolong kalimat sangat pendek, data observasi masih memperlihatkan adanya indikasi DLM secara signifikan dengan nilai P \textless 0,001. Berdasarkan histogram ini juga dapat disimpulkan bahwa pada jumlah konstituen yang semakin banyak, irisan antara nilai DL data observasi dan hasil percobaan acak semakin sedikit.
+Sesuai dengan ekspektasi, percobaan acak terhadap data ragam lisan menunjukkan hasil yang serupa dengan percobaan terhadap data ragam tulis. \pic~\ref{fig:lrandomobs} merupakan histogram perbandingan nilai DL antara hasil percobaan acak dan data observasi untuk jumlah konstituen 5, 12, dan 22 yang mewakili setiap kelompok klasifikasi kalimat pada data ragam lisan. Histogram hasil percobaan acak untuk ragam lisan juga membentuk kurva yang secara jelas terlihat lebih rendah dan juga menandakan bahwa  acak memiliki distribusi nilai DL yang lebih besar dibandingkan dengan data observasi. Bahkan untuk jumlah konstituen 5 yang tergolong kalimat sangat pendek, data observasi masih memperlihatkan adanya indikasi DLM secara signifikan dengan nilai P \textless 0,001. Berdasarkan histogram ini juga dapat disimpulkan bahwa pada jumlah konstituen yang semakin banyak, irisan antara nilai DL data observasi dan hasil percobaan acak semakin sedikit.
 
 \begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/l5randomobs.png} 
-	\caption{ Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 5 konstituen pada ragam lisan} 
-	\label{fig:l5randomobs} 
-\end{figure}
+\centering
 
-\begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/l12randomobs.png} 
-	\caption{ Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 12 konstituen pada ragam lisan} 
-	\label{fig:l12randomobs} 
-\end{figure}
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/l5randomobs.png}
+  \caption{5 konstituen}
+  \label{fig:l5randomobs} 
+\end{subfigure}
+%
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/l12randomobs.png}
+  \caption{12 konstituen}
+  \label{fig:l12randomobs} 
+\end{subfigure}
+%
+\begin{subfigure}{.45\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{pics/l22randomobs.png}
+  \caption{22 konstituen}
+  \label{fig:l22randomobs} 
+\end{subfigure}
 
-\begin{figure}
-	\centering \includegraphics[width=1
-	\textwidth] {pics/l22randomobs.png} 
-	\caption{ Nilai DL hasil percobaan acak dengan hasil observasi untuk panjang kalimat 22 konstituen pada ragam lisan} 
-	\label{fig:l22randomobs} 
+\caption{Nilai DL hasil percobaan acak dengan observasi untuk panjang kalimat 5,12, dan 22 konstituen pada data ragam lisan}
+\label{fig:lrandomobs}
 \end{figure}
 
 Serupa juga dengan percobaan terhadap data ragam tulis, \tab~\ref{tab:perbandingan_DL_lisan} menunjukkan perbedaan rata-rata nilai DL yang cukup jauh antara data observasi dan hasil percobaan acak untuk data ragam lisan dengan efek yang signifikan pada semua jumlah konstituen (P \textless 0,001).
