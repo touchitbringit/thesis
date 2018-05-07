@@ -12,3 +12,4 @@
 *.auc
 *.out
 *.lot
+.DS_Store
