@@ -65,9 +65,7 @@ Penelitian ini merupakan penelitian yang bersifat sinkronis terhadap data jurnal
 Data jurnalistik ragam tulis yang diterima dari hasil kerja sama dengan perusahaan media monitoring Dattabot berbentuk teks elektronik hasil pemindaian media cetak dengan pendekatan komputasional \textit{Optical Character Recognition} (OCR). Sedangkan, data jurnalistik ragam lisan berupa rekaman audio yang diolah terlebih dahulu dalam salah satu tahap persiapan data menggunakan metode komputasional dengan bantuan Google Speech API dan diverifikasi kembali secara manual. Tahap 
  memanfaatkan UDPipe \citep{udpipe2017} yang merupakan sebuah kerangka kerja yang dapat dilatih ulang untuk pengkategorian konstituen ujaran (\textit{token}), penguraian lemma, dan penguraian kalimat. Kerangka kerja UDPipe digunakan sebagai langkah penguraian kalimat komputasional dan dijalankan sebagai paket CRAN pihak ketiga UDPipe versi 0.5 \cite{udpipe2017manual} pada bahasa pemrograman R (versi 3.3.3) \citep{r2017project}. 
 
-Umumnya, kerangka kerja atau pendekatan penguraian kalimat dalam ranah linguistik komputasional memanfaatkan teori konstituensi sebagai dasar teori dan pengembangannya sehingga menghasilkan uraian kalimat berdasarkan struktur frasanya. Kerangka kerja penguraian kalimat UDPipe menggunakan dasar diagram pohon dependensi Universal Dependencies 2.0 \citep{nivre2017universal} dengan memadukan lemma dan fitur morfologis lainnya dari kerangka kerja MorphInd yang kontekstual terhadap data bahasa Indonesia \citep{larasati2011indonesian}. Kerangka kerja penguraian kalimat berdasarkan dependensi saat ini masih terus dikembangkan secara intensif sehingga masih memiliki kekurangan dalam aspek menangani keambiguitasan makna konstituen, bentuk bahasa informal, dan masalah ujaran nyata lainnya. Kekurangan ini menuntut tahapan verifikasi manual untuk memastikan kualitas data. Meskipun begitu, hasil uji model 
-
- terhadap bahasa Indonesia memiliki akurasi 74,3\%-80,6\% \citep{udpipe:2017}. Setelah melalui proses penguraian kalimat, seluruh tahapan-tahapan berikutnya yang mencakup anotasi nilai DL dan MDD, seleksi dan klasifikasi data, analisis teks, pemaparan pola DL dan MDD, serta uji signifikansi memanfaatkan bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dan Python (versi 3.6.3) (Python Core Team, 2017).
+Umumnya, kerangka kerja atau pendekatan penguraian kalimat dalam ranah linguistik komputasional memanfaatkan teori konstituensi sebagai dasar teori dan pengembangannya sehingga menghasilkan uraian kalimat berdasarkan struktur frasanya. Kerangka kerja penguraian kalimat UDPipe menggunakan dasar diagram pohon dependensi Universal Dependencies 2.0 \citep{nivre2017universal} dengan memadukan lemma dan fitur morfologis lainnya dari kerangka kerja MorphInd yang kontekstual terhadap data bahasa Indonesia \citep{larasati2011indonesian}. Kerangka kerja penguraian kalimat berdasarkan dependensi saat ini masih terus dikembangkan secara intensif sehingga masih memiliki kekurangan dalam aspek menangani keambiguitasan makna konstituen, bentuk bahasa informal, dan masalah ujaran nyata lainnya. Kekurangan ini menuntut tahapan verifikasi manual untuk memastikan kualitas data. Meskipun begitu, hasil uji model terhadap bahasa Indonesia memiliki akurasi 74,3\%-80,6\% \citep{udpipe2017}. Setelah melalui proses penguraian kalimat, seluruh tahapan-tahapan berikutnya yang mencakup anotasi nilai DL dan MDD, seleksi dan klasifikasi data, analisis teks, pemaparan pola DL dan MDD, serta uji signifikansi memanfaatkan bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dan Python (versi 3.6.3) (Python Core Team, 2017).
 
 %-----------------------------------------------------------------------------%
 \subsection{Penguraian Kalimat}
@@ -160,7 +158,7 @@ xcomp & Pelengkap infinit serupa klausa \\ \hline
 \end{small}
 \end{center}
 
-\todo{tambahin penjelasan mengenai hubungan klausa}
+%\todo{tambahin penjelasan mengenai hubungan klausa}
 
 %-----------------------------------------------------------------------------%
 \subsection{Anotasi Panjang Dependensi (DL) dan Rata-rata Jarak Dependensi (MDD) Antarkonstituen}
@@ -211,9 +209,10 @@ Salah satu penjabaran pokok permasalahan menitikberatkan pada pengaruh panjang k
 Kedua poin ini mendasari langkah klasifikasi terhadap kedua korpus data untuk memudahkan proses agregasi data dalam langkah analisis berikutnya (Tabel \ref{tab:tabel_klasifikasi_data}). 
 
 \begin{table}
+\begin{footnotesize}
 \begin{center}
   \caption{Klasifikasi data penelitian}\label{tab:tabel_klasifikasi_data}
-  \begin{tabular}{ | l | l | l | l |}
+  \begin{tabular}{ | p{3cm} | c | c | c |}
     \hline
     Ragam / Panjang kalimat & \textless 10 konstituen & 11 - 20 konstituen & \textgreater 20 konstituen \\ \hline
     Tulis & Tulis \textless 10 konstituen & Tulis 11 - 20 konstituen & Tulis \textgreater 20 konstituen  \\ \hline
@@ -221,6 +220,7 @@ Kedua poin ini mendasari langkah klasifikasi terhadap kedua korpus data untuk me
     \hline
   \end{tabular}
 \end{center}
+\end{footnotesize}
 \end{table}
 
 %-----------------------------------------------------------------------------%
@@ -234,7 +234,7 @@ Serangkaian tahapan analisis data dengan pendekatan kuantitatif dan kualitatif d
 %-----------------------------------------------------------------------------%
 Sebelum melakukan identifikasi terhadap karakteristik struktur dependensi berdasarkan korpus data yang dikumpulkan, perlu dilakukan uji hipotesis terhadap asumsi adanya efisiensi ujaran dalam bahasa Indonesia dari segi dependensi. Sebelumnya, uji hipotesis efisiensi ujaran dengan melihat nilai DLM pada bahasa Indonesia pernah dilakukan oleh \cite{futrell2015large} secara lintas bahasa. Namun, percobaan yang dilakukan \cite{futrell2015large} menggunakan korpus data yang berbeda, yaitu data ragam tulis dalam berbagai aliran teks seperti artikel penelitian, \textit{blog}, artikel berita, dan data dari media sosial. Penelitian ini mengadopsi pendekatan percobaan acak yang dilakukan oleh \cite{futrell2015large} dan \cite{gildea2010grammars}. \cite{futrell2015large} menyebut algoritma acak ini dengan istilah \textit{Free Word Order Baseline}, sedangkan \cite{gildea2010grammars} menyebut algoritma acak ini dengan istilah \textit{unlabeled Dependency Linearization Algorithm} (\textit{unlabeled} DLA). Secara prinsip, kedua algoritma ini memiliki kesamaan, yaitu kedua algoritma acak tersebut menyusun ulang konstituen-konstituen dalam ujaran tanpa memperhitungkan aturan tata bahasa yang ada. Sebagai contoh, tidak ada konsistensi apakah aktor pelaku mendahului atau berada setelah verba. Perbedaan kedua algoritma ini terletak pada penerapan algoritma tersebut. 
 
-\cite{gildea2010grammars} menggunakan algoritma \textit{unlabeled} DLA untuk mengubah bentuk ujaran hasil observasi $U$ menjadi bentuk ujaran acak baru dengan nilai DL yang paling kecil $Umin$ dalam arti $Umin$ merupakan bentuk paling efisien (dari segi dependensi) dari $U$ dan membandingkan nilai DL yang didapatkan keduanya. Sementara, \cite{futrell2015large} menerapkan algoritma acaknya terhadap $U$ sebanyak 100 kali untuk menghasilkan ujaran dengan nilai-nilai DL baru dari $U1$ hingga $U100$. \cite{futrell2015large} dan \cite{gildea2010grammars}menyebutkan bahwa $Umin$ yang dihasilkan mungkin tidak bersifat gramatikal maupun berterima. Namun, \cite{futrell2015large} juga menyebutkan pengecualian terhadap bahasa Indonesia yang menghasilkan $Umin$ yang sangat mendekati $U$. Langkah-langkah yang dilakukan dalam algoritma acak ini dijabarkan sebagai berikut:
+\cite{gildea2010grammars} menggunakan algoritma \textit{unlabeled} DLA untuk mengubah bentuk ujaran hasil observasi $U$ menjadi bentuk ujaran acak baru dengan nilai DL yang paling kecil $Umin$ dalam arti $Umin$ merupakan bentuk paling efisien (dari segi dependensi) dari $U$ dan membandingkan nilai DL yang didapatkan keduanya. Sementara, \cite{futrell2015large} menerapkan algoritma acaknya terhadap $U$ sebanyak 100 kali untuk menghasilkan ujaran dengan nilai-nilai DL baru dari $U1$ hingga $U100$. \cite{futrell2015large} dan \cite{gildea2010grammars} menyebutkan bahwa $Umin$ yang dihasilkan mungkin tidak bersifat gramatikal maupun berterima. Namun, \cite{futrell2015large} juga menyebutkan pengecualian terhadap bahasa Indonesia yang menghasilkan $Umin$ yang sangat mendekati $U$. Langkah-langkah yang dilakukan dalam algoritma acak ini dijabarkan sebagai berikut:
 \begin{enumerate}
 \item Identifikasi akar dan semua konstituen terikat yang memiliki tautan dependensi langsung terhadap akar tersebut (level simpai pusat).
 \item Penyusunan acak terhadap urutan konstituen pada level simpai pusat.
@@ -266,70 +266,3 @@ Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah ujaran berdasark
 Tahap analisis ini masih berkaitan erat dengan analisis arah dependensi karena keterkaitan valensi konstituen dalam sebuah ujaran dengan efisiensi ujaran tersebut tidak hanya dapat diamati melalui pengurangan nilai valensi. Sebuah konstituen dapat mempertahankan nilai valensinya tetapi tetap menghasilkan ujaran yang efisien, yaitu dengan mengatur letak konstituen yang diikatnya sehingga menempati posisi yang paling optimal (menghasilkan nilai DL terkecil). Analisis ini saya lakukan untuk melihat tautan dependensi dan hubungan induk dengan konstituen terikat secara lebih dekat terutama terkait kecenderungan penutur dalam menghasilkan ujaran yang efisien. Meskipun penelitian ini tidak menganalisis leksikon, prinsip dasar yang membentuk kemungkinan pola valensi dalam \textit{Probabilistic Valency Pattern} (PVP) \citep{liu2006syntactic} menjadi dasar pengamatan ini. Perlu saya tekankan bahwa \cite{liu2006syntactic} menganggap valensi sebagai kapasitas sebuah konstituen yang memiliki kualitas gabungan (\textit{combinatorial}). Hal ini berarti sebuah konstituen memiliki valensi tertentu dalam arti dapat mengikat konstituen lain, tetapi juga dapat bertindak sebagai konstituen yang diikat oleh induk lain. Penelitian ini mengamati valensi akar verbal pada simpai pusat pada tataran kalimat sehingga tidak ada aspek konstituen tersebut sebagai konstituen yang diikat induk lain karena dalam ujaran atau kalimat tersebut, konstituen yang diamati berada di posisi teratas dari hierarki dependensi.
 
 Karena keterbatasan sumber daya linguistik untuk menganalisis valensi secara menyeluruh, pengamatan ini dilakukan secara manual dengan analisis kualitatif berdasarkan konsep PVP \citep{liu2006syntactic}. Contoh kalimat ragam tulis dan lisan pada \pic~\ref{fig:contohtulis} dan \pic~\ref{fig:contohlisan} dapat digunakan untuk mengilustrasikan analisis valensi akar verbal. Apabila disesuaikan dengan tata bahasa yang berlaku dalam bahasa Indonesia, kata 'menggelar' pada kalimat 'Menggelar program kuratorialnya di Cassina Cuccagna' dan kata 'mencapai' pada kalimat 'Sejak beberapa pekan yang lalu, mencapai ribuan orang yang tersebar ke-15 titik pengungsian' sama-sama tidak memiliki aktor pelaku sebagai konstituen terikatnya. Kata 'menggelar' mengikat satu konstituen pelengkap 'program (kuratorialnya)' dan satu konstituen keterangan 'Cassina (Cucigna)', sementara kata 'mencapai' juga mengikat satu konstituen pelengkap '(ribuan) orang' dan satu konstituen keterangan 'pekan (lalu)'. Temuan menarik pada \pic~\ref{fig:contohtulis} adalah partikel posesif '-nya' yang tergabung pada frasa nomina modikatif posesif 'program kuratorialnya' mengindikasikan aktor pelaku yang tidak direalisasikan secara terpisah. 
-
-
-%-----------------------------------------------------------------------------%
-%\section{Satu Persamaan}
-%%-----------------------------------------------------------------------------%
-%
-%\noindent \begin{align}\label{eq:garis}
-%	\cfrac{y - y_{1}}{y_{2} - y_{1}} = 
-%	\cfrac{x - x_{1}}{x_{2} - x_{1}}
-%\end{align}
-%
-%\equ~\ref{eq:garis} diatas adalah persamaan garis. 
-%\equ~\ref{eq:garis} dan \ref{eq:bola} sama-sama dibuat dengan perintah \bslash
-%align. 
-%Perintah ini juga dapat digunakan untuk menulis lebih dari satu persamaan. 
-%
-%\noindent \begin{align}\label{eq:bola}
-%	\underbrace{|\overline{ab}|}_{\text{pada bola $|\overline{ab}| = r$}} 
-%		= \sqrt[2]{(x_{b} - x_{a})^{2} + (y_{b} - y_{a})^{2} + 
-%				\vert\vert(z_{b} - z_{a})^{2}}
-%\end{align}
-%
-%%-----------------------------------------------------------------------------%
-%\section{Lebih dari Satu Persamaan}
-%\label{sec:multiEqu}
-%%-----------------------------------------------------------------------------%
-%\noindent \begin{align}\label{eq:matriks}	
-%	|\overline{a} * \overline{b}| &= |\overline{a}| |\overline{b}| \sin\theta 
-%		\\[0.2cm]
-%	\overline{a} * \overline{b} &=  
-%		\begin{array}{| c c c |}
-%			\hat{i} & x_{1} & x_{2} \\
-%			\hat{j} & y_{1} & y_{2} \\
-%			\hat{k} & z_{1} & z_{2} \\
-%		\end{array} \nonumber \\[0.2cm]
-%	&= \hat{i} \,
-%		\begin{array}{ | c c | }
-%			y_{1} & y_{2} \\
-%			z_{1} & z_{2} \\
-%		\end{array} 
-%	   + \hat{j} \,
-%		\begin{array}{ | c c | }
-%			z_{1} & z_{2} \\
-%			x_{1} & x_{2} \\
-%		\end{array} 
-%	   + \hat{k} \,	
-%		\begin{array}{ | c c | }
-%			x_{1} & x_{2} \\
-%			y_{1} & y_{2} \\
-%		\end{array}
-%		\nonumber
-%\end{align}
-%
-%Pada \equ~\ref{eq:matriks} dapat dilihat beberapa baris menjadi satu bagian 
-%dari \equ~\ref{eq:matriks}. 
-%Sedangkan dibawah ini dapat dilihat bahwa dengan cara yang sama, \equ~
-%\ref{eq:gabungan1}, \ref{eq:gabungan2}, dan \ref{eq:gabungan3} memiliki nomor 
-%persamaannya masing-masing. 
-%
-%\noindent \begin{align}\label{eq:gabungan1}	
-%	\int_{a}^{b} f(x)\, dx + \int_{b}^{c} f(x) \, dx = \int_{a}^{c} f(x) \, dx
-%		\\\label{eq:gabungan2}
-%	\lim_{x \to \infty} \frac{f(x)}{g(x)} = 0 \hspace{1cm} 
-%		\text{jika pangkat $f(x)$ $<$ pangkat $g(x)$} \\\label{eq:gabungan3}
-%	a^{m^{a \, ^{n}\log b }} = b^{\frac{m}{n}}
-%\end{align}
-%
