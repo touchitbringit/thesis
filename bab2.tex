@@ -77,9 +77,31 @@ Penelitian-penelitian di atas tidak memiliki tujuan untuk memberikan wawasan dar
 
 Liu juga bekerja sama dengan Wang \citep{wang2017effects} untuk memaparkan dampak \textit{genre} atau aliran teks terhadap jarak dan arah tautan dependensi antarkonstituen. Kajian ini menggunakan metode kuantitatif untuk melihat persebaran nilai jarak antarkonstituen yang memiliki relasi semantik dalam korpus bahasa Inggris mencakup 10 aliran teks yang diambil dari British National Corpus. Temuan penelitian menunjukkan bahwa pengaruh genre atau aliran data ragam tulis terhadap jarak dan arah tautan dependensi antarkonstituen sangat kecil, namun Wang dan Liu menemukan bahwa nilai jarak antarkonstituen lebih kecil pada teks ujaran seperti dialog dibandingkan dengan data yang lain serta nilai jarak antarkonstituen pada aliran teks fiksi yang melibatkan imajinasi lebih besar dibandingkan dengan aliran teks yang bersifat informatif.
 
-\todo{masukintabel penelitian terdahulu}
+\pagestyle{empty}
+\begin{landscape}
+\begin{table}[htbp]
+\caption{Matriks perbandingan penelitian-penelitian terdahulu}\label{tab:penelitianterdahulu}
+\begin{scriptsize}
+\begin{center}
+\begin{tabular}{| p{2cm} | p{3cm} | p{3cm} | p{3cm} | p{3cm} | p{3cm} | p{3cm} |}
+\hline
+Nama (Tahun) & \cite{kamayani2011dependency} & \cite{green2012indonesian} & \cite{futrell2015large} & \cite{irmawati2015dependency} & \cite{jiang2015effects} & \cite{wang2017effects} \\ \hline
+Topik & Dependency parsing for Indonesian & Indonesian dependency treebank: Annotation and parsing & Large-scale evidence of dependency length minimization in 37 languages & Dependency Annotation Scheme for Indonesian & The effects of sentence length on dependency distance, dependency direction and the implications & The effects of genre on dependency distance and dependency direction \\ \hline
+Tujuan & Menghasilkan pendekatan untuk menguraikan kalimat dalam Bahasa Indonesia berdasarkan relasi semantiknya & Menghasilkan pendekatan untuk membentuk treebank berdasarkan relasi semantik dalam Bahasa Indonesia & Memaparkan keserupaan karakter terkait pengurangan jarak antar kata yang memiliki relasi semantik secara lintas bahasa & Menghasilkan skema catatan atau anotasi tambahan pada treebank dalam Bahasa Indonesia & Melihat pola pengurangan jarak antar kata yang memiliki relasi semantik pada korpus yang memiliki isi yang sama dalam dua bahasa & Mendeteksi dampak genre atau aliran terhadap jarak dan arah relasi semantik antar konstituen \\ \hline
+Data & 20 kalimat dalam Bahasa Indonesia yang diambil secara acak & Korpus artikel BPPT sebanyak 200.000 kata & Korpus berskala besar dari 37 bahasa mencakup teks ragam tulis dari  buku, blog, penelitian dan media massa & 650 kalimat dalam Bahasa Indonesia yang diambil secara acak & 42 kalimat dalam korpus Bahasa Inggris dan Mandarin & Korpus bahasa Inggris mencakup 10 genre atau aliran yang diambil dari British National Corpus \\ \hline
+Metodologi Riset & Kuantitatif & Kuantitatif & Kuantitatif & Kuantitatif & Kuantitatif & Kuantitatif dan Kualitatif \\ \hline
+Teori & Teori penguraian berdasarkan relasi semantik yang digunakan \cite{covington2001fundamental} dan \cite{nivre2004incrementality} & Teori penguraian berdasarkan relasi semantik yang digunakan \cite{nivre2006dependency} & Penguraian kalimat masing-masing bahasa dan metode statistik \cite{gelman2007data} & Teori penguraian berdasarkan relasi semantik yang digunakan \cite{nivre2006dependency} & Teori dependensi \cite{tesniere1959elements}, Word Grammar \cite{hudson1984word}, dan penguraian \cite{nivre2006dependency} & Teori dependensi \cite{tesniere1959elements} dan Word Grammar \cite{hudson1984word} \\ \hline
+Hasil Analisis & Hasil pendekatan untuk penguraian kalimat berdasarkan relasi semantik dalam Bahasa Indonesia melewati pengujian secara sukses menurut indikator yang diajukan & Hasil pendekatan untuk membentuk treebank berdasarkan relasi semantik dalam Bahasa Indonesia melewati pengujian secara sukses menurut indikator yang diajukan & Bukti berskala besar adanya pengurangan jarak antar kata yang memiliki relasi semantik dalam 37 bahasa, terjadi secara lintas bahasa, namun karakternya berbeda-beda & Skema ini meningkatkan ketepatan dari metode penguraian kalimat yang sebelumnya diajukan oleh Green dkk (2012) & Bukti mekanisme kognisi manusia menjadi faktor utama dalam mempengaruhi jarak antar kata, namun faktor linguistik seperti panjang kalimat dapat membentuk pola yang spesifik & Pengaruh genre atau aliran data ragam tulis terhadap jarak dan arah relasi semantik antar kata sangat kecil, namun ada perbedaan antara teks ujaran dengan teks dari tulisan \\ \hline
 
-Secara garis besar berdasarkan \todo{tabel}, rangkuman mengenai penelitian-penelitian terdahulu yang berkaitan dengan efisiensi ujaran berdasarkan dependensi antarkonstituen pada tataran kalimat dalam bahasa Indonesia adalah sebagai berikut:
+\end{tabular}
+\end{center}
+\end{scriptsize}
+\end{table} 
+\end{landscape}
+\pagestyle{plain}
+
+
+Secara garis besar berdasarkan \tab~\ref{tab:penelitianterdahulu}, rangkuman mengenai penelitian-penelitian terdahulu yang berkaitan dengan efisiensi ujaran berdasarkan dependensi antarkonstituen pada tataran kalimat dalam bahasa Indonesia adalah sebagai berikut:
 \begin{itemize}
 \item Penelitian yang menggunakan teori dependensi dengan korpus data bahasa Indonesia saya temukan memiliki tujuan untuk menghasilkan kerangka kerja penguraian kalimat (\citealp{kamayani2011dependency, green2012indonesian, irmawati2015dependency}).
 \item Penelitian yang menggunakan teori dependensi untuk melihat efisiensi ujaran melalui nilai jarak atau panjang dependensi antarkonstituen saya temukan dilakukan dengan korpus bahasa lain seperti Inggris dan Mandarin (\citealp{jiang2015effects, wang2017effects}). Terdapat penelitian yang melibatkan bahasa Indonesia, namun tidak mendetail karena bersifat lintas bahasa berskala besar \citep{futrell2015large}.
