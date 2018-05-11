@@ -106,57 +106,70 @@ Penelitian ini mengikuti panduan dependensi milik Stanford Parser \citep{de2008s
 
 \tab~\ref{tab:tipe_anotasi} berikut berisi kerangka anotasi berdasarkan \textit{universal Stanford Dependencies} (USD) \citep{de2014universal} yang juga menjadi ancangan untuk koleksi diagram pohon dependensi Universal Dependencies 2.0 \citep{nivre2017universal}.
 
+\begin{table}
 \begin{center}
-\begin{small}
+\begin{footnotesize}
 \caption{Kerangka anotasi berdasarkan \textit{universal Stanford Dependencies} (USD) \citep{de2014universal}} \label{tab:tipe_anotasi}
-\begin{longtable}{| p{.20\textwidth} | p{.80\textwidth} |} 
-  \hline
-Anotasi & Deskripsi tipe anotasi \\ \hline
-ROOT & Induk pohon dependensi \\ \hline
-acomp & Pelengkap ajektival, termasuk pelengkap predikatif \\ \hline
-adp / adpos & Adposisi yang dianalisis sebagai konstituen yang bergantung pada nomina \\ \hline
-adpcomp / pcomp & Pelengkap klausal dari adposisi \\ \hline
-adpmod / prep / postp & Pewatas adposisi \\ \hline
-adpobj / pobj & Pelengkap nominal dari adposisi \\ \hline
-advcl & Pewatas klausa adverbial \\ \hline
-advmod & Pewatas adverbial \\ \hline
-amod & Pewatas apposisi \\ \hline
-attr & Pelengkap predikatif nominal (bergantung pada verba kopula) \\ \hline
-aux & Verba bantu (bergantung pada verba induk) \\ \hline
-auxpass & Verba bantu pada konstruksi pasif \\ \hline
-cc & Konjungsi koordinatif (bergantung pada konjungsi) \\ \hline
-ccomp & Pelengkap klausal \\ \hline
-ccompmod & Pewatas kompositum (bagian kompositum yang bukan induk) \\ \hline
-conj & Konjungsi \\ \hline
-cop & Verba kopula \\ \hline
-csubj & Subyek klausal \\ \hline
-csubjpass & Subyek klausal dalam konstruksi pasif \\ \hline
-dep & Konstituen terikat yang tidak terklasifikasi \\ \hline
-det & Determinator \\ \hline
-dobj & Obyek langsung \\ \hline
-expl & Subyek (seruan) \\ \hline
-infmod & Pewatas infinitif \\ \hline
-iobj & Obyek tidak langsung \\ \hline
-mark & Konjungsi subordinat dan ekspresi setara \\ \hline
-mwe & Ekspresi multi kata, termasuk nama dengan multi kata \\ \hline
-neg & Negasi \\ \hline
-nmod / nommod / nommod-own / npadvmod & Pewatas nominal \\ \hline
-nsubj & Subyek nominal \\ \hline
-nsubjpass & Subyek nominal dalam konstruksi pasif \\ \hline
-num & Numeralia \\ \hline
-p / punct & Tanda baca \\ \hline
-parataxis & Struktur serupa klausa yang bergantung pada klausa sebelumnya \\ \hline
-partmod & Pewatas partisipel \\ \hline
-poss & Pewatas posesif (atau genitif) \\ \hline
-prt & Partikel verba \\ \hline
-rcmod & Pewatas klausa relatif \\ \hline
-rel & Pronomina atau adverbia relatif dengan fungsi yang tidak terklasifikasi \\ \hline
-vmod & Pewatas verbal \\ \hline
-xcomp & Pelengkap infinit serupa klausa \\ \hline
+\begin{tabular}{ l l l }
     \hline
-  \end{longtable}
-\end{small}
+
+    \multicolumn{3}{ l }{\textbf{Konstituen terikat inti dari klausa predikat}} \\
+    \textit{Nomina} & \textit{Verba} & \\
+    nsubj & csubj & \\
+    nsubjpass & csubjpass & \\
+    dobj & ccomp & xcomp \\
+    iobj & & \\
+    \hline
+
+    \multicolumn{3}{ l }{\textbf{Konstituen terikat bukan inti dari klausa predikat}} \\
+    \textit{Nomina} & \textit{Verba} & \textit{Pewatas} \\
+    & advcl & advmod \\
+    & nfincl & neg \\
+    nmod & ncmod &  \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Konstituen terikat klausa khusus }} \\
+    \textit{Nomina} & \textit{Tambahan} & \textit{Lain-lain} \\
+    vocative & aux & mark \\
+    discourse & auxpass & punct \\
+    expl & cop \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Koordinasi}} \\
+    conj & cc \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Konstituen terikat nomina}} \\
+    \textit{Nomina} & \textit{Verba} & \textit{Pewatas} \\
+    nummod & relcl & amod \\
+    appos & nfincl & det \\
+    nmod & ncmod & neg \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Penggabungan dan non-kategoris}} \\
+    compound & mwe & goeswith \\
+    name & foreign \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Konstituen penanda, preposisi, penanda posesif}} \\
+    case \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Penggabungan relasi lepas }} \\
+    list & parataxis & remnant \\
+    dislocated & & reparandum \\
+    \hline
+    
+    \multicolumn{3}{ l }{\textbf{Lain-lain}} \\
+    \textit{Akar kalimat} & \textit{Dependensi non-kategoris} \\
+    root dep \\
+    \hline
+
+\end{tabular}
+\end{footnotesize}
 \end{center}
+\end{table}
+
 
 Tipe-tipe dependensi dalam \textit{universal Stanford Dependencies} (USD) \citep{de2014universal} tersebut masih terus dalam pengembangan dan penyempurnaan sehingga memerlukan banyak penelitian dukungan terutama pada tipe-tipe dependensi yang kontekstual terhadap bahasa lokal. Secara umum, berikut adalah penjabaran mengenai tipe-tipe dependensi yang utama:
 
