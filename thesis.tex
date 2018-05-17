@@ -26,6 +26,10 @@
 \include{hype.indonesia}
 % Daftar istilah yang mungkin perlu ditandai 
 \input{istilah}
+%
+\makeglossaries
+\loadglsentries{glos}
+\glstoctrue
 
 
 % Awal bagian penulisan laporan
@@ -86,6 +90,8 @@
 \clearpage
 \phantomsection %hack to make them clickable
 \listoftables
+\clearpage
+\printglossaries
 \clearpage
 
 %
