@@ -171,21 +171,62 @@ Penelitian ini mengikuti panduan dependensi milik Stanford Parser \citep{de2008s
 \end{table}
 
 
-Tipe-tipe dependensi dalam \textit{universal Stanford Dependencies} (USD) \citep{de2014universal} tersebut masih terus dalam pengembangan dan penyempurnaan sehingga memerlukan banyak penelitian dukungan terutama pada tipe-tipe dependensi yang kontekstual terhadap bahasa lokal. Secara umum, berikut adalah penjabaran mengenai tipe-tipe dependensi yang utama:
+Tipe-tipe dependensi dalam \textit{universal Stanford Dependencies} (USD) \citep{de2014universal} tersebut masih terus dalam pengembangan dan penyempurnaan sehingga memerlukan banyak penelitian dukungan terutama pada tipe-tipe dependensi yang kontekstual terhadap bahasa lokal. Berikut adalah penjabaran mengenai tipe-tipe dependensi yang utama:
+
+\begin{figure}
+	\centering \includegraphics[width=0.4
+	\textwidth] {pics/anotasiroot.png} \caption{Contoh anotasi akar (\textit{root}), \textit{nsubj}, dan \textit{obj}} 
+\label{fig:anotasiroot} 
+\end{figure}
 
 \begin{itemize}
 \item $root$ mengacu pada akar dari sebuah kalimat. Dalam pengindeksan sebuah kalimat, $root$ ditandai dengan indeks 0 sehingga pengindeksan kata lain yang diikat oleh akar dimulai dari indeks 1. Setiap diagram pohon dependensi hanya memiliki satu $root$. Jika predikat utama tidak hadir, dan kalimat tersebut memiliki banyak simpai percabangan yang sifatnya terikat, maka salah satu dari simpai cabang tersebut akan diindekskan menjadi $root$.
-\item $nsubj$ merupakan subyek sintaktis nomina yang berperan sebagai aktor pelaku atau memiliki kualitas aktor pelaku. Ketidakhadiran nomina utama dapat menyebabkan anotasi $nsubj$ jatuh pada pronomina atau pronomina relatif. $nsubj$ juga digunakan sebagai subyek nomina dari verba pasif. Pengendali dari $nsubj$ tidak harus verba. Saat verba ditandai oleh kopula, maka akar klausa merupakan pelengkap kopula tersebut (yang dapat berupa adjektiva atau nomina).
-\item $csubj$ merupakan subyek sintaktis dari sebuah klausa dalam arti bahwa subyek tersebut adalah klausa itu sendiri. Pengendali dari tipe dependensi ini tidak harus verba seperti pada $nsubj$. Subyek sintaktis klausal ini bergantung pada verba leksikal utama atau predikat lain dari klausa tempatnya bergantung. Dalam keadaan pasif, $csubj$ memiliki karakteristik serupa $nsubj$.
+\item $nsubj$ merupakan subyek sintaktis nomina yang berperan sebagai aktor pelaku atau memiliki kualitas aktor pelaku. Ketidakhadiran nomina utama dapat menyebabkan anotasi $nsubj$ jatuh pada pronomina atau pronomina relatif. $nsubj$ juga digunakan sebagai subyek nomina dari verba pasif. Pengendali dari $nsubj$ tidak harus verba. Saat verba ditandai oleh kopula, maka akar klausa merupakan pelengkap kopula tersebut (yang dapat berupa adjektiva atau nomina). Sementara, $csubj$ merupakan subyek sintaktis dari sebuah klausa dalam arti bahwa subyek tersebut adalah klausa itu sendiri. Pengendali dari tipe dependensi ini tidak harus verba seperti pada $nsubj$. Subyek sintaktis klausal ini bergantung pada verba leksikal utama atau predikat lain dari klausa tempatnya bergantung. Dalam keadaan pasif, $csubj$ memiliki karakteristik serupa $nsubj$.
 \item $obj$ adalah obyek dari verba yang juga merupakan bagian paling penting terutama dalam melihat valensi verbal. Umumnya, $obj$ merupakan anotasi dari frasa nomina.
-\item $nmod$ adalah tipe dependensi yang digunakan untuk nomina terikat dari dari nomina lain atau frasa nomina dan berkorespondensi (secara fungsi) dengan pelengkap atributif atau genitif. Serupa dengan $nmod$, $obl$ merupakan nomina yang berfungsi sebagai argumen tambahan atau pelengkap dan berkorespondensi dengan adverbia.
+\end{itemize}
+
+\begin{figure}
+	\centering \includegraphics[width=1
+	\textwidth] {pics/anotasiamod.png} \caption{Contoh anotasi \textit{amod}, \textit{nmod}, dan \textit{advmod}} 
+\label{fig:anotasiamod} 
+\end{figure}
+
+\begin{itemize}
 \item $amod$ merupakan pewatas adjektiva dari nomina. Tipe dependensi ini menandakan bahwa adjektiva tersebut memodifikasi makna sebuah nomina.
-\item $ccomp$ mewakili pelengkap klausal sebuah verba atau adjektiva dari argumen utama. Namun, apaibla pelengkap klausal berada pada tingkat yang sama dengan subyek atau obyek utama, maka tipe dependensi yang lebih tepat adalah $xcomp$.
-\item $acl$ merupakan anotasi untuk klausa finit maupun non-finit yang memodifikasi nomina. Berbeda dengan tipe dependensi $advcl$ yang digunakan untuk klausa adverbia yang memodifikasi predikat. Induk dari $acl$ merupakan nomina yang termodifikasi, dan konstituen terikat dari tipe tautan ini adalah kepala klausa yang memodifikasi nomina tersebut.
+\item $nmod$ adalah tipe dependensi yang digunakan untuk nomina terikat dari dari nomina lain atau frasa nomina dan berkorespondensi (secara fungsi) dengan pelengkap atributif atau genitif. Serupa dengan $nmod$, $obl$ merupakan nomina yang berfungsi sebagai argumen tambahan atau pelengkap dan berkorespondensi dengan adverbia. 
 \item $advmod$ mewakili pewatas adverbia dari sebuah konstituen yang merupakan adverbia atau frasa adverbia yang memilik fungsi untuk memodifikasi predikat. Dalam standar USD, pewatas dari predikat (definisi adverbia yang spesifik) dengan pewatas dari kelas kata lain seperti adjektiva dan adverbia. Semua fungsi-fungsi ini dimasukkan ke bawah anotasi $advmod$. 
-\item $conj$ adalah singkatan dari konjungsi yang merupakan tipe dependensi antara dua konstituen yang dihubungkan oleh konjungsi koordinatif seperti \textit{dan}, \textit{atau}, dan lain-lain. Konjungsi diperlakukan secara asimetris dengan konstituen yang direalisasikan terlebih dahulu sebagai induk tautannya.
-\item $case$ merupakan tipe yang digunakan untuk menandai konstituen yang diperlakukan sebagai kata sintaktis terpisah (seperti preposisi dan penanda posesif). Konstituen penanda ini diperlakukan sebagai konstituen terikat dari nomina yang mengikatnya atau konstituen yang diperkenalkannya. Serupa dengan $case$, tipe dependensi $mark$ menandakan klausa finit yang merupakan subordinat dari klausa lain. Umumnya ditandai dengan kata-kata seperti \textit{setelah}, \textit{namun}, \textit{meskipun}, tetapi dapat juga ditandai oleh konstituen yang menjadi argumen utamanya.
+\end{itemize}
+
+\begin{figure}
+	\centering \includegraphics[width=1
+	\textwidth] {pics/anotasixcomp.png} \caption{Contoh anotasi \textit{xcomp}, dan \textit{advcl}} 
+\label{fig:anotasixcomp} 
+\end{figure}
+
+\begin{itemize}
+\item $xcomp$ mewakili pelengkap klausal sebuah verba atau adjektiva dari argumen utama pada tingkat yang sama dengan subyek atau obyek utama. Namun, apaibla pelengkap klausal tidak berada pada tingkat yang sama dengan subyek atau obyek utama, maka tipe dependensi yang lebih tepat adalah $ccomp$.
+\item  $advcl$ digunakan untuk klausa finit maupun non-finit yang memodifikasi predikat. Sementara, $acl$ merupakan anotasi untuk klausa finit maupun non-finit yang memodifikasi nomina. Induk dari $acl$ merupakan nomina yang termodifikasi, dan konstituen terikat dari tipe tautan ini adalah kepala klausa yang memodifikasi nomina tersebut.
+\end{itemize}
+
+\begin{figure}
+	\centering \includegraphics[width=0.9
+	\textwidth] {pics/anotasiparataxis.png} \caption{Contoh anotasi \textit{parataxis}} 
+\label{fig:anotasiparataxis} 
+\end{figure}
+
+\begin{itemize}
 \item $parataxis$ berasal dari kata Yunani yang berarti 'ditempatkan berdampingan'. Tipe dependensi ini adalah relasi antara sebuah konstituen (yang umumnya predikat utama dalam kalimat) dengan elemen lain yang ditempatkan tanpa koordinasi maupun relasi argumen dengan induk yang eksplisit. $parataxis$ merupakan koordinasi yang menyerupai diskursus sehingga memiliki kemampuan untuk menjadi kalimat lepas yang dapat berdiri sendiri. Tipe dependensi ini juga berlaku pada relasi antara kutipan dan klausa utama serta penjelasan yang umumnya berada di dalam kurung.
+\end{itemize}
+
+\begin{figure}
+	\centering \includegraphics[width=0.9
+	\textwidth] {pics/anotasiconj.png} \caption{Contoh anotasi \textit{conj}, dan \textit{case}} 
+\label{fig:anotasiconj} 
+\end{figure}
+
+\begin{itemize}
+\item $conj$ adalah singkatan dari konjungsi yang merupakan tipe dependensi antara dua konstituen yang dihubungkan oleh konjungsi koordinatif seperti \textit{dan}, \textit{atau}, dan lain-lain. Konjungsi diperlakukan secara asimetris dengan konstituen yang direalisasikan terlebih dahulu sebagai induk tautannya.
+\item $case$ merupakan tipe yang digunakan untuk menandai konstituen yang diperlakukan sebagai kata sintaktis terpisah seperti preposisi. Konstituen penanda ini diperlakukan sebagai konstituen terikat dari nomina yang mengikatnya atau konstituen yang diperkenalkannya. Serupa dengan $case$, tipe dependensi $mark$ menandakan klausa finit yang merupakan subordinat dari klausa lain. Umumnya ditandai dengan kata-kata seperti \textit{setelah}, \textit{namun}, \textit{meskipun}, tetapi dapat juga ditandai oleh konstituen yang menjadi argumen utamanya.
 \end{itemize}
 
 
@@ -226,7 +267,7 @@ Pada kedua rumus tersebut, $n$ adalah jumlah konstituen di sebuah kelimat. $DDi$
 Pada contoh di atas, kalimat dari ragam tulis pada \pic~\ref{fig:contohtulis_DLMDD} memiliki nilai DL (atau total nilai DD dalam kalimat tersebut) sejumlah 8 dan jumlah tautan dependensi sebanyak 5 sehingga nilai MDD yang didapat adalah 1,6. Hal ini berarti rata-rata jarak antara dua konstituen dalam kalimat tersebut adalah sejauh 1,6 konstituen. Kalimat ini memiliki empat tautan positif (induk sebelum konstituen terikat) dan satu tautan negatif (induk setelah konstituen terikat), yaitu pada relasi antara \textit{Cassina} dan \textit{di}. Karena jumlah konstituen dalam kalimat ini di bawah 10 konstituen, maka kalimat ragam tulis ini masuk ke dalam klasifikasi kalimat pendek. Sedangkan, kalimat dari ragam lisan \pic~\ref{fig:contohlisan_DLMDD} memiliki nilai DL sejumlah 21 dan jumlah tautan dependensi sebanyak 13 sehingga nilai MDD yang didapat adalah 1.615 yang berarti rata-rata jarak antara dua konstituen dalam kalimat tersebut adalah sejauh 1,615 konstituen. Kalimat ragam lisan tersebut masuk ke dalam klasifikasi data ragam lisan dengan panjang kalimat di atas 20 konstituen atau klasifikasi kalimat panjang. Berbeda dengan contoh ragam tulis, kalimat ini memperlihatkan jumlah tautan negatif yang lebih banyak dibandingkan tautan positif.
 
 %-----------------------------------------------------------------------------%
-\subsection{Klasifikasi Data}
+\subsection{Klasifikasi data}
 %-----------------------------------------------------------------------------%
 Salah satu penjabaran pokok permasalahan menitikberatkan pada pengaruh panjang kalimat dalam penyusunan struktur kalimat yang efisien dalam bahasa Indonesia dipandang dari segi dependensi. Tidak hanya dari segi panjang kalimat, penelitian ini juga menitikberatkan pada perbandingan perilaku dependensi dalam ujaran yang formal dan ujaran yang lebih spontan. Kedua aspek ini diwakili oleh jenis ragam yaitu tulis dan lisan. Berikut adalah kriteria utama untuk tahap klasifikasi terhadap keseluruhan data.
 
@@ -253,13 +294,13 @@ Kedua poin ini mendasari langkah klasifikasi terhadap kedua korpus data untuk me
 \end{table}
 
 %-----------------------------------------------------------------------------%
-\section{Teknik Analisis Data}
+\section{Teknik analisis data}
 %-----------------------------------------------------------------------------%
 
 Serangkaian tahapan analisis data dengan pendekatan kuantitatif dan kualitatif dilakukan untuk mendapatkan gambaran awal mengenai fenomena efisiensi kalimat dalam bahasa Indonesia dipandang dari segi dependensi serta strategi-strategi yang mungkin diterapkan oleh penutur untuk menghasilkan efisiensi tersebut. Sejauh pemahaman saya dari hasil tinjauan terhadap penelitian-penelitian terdahulu, penelitian ini merupakan penelitian pertama yang mencoba untuk memberikan wawasan linguistik terhadap masalah tersebut sehingga beberapa metode-metode analisis yang diterapkan untuk menganalisis hasil olahan data bersifat eksperimental karena mengadopsi pendekatan yang sebelumnya menggunakan data bahasa lain. Tahap analisis ini diawali dengan uji hipotesis fenomena DLM dalam bahasa Indonesia untuk memberikan bukti empiris adanya efisiensi kalimat berdasarkan korpus data yang dikumpulkan. Langkah-langkah selanjutnya menggabungkan ancangan kuantitatif dan kualitatif untuk membedah hasil olahan data sesuai dengan pokok permasalahan penelitian yang diajukan pada Bab 1.
 
 %-----------------------------------------------------------------------------%
-\subsection{Percobaan Acak untuk Menguji Hipotesis Efisiensi Kalimat}
+\subsection{Percobaan acak untuk menguji hipotesis DLM dalam bahasa Indonesia}
 %-----------------------------------------------------------------------------%
 Sebelum melakukan identifikasi terhadap karakteristik struktur dependensi berdasarkan korpus data yang dikumpulkan, perlu dilakukan uji hipotesis terhadap asumsi adanya efisiensi kalimat dalam bahasa Indonesia dari segi dependensi. Sebelumnya, uji hipotesis efisiensi kalimat dengan melihat nilai DLM pada bahasa Indonesia pernah dilakukan oleh \cite{futrell2015large} secara lintas bahasa. Namun, percobaan yang dilakukan \cite{futrell2015large} menggunakan korpus data yang berbeda, yaitu data ragam tulis dalam berbagai aliran teks seperti artikel penelitian, \textit{blog}, artikel berita, dan data dari media sosial. Penelitian ini mengadopsi pendekatan percobaan acak yang dilakukan oleh \cite{futrell2015large} dan \cite{gildea2010grammars}. \cite{futrell2015large} menyebut algoritma acak ini dengan istilah \textit{Free Word Order Baseline}, sedangkan \cite{gildea2010grammars} menyebut algoritma acak ini dengan istilah \textit{unlabeled Dependency Linearization Algorithm} (\textit{unlabeled} DLA). Secara prinsip, kedua algoritma ini memiliki kesamaan, yaitu kedua algoritma acak tersebut menyusun ulang konstituen-konstituen dalam kalimat tanpa memperhitungkan aturan tata bahasa yang ada. Sebagai contoh, tidak ada konsistensi apakah aktor pelaku mendahului atau berada setelah verba. Perbedaan kedua algoritma ini terletak pada penerapan algoritma tersebut. 
 
@@ -275,22 +316,34 @@ Poses tersebut akan menghasilkan $U1$ sehingga diulang sebanyak 100 kali untuk m
 
 Analisis terhadap percobaan acak dilakukan juga dengan mempertimbangkan panjang kalimat yang terkontrol (\textit{controlled sentence length}) antara korpus data hasil observasi dan korpus data kalimat acak. Hal ini dilakukan berdasarkan argumen signifikansi dalam menganalisis dengan panjang kalimat terkontrol sempat dikemukakan oleh \cite{ferrer2014risks} dan \cite{jiang2015effects} serta keterbatasan kapasitas komputasi untuk mengolah korpus berskala besar. Oleh karena itu, percobaan ini dilakukan sebanyak enam kali untuk panjang kalimat dengan frekuensi terbanyak pada masing-masing klasifikasi dari setiap ragam. Perbandingan nilai DL dari korpus data hasil observasi dan korpus data hasil percobaan acak kemudian divisualisasikan melalui histogram dari keduanya. Algoritma acak untuk percobaan ini dijalankan pada bahasa pemrograman Python (versi 3.6.3) (Python Core Team, 2017) kemudian dianalisis dan divisualisasikan pada bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dengan menggunakan paket CRAN untuk visualisasi Plotly \citep{sievert2017plotly}).
 
+Dalam meguji hipotesis DLM, penelitian ini menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\textit{z-test}). Syarat untuk meakukan \textit{z-test} ini adalah asumsi dasar bahwa kedua populasi memiliki distribusi normal, dan varians dari kedua distribusi diketahui berbeda antara populasi pertama dan kedua. Jika diasumsikan bahwa $??1$ dan $??1$ merepresentasikan kedua proporsi rata-rata dari dua populasi. dan $??=??1-??2$, maka hipotesis nol untuk membandingkan kedua rata-rata adalah $H0:??=0$. Hipotesis alternatif dapat berupa salah satu dari $H1:??=/0$, $H2:??\textgreater0$, dan $H1:??\textless0$. Formula untuk textit{z-test} dapat didefinisikan sebagai berikut:
+
+\todo{z test formula}
+
+di mana $X$ adalah rata-rata distribusi nilai, $n$ merupakan banyaknya sampel, dan $??$ adalah deviasi standar populasi yang diketahui. Daerah kritis adalah daerah yang digunakan untuk menolak atau tidak menolak hipotesis nol. Titik kritis untuk menentukan keputusan ini adalah:
+
+\todo{daerah kritis}
+
+Tingkat signifikansi ($??$) atau \textit{p-value} yang digunakan adalah nilai 0,05 dan 0,001 untuk kemungkinan yang lebih ekstrim. 
+
 %-----------------------------------------------------------------------------%
-\subsection{Analisis Pengaruh Persebaran Panjang Kalimat Terhadap Efisiensi Kalimat}
+\subsection{Analisis pengaruh persebaran panjang kalimat terhadap panjang dan jarak dependensi}
 %-----------------------------------------------------------------------------%
 Sebelum tahap ini, seluruh kalimat dalam kedua korpus data telah melalui penghitungan nilai DL dan MDD dan telah diklasifikasi berdasarkan panjang kalimatnya. Analisis pengaruh persebaran panjang kalimat terhadap efisiensi kalimat mencoba melihat relasi yang terjadi antara panjang kalimat dan nilai DL serta MDD yang didapatkan. Seperti yang dijelaskan sebelumnya, pertimbangan untuk mencari nilai DL dan MDD menitikberatkan pada dua hal yang sedikit berbeda sehingga pada tahap ini, kedua nilai dipaparkan karena diduga mengandung informasi yang berbeda juga. Tahap ini juga memperhitungkan spontanitas ujaran sehingga perbandingan nilai DL dan MDD antara ragam tulis dan lisan penting untuk dianalisis. 
 
-Langkah pertama yang dilakukan adalah membandingkan persebaran frekuensi panjang kalimat secara keseluruhan antara kedua korpus data dan menganalisis perbandingan tersebut untuk melihat adanya kecenderungan terhadap panjang kalimat secara umum. Langkah berikutnya adalah memisahkan korpus data pada setiap ragam menjadi tiga korpus yang lebih kecil sesuai dengan klasifikasi panjang kalimatnya yaitu kalimat pendek (maksimal 10 konstituen), kalimat menengah (11 hingga 20 konstituen), dan kalimat panjang (minimal 21 konstituen). Sehingga, didapatkan enam korpus yang lebih kecil dari kedua ragam ujaran. Kemudian, rata-rata (\textit{mean}) dihitung berdasarkan nilai-nilai DL dan MDD yang didapatkan oleh setiap kalimat dari korpus-korpus tersebut dan dipaparkan sesuai dengan masing-masing klasifikasi. Perbandingan antara nilai-nilai dari masing-masing klasifikasi pada data ragam tulis dengan data ragam lisan dianalisis untuk melihat adanya perbedaan perilaku efisiensi kalimat (DLM dan DDM). Analisis kualitatif dilakukan untuk melihat adanya perbedaan struktur kalimat pada masing-masing klasifikasi atau antara kedua korpus data.
+Langkah pertama yang dilakukan adalah membandingkan persebaran frekuensi panjang kalimat secara keseluruhan antara kedua korpus data dan menganalisis perbandingan tersebut untuk melihat adanya kecenderungan terhadap panjang kalimat secara umum. Langkah berikutnya adalah memisahkan korpus data pada setiap ragam menjadi tiga korpus yang lebih kecil sesuai dengan klasifikasi panjang kalimatnya yaitu kalimat pendek (maksimal 10 konstituen), kalimat menengah (11 hingga 20 konstituen), dan kalimat panjang (minimal 21 konstituen). Sehingga, didapatkan enam korpus yang lebih kecil dari kedua ragam ujaran. Kemudian, rata-rata (\textit{mean}) dihitung berdasarkan nilai-nilai DL dan MDD yang didapatkan oleh setiap kalimat dari korpus-korpus tersebut dan dipaparkan sesuai dengan masing-masing klasifikasi. 
+
+Perbandingan antara nilai-nilai dari masing-masing klasifikasi pada data ragam tulis dengan data ragam lisan dianalisis untuk melihat adanya perbedaan perilaku efisiensi kalimat (DLM dan DDM). Uji hipotesis pada bagian analisis ini juga menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\texit{z-test}). Analisis kualitatif dilakukan untuk melihat adanya perbedaan struktur kalimat pada masing-masing klasifikasi atau antara kedua korpus data.
 
 %-----------------------------------------------------------------------------%
-\subsection{Analisis Arah Dependensi dan direksionalitas induk}
+\subsection{Analisis arah dependensi dan direksionalitas induk}
 %-----------------------------------------------------------------------------%
 Salah satu pertanyaan penelitian menitikberatkan pada jarak dan arah dependensi yang muncul berdasarkan data yang dikumpulkan. Arah dependensi berkaitan dengan hierarki relasi antara induk dan konstituen terikatnya. Seperti yang dijelaskan pada bab sebelumnya dan divisualisasikan pada \pic~\ref{fig:tautandependensi}, relasi antara dua konstituen dihubungkan dengan sebuah tautan yang memiliki panah. Arah panah tersebut merepresentasikan hierarki relasi antara keduanya. Arah panah ke kanan menandakan tautan yang bernilai positif, dan sebaliknya, arah panah ke kiri menandakan tautan yang bernilai negatif. Hal ini dapat dilihat juga pada visualisasi dari dua kalimat contoh yang diambil dari data ragam tulis (\pic~\ref{fig:contohtulis}) dan ragam lisan (\pic~\ref{fig:contohlisan}). Kedua visualisasi ini mengandung nilai-nilai tautan dengan anotasi positif ($+$) dan anotasi negatif ($-$) (yang juga dibedakan oleh warna biru dan merah) untuk memberikan gambaran terhadap perbedaan arah tautan dependensi dalam sebuah kalimat. Sebagai contoh, \pic~\ref{fig:contohtulis} memiliki 4 tautan positif dan 1 tautan negatif, sehingga pada kalimat ini relasi di mana induk direalisasikan sebelum konstituen terikat mendominasi kalimat tersebut. Pada level dependensi utama atau simpai pusat, \textit{menggelar} memiliki 2 tautan positif terhadap \textit{program} dan \textit{Cassina} serta 0 tautan negatif.
 
-Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasarkan dependensi. Pada kalimat yang lebih kompleks, simpai pusat juga memberikan gambaran terhadap relasi-relasi utama, namun terkadang banyak relasi pada cabang yang tidak terwakili. Oleh karena itu, pemaparan kedua analisis arah dependensi pada relasi-relasi secara keseluruhan dan pada simpai pusat penting untuk disampaikan. Pada tahap anotasi nilai DL, setiap relasi antara dua konstituen dalam sebuah kalimat sudah diberikan anotasi positif maupun negatif. Sehingga, pada tahap ini hanya perlu dilakukan agregasi data terhadap relasi-relasi bernilai positif dan relasi-relasi bernilai negatif. Tahap analisis ini didasarkan pada pembahasan mengenai percabangan searah dan percabangan beda arah yang dibahas oleh \cite{temperley2008dependency} dan \cite{dryer1992greenbergian} untuk melihat adanya kecenderungan dalam menerapkan tipe percabangan keduanya.
+Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasarkan dependensi. Pada kalimat yang lebih kompleks, simpai pusat juga memberikan gambaran terhadap relasi-relasi utama, namun terkadang banyak relasi pada cabang yang tidak terwakili. Oleh karena itu, pemaparan kedua analisis arah dependensi pada relasi-relasi secara keseluruhan dan pada simpai pusat penting untuk disampaikan. Pada tahap anotasi nilai DL, setiap relasi antara dua konstituen dalam sebuah kalimat sudah diberikan anotasi positif maupun negatif. Sehingga, pada tahap ini hanya perlu dilakukan agregasi data terhadap relasi-relasi bernilai positif dan relasi-relasi bernilai negatif. Tahap analisis ini didasarkan pada pembahasan mengenai percabangan searah dan percabangan beda arah yang dibahas oleh \cite{temperley2008dependency} dan \cite{dryer1992greenbergian} untuk melihat adanya kecenderungan dalam menerapkan tipe percabangan keduanya. Uji hipotesis untuk bagian analisis ini dilakukan dengan pendekatan penghitungan statistika deskriptif.
 
 %-----------------------------------------------------------------------------%
-\subsection{Pengamatan Perubahan Valensi Akar Verbal}
+\subsection{Pengamatan perubahan valensi akar verbal}
 %-----------------------------------------------------------------------------%
 Tahap analisis ini masih berkaitan erat dengan analisis arah dependensi karena keterkaitan valensi konstituen dalam sebuah kalimat dengan efisiensi kalimat tersebut tidak hanya dapat diamati melalui pengurangan nilai valensi. Sebuah konstituen dapat mempertahankan nilai valensinya tetapi tetap menghasilkan kalimat yang efisien, yaitu dengan mengatur letak konstituen yang diikatnya sehingga menempati posisi yang paling optimal (menghasilkan nilai DL terkecil). Analisis ini saya lakukan untuk melihat tautan dependensi dan hubungan induk dengan konstituen terikat secara lebih dekat terutama terkait kecenderungan penutur dalam menghasilkan kalimat yang efisien. Meskipun penelitian ini tidak menganalisis leksikon, prinsip dasar yang membentuk kemungkinan pola valensi dalam \textit{Probabilistic Valency Pattern} (PVP) \citep{liu2006syntactic} menjadi dasar pengamatan ini. Perlu saya tekankan bahwa \cite{liu2006syntactic} menganggap valensi sebagai kapasitas sebuah konstituen yang memiliki kualitas gabungan (\textit{combinatorial}). Hal ini berarti sebuah konstituen memiliki valensi tertentu dalam arti dapat mengikat konstituen lain, tetapi juga dapat bertindak sebagai konstituen yang diikat oleh induk lain. Penelitian ini mengamati valensi akar verbal pada simpai pusat pada tataran kalimat sehingga tidak ada aspek konstituen tersebut sebagai konstituen yang diikat induk lain karena dalam kalimat tersebut, konstituen yang diamati berada di posisi teratas dari hierarki dependensi.
 
