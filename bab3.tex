@@ -316,15 +316,30 @@ Poses tersebut akan menghasilkan $U1$ sehingga diulang sebanyak 100 kali untuk m
 
 Analisis terhadap percobaan acak dilakukan juga dengan mempertimbangkan panjang kalimat yang terkontrol (\textit{controlled sentence length}) antara korpus data hasil observasi dan korpus data kalimat acak. Hal ini dilakukan berdasarkan argumen signifikansi dalam menganalisis dengan panjang kalimat terkontrol sempat dikemukakan oleh \cite{ferrer2014risks} dan \cite{jiang2015effects} serta keterbatasan kapasitas komputasi untuk mengolah korpus berskala besar. Oleh karena itu, percobaan ini dilakukan sebanyak enam kali untuk panjang kalimat dengan frekuensi terbanyak pada masing-masing klasifikasi dari setiap ragam. Perbandingan nilai DL dari korpus data hasil observasi dan korpus data hasil percobaan acak kemudian divisualisasikan melalui histogram dari keduanya. Algoritma acak untuk percobaan ini dijalankan pada bahasa pemrograman Python (versi 3.6.3) (Python Core Team, 2017) kemudian dianalisis dan divisualisasikan pada bahasa pemrograman R (versi 3.3.3) \citep{r2017project} dengan menggunakan paket CRAN untuk visualisasi Plotly \citep{sievert2017plotly}).
 
-Dalam meguji hipotesis DLM, penelitian ini menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\textit{z-test}). Syarat untuk meakukan \textit{z-test} ini adalah asumsi dasar bahwa kedua populasi memiliki distribusi normal, dan varians dari kedua distribusi diketahui berbeda antara populasi pertama dan kedua. Jika diasumsikan bahwa $??1$ dan $??1$ merepresentasikan kedua proporsi rata-rata dari dua populasi. dan $??=??1-??2$, maka hipotesis nol untuk membandingkan kedua rata-rata adalah $H0:??=0$. Hipotesis alternatif dapat berupa salah satu dari $H1:??=/0$, $H2:??\textgreater0$, dan $H1:??\textless0$. Formula untuk textit{z-test} dapat didefinisikan sebagai berikut:
+Dalam meguji hipotesis DLM, penelitian ini menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\textit{z-test}). Syarat untuk meakukan \textit{z-test} ini adalah asumsi dasar bahwa kedua populasi memiliki distribusi normal, dan varians dari kedua distribusi diketahui berbeda antara populasi pertama dan kedua. Jika diasumsikan bahwa $\mu_1$ dan $\mu_2$ merepresentasikan kedua proporsi rata-rata dari dua populasi dan $\delta=\mu_1 - \mu_2$, maka hipotesis nol untuk membandingkan kedua rata-rata adalah $H_0:\delta=0$. Hipotesis alternatif dapat berupa salah satu dari $H_1:\delta \neq0$, $H_1:\delta \textgreater0$, dan $H_1:\delta \textless0$. Formula untuk \textit{z-test} dapat didefinisikan sebagai berikut:
 
-\todo{z test formula}
-
-di mana $X$ adalah rata-rata distribusi nilai, $n$ merupakan banyaknya sampel, dan $??$ adalah deviasi standar populasi yang diketahui. Daerah kritis adalah daerah yang digunakan untuk menolak atau tidak menolak hipotesis nol. Titik kritis untuk menentukan keputusan ini adalah:
-
-\todo{daerah kritis}
-
-Tingkat signifikansi ($??$) atau \textit{p-value} yang digunakan adalah nilai 0,05 dan 0,001 untuk kemungkinan yang lebih ekstrim. 
+\begin{equation}
+z=\frac{
+	\bar{x}_1 - \bar{x}_2}{
+	\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}
+	}
+\end{equation}
+di mana $x$ adalah rata-rata distribusi nilai, $n$ merupakan banyaknya sampel, dan $\sigma$ adalah deviasi standar populasi yang diketahui. Daerah kritis adalah daerah yang digunakan untuk menolak atau tidak menolak hipotesis nol. Titik kritis untuk menentukan keputusan ini adalah:\\
+untuk $H_1:\delta \neq0$
+\begin{equation}
+z \textless z_{\alpha / 2}
+\quad\mathrm{atau}\quad 
+ z \textgreater z_{1-\alpha / 2},
+\end{equation}
+untuk $H_1:\delta \textgreater0$
+\begin{equation}
+ z \textgreater z_{1-\alpha},
+\end{equation}
+untuk $H_1:\delta \textless0$
+\begin{equation}
+ z \textless z_{\alpha}.
+\end{equation}
+Tingkat signifikansi ($\alpha$) atau \textit{p-value} yang digunakan adalah nilai 0,05 dan 0,001 untuk kemungkinan yang lebih ekstrim. 
 
 %-----------------------------------------------------------------------------%
 \subsection{Analisis pengaruh persebaran panjang kalimat terhadap panjang dan jarak dependensi}
@@ -333,7 +348,7 @@ Sebelum tahap ini, seluruh kalimat dalam kedua korpus data telah melalui penghit
 
 Langkah pertama yang dilakukan adalah membandingkan persebaran frekuensi panjang kalimat secara keseluruhan antara kedua korpus data dan menganalisis perbandingan tersebut untuk melihat adanya kecenderungan terhadap panjang kalimat secara umum. Langkah berikutnya adalah memisahkan korpus data pada setiap ragam menjadi tiga korpus yang lebih kecil sesuai dengan klasifikasi panjang kalimatnya yaitu kalimat pendek (maksimal 10 konstituen), kalimat menengah (11 hingga 20 konstituen), dan kalimat panjang (minimal 21 konstituen). Sehingga, didapatkan enam korpus yang lebih kecil dari kedua ragam ujaran. Kemudian, rata-rata (\textit{mean}) dihitung berdasarkan nilai-nilai DL dan MDD yang didapatkan oleh setiap kalimat dari korpus-korpus tersebut dan dipaparkan sesuai dengan masing-masing klasifikasi. 
 
-Perbandingan antara nilai-nilai dari masing-masing klasifikasi pada data ragam tulis dengan data ragam lisan dianalisis untuk melihat adanya perbedaan perilaku efisiensi kalimat (DLM dan DDM). Uji hipotesis pada bagian analisis ini juga menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\texit{z-test}). Analisis kualitatif dilakukan untuk melihat adanya perbedaan struktur kalimat pada masing-masing klasifikasi atau antara kedua korpus data.
+Perbandingan antara nilai-nilai dari masing-masing klasifikasi pada data ragam tulis dengan data ragam lisan dianalisis untuk melihat adanya perbedaan perilaku efisiensi kalimat (DLM dan DDM). Uji hipotesis pada bagian analisis ini juga menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\textit{z-test}). Analisis kualitatif dilakukan untuk melihat adanya perbedaan struktur kalimat pada masing-masing klasifikasi atau antara kedua korpus data.
 
 %-----------------------------------------------------------------------------%
 \subsection{Analisis arah dependensi dan direksionalitas induk}
