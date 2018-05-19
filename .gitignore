@@ -13,3 +13,8 @@
 *.out
 *.lot
 .DS_Store
+*.fls
+*.fdb_latexmk
+*.glg
+*.glo
+*.gl
