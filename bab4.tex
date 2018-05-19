@@ -473,7 +473,9 @@ Berdasarkan data yang dikumpulkan, pada klasifikasi menengah dan panjang, teks y
 %%-----------------------------------------------------------------------------%
 \section{Direksionalitas induk dan jumlah valensi}
 %%-----------------------------------------------------------------------------%
-Pada pembahasan temuan-temuan di atas, sudah dibahas sedikit mengenai struktur kalimat terkait posisi akar dan pola percabangannya. Seperti yang dijelaskan sebelumnya, belum ada konvensi mengenai arah dependensi terkait hierarki dan pengolahan dalam memori kerja. Nilai dependensi negatif dibentuk dari relasi induk setelah konstituen terikat atau \textit{head-final}. Bahasa Indonesia memiliki urutan kata yang cenderung bebas \citep{sneddon2010indonesian}. Dalam aturan tata bahasa yang mengadopsi prinsip struktur frasa, banyak urutan kata dalam aturan terkait frasa memiliki kepala (\textit{head}) yang mendahului pewatas (\textit{modifier}) \citep{sneddon2010indonesian}. Tetapi, teori struktur frasa berbeda dengan dependensi dan belum ada penelitian yang melihat relasi induk dan konstituen terikat terkait arah dan posisi induknya (\textit{head directionality}). Hipotesis yang digunakan pada beberapa penelitian yang melihat Pengurangan Panjang Dependensi (DLM) \citep{futrell2015large} serta Pengurangan Jarak Dependensi (DDM) \citep{liu2017dependency} menyebutkan bahwa kebebasan urutan kata ini mungkin dimanfaatkan oleh penutur menjadi strategi utama dalam menghasilkan kalimat yang efisien terutama mengenai peletakan konstituen dalam urutan sebuah kalimat. Pada pembahasan ini, penghitungan nilai DL tautan dependensi yang bernilai positif (konstituen terikat setelah akar atau induk) dipisahkan dengan yang bernilai negatif (konstituen terikat sebelum akar atau induk). 
+Pada pembahasan temuan-temuan di atas, sudah dibahas sedikit mengenai struktur kalimat terkait posisi akar dan pola percabangannya. Seperti yang dijelaskan sebelumnya, belum ada konvensi mengenai arah dependensi terkait hierarki dan pengolahan dalam memori kerja. Nilai dependensi negatif dibentuk dari relasi induk setelah konstituen terikat atau \textit{head-final}. Bahasa Indonesia memiliki urutan kata yang cenderung bebas \citep{sneddon2010indonesian}. Dalam aturan tata bahasa yang mengadopsi prinsip struktur frasa, banyak urutan kata dalam aturan terkait frasa memiliki kepala (\textit{head}) yang mendahului pewatas (\textit{modifier}) \citep{sneddon2010indonesian}. Tetapi, teori struktur frasa berbeda dengan dependensi dan belum ada penelitian yang melihat relasi induk dan konstituen terikat terkait arah dan posisi induknya (\textit{head directionality}). 
+
+Hipotesis yang digunakan pada beberapa penelitian yang melihat Pengurangan Panjang Dependensi (DLM) \citep{futrell2015large} serta Pengurangan Jarak Dependensi (DDM) \citep{liu2017dependency} menyebutkan bahwa kebebasan urutan kata ini mungkin dimanfaatkan oleh penutur menjadi strategi utama dalam menghasilkan kalimat yang efisien terutama mengenai peletakan konstituen dalam urutan sebuah kalimat. Pada pembahasan ini, penghitungan nilai DL tautan dependensi yang bernilai positif (konstituen terikat setelah akar atau induk) dipisahkan dengan yang bernilai negatif (konstituen terikat sebelum akar atau induk). Pada bagian pertama analisis nilai DL positif dan negatif, kedua jenis nilai didapatkan dengan memisahkan total nilai dependensi positif dan negatif pada setiap kalimat. Nilai DL positif dan negatif ini memberikan gambaran kasus tautan akar atau induk dengan konstituen terikat secara general dan berkontribusi untuk membentuk asumsi kecenderungan karakteristik bahasa dilihat dari posisi induknya \citep{wang2017effects}. 
 
 \begin{figure}
 \centering
@@ -497,7 +499,53 @@ Pada pembahasan temuan-temuan di atas, sudah dibahas sedikit mengenai struktur k
 \end{figure}
 
 
-Pada bagian pertama analisis nilai DL positif dan negatif (\pic~\ref{fig:tulis_DLposneg}) dan \pic~\ref{fig:lisan_DLposneg}), kedua jenis nilai didapatkan dengan memisahkan total nilai dependensi positif dan negatif pada setiap kalimat. Nilai DL positif dan negatif ini memberikan gambaran kasus tautan akar atau induk dengan konstituen terikat secara general dan berkontribusi untuk membentuk asumsi kecenderungan karakteristik bahasa dilihat dari posisi induknya \citep{wang2017effects}. Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang jauh berada di atas garis regresi tautan dependensi negatif dan pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin besar. Seperti yang dijelaskan sebelumnya, nilai DL cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi induk sebelum dan sesudah konstituen terikat saling berkaitan. Hal ini berarti ada pola kecenderungan preferensi terhadap hubungan akar atau induk sebelum konstituen terikat (\textit{head-initial}) dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik nilai DL ragam lisan (\pic~\ref{fig:lisan_DLposneg}), garis regresi tautan dependensi negatif menunjukkan adanya kurva parabola terbka kebawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap nilai DL negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menandakan bahwa mulai panjang kalimat tertentu, total tautan dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
+Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang jauh berada di atas garis regresi tautan dependensi negatif dan pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin besar. Seperti yang dijelaskan sebelumnya, nilai DL cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi induk sebelum dan sesudah konstituen terikat saling berkaitan. Hal ini berarti ada pola kecenderungan preferensi terhadap hubungan akar atau induk sebelum konstituen terikat (\textit{head-initial}) dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik nilai DL ragam lisan (\pic~\ref{fig:lisan_DLposneg}), garis regresi tautan dependensi negatif menunjukkan adanya kurva parabola terbka kebawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap nilai DL negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menandakan bahwa mulai panjang kalimat tertentu, total tautan dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
+
+\begin{table}
+\begin{center}
+\begin{small}
+\caption{Frekuensi tautan dependensi positif dan negatif}  \label{tab:tautanposneg}
+\begin{tabular}{ | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+Jumlah konstituen & Ragam tulis (+) & Ragam tulis (-) & Ragam lisan (+) & Ragam lisan (-) \\ \hline
+\textless= 5 & 677 & 700 & 2841 & 2764 \\ \hline
+6 - 10 & 7023 & 5715 & 7649 & 6918 \\ \hline
+11 - 20 & 35597 & 24426 & 15554 & 12898 \\ \hline
+21 - 30 & 31036 & 18163 & 7564 & 5939 \\ \hline
+31 - 40 & 12904 & 6968 & 3232 & 2414 \\ \hline
+\textgreater 40 & 6583 & 3240 & 1928 & 1426 \\ \hline
+   \end{tabular}
+   \end{small}
+\end{center}
+\end{table}
+
+\todo{analisis}
+
+\begin{table}
+\begin{center}
+\begin{small}
+\caption{Frekuensi selisih DL positif dan negatif}  \label{tab:DLposneg}
+\begin{tabular}{ | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+Jumlah konstituen & Ragam tulis (+ \textgreater -) & Ragam tulis (+ \textless -) & Ragam lisan (+ \textgreater -) & Ragam lisan (+ \textless -) \\ \hline
+\textless= 5 & 164 & 221 & 1188 & 1354 \\ \hline
+6 - 10 & 992 & 646 &1469 & 1349 \\ \hline
+11 - 20 & 3145 & 952 & 1858 & 1014 \\ \hline
+21 - 30 & 1854 & 200 & 644 & 166 \\ \hline
+31 - 40 & 558 & 36 & 204 & 37 \\ \hline
+\textgreater 40 & 201 & 5 & 89 & 7 \\ \hline
+   \end{tabular}
+   \end{small}
+\end{center}
+\end{table}
+
+\todo{analisis}
+
+
+
+
+
+
 
 \begin{figure}
 \centering
@@ -544,7 +592,47 @@ Pada bagian pertama analisis nilai DL positif dan negatif (\pic~\ref{fig:tulis_D
 \label{fig:rootDL_posneg}
 \end{figure}
 
-Bagian kedua analisis nilai DL positif dan negatif berkaitan dengan valensi sebuah kata sehubungan dengan contoh penempatan klausa terikat \textit{kalau boleh tahu} di atas (\pic~\ref{fig:akarcontoh}). Sesuai dengan batasan penelitian ini, bagian analisis ini difokuskan hanya pada simpai pusat dengan kelas kata akar berupa kata kerja atau verba. \pic~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg} merupakan grafik nilai DL positif dan negatif yang didapat hanya pada simpai pusat kalimat dengan akar berupa verba. Kalimat dengan akar verbal ditemukan sebanyak 84,67\% atau sebanyak 7879 kalimat pada data ragam tulis dan 69,26\% atau sebanyak 7070 kalimat pada data ragam lisan. Mayoritas frekuensi kemunculan akar verbal ini dianalisis untuk melihat bagaimana penutur menyusun informasi utama dengan melihat tautan-tautan dependensi utama (simpai pusat). Sehingga, semua klausa yang mungkin terikat pada simpai cabang dianggap mengikuti induknya seperti pada contoh uraian relasi klausa \textit{kalau boleh tahu} dan akarnya di atas (\pic~\ref{fig:akarcontoh}). \pic~\ref{fig:rootDL_posneg} menunjukkan adanya konsistens pada level tautan dependensi utama dan keseluruhan kalimat. Grafik ini memperlihatkan bahwa penutur juga cenderung memilih untuk menekan penggunaan bentuk relasi induk setelah konstituen terikatnya. Serupa dengan \pic~\ref{fig:DL_posneg}, terutama pada data ragam lisan, garis regresi nilai DL negatif mengindikasikan adanya ambang batas pada nilai tertentu. 	
+Bagian kedua analisis nilai DL positif dan negatif berkaitan dengan valensi sebuah kata sehubungan dengan contoh penempatan klausa terikat \textit{kalau boleh tahu} di atas (\pic~\ref{fig:akarcontoh}). Sesuai dengan batasan penelitian ini, bagian analisis ini difokuskan hanya pada simpai pusat dengan kelas kata akar berupa kata kerja atau verba. \pic~\ref{fig:tulisroot_DLposneg} dan \pic~\ref{fig:lisanroot_DLposneg} merupakan grafik nilai DL positif dan negatif yang didapat hanya pada simpai pusat kalimat dengan akar berupa verba. Kalimat dengan akar verbal ditemukan sebanyak 84,67\% atau sebanyak 7879 kalimat pada data ragam tulis dan 69,26\% atau sebanyak 7070 kalimat pada data ragam lisan. Mayoritas frekuensi kemunculan akar verbal ini dianalisis untuk melihat bagaimana penutur menyusun informasi utama dengan melihat tautan-tautan dependensi utama (simpai pusat). Sehingga, semua klausa yang mungkin terikat pada simpai cabang dianggap mengikuti induknya seperti pada contoh uraian relasi klausa \textit{kalau boleh tahu} dan akarnya di atas (\pic~\ref{fig:akarcontoh}). \pic~\ref{fig:rootDL_posneg} menunjukkan adanya konsistens pada level tautan dependensi utama dan keseluruhan kalimat. Grafik ini memperlihatkan bahwa penutur juga cenderung memilih untuk menekan penggunaan bentuk relasi induk setelah konstituen terikatnya. Serupa dengan \pic~\ref{fig:DL_posneg}, terutama pada data ragam lisan, garis regresi nilai DL negatif mengindikasikan adanya ambang batas pada nilai tertentu.
+
+\begin{table}
+\begin{center}
+\begin{small}
+\caption{Frekuensi tautan dependensi positif dan negatif pada simpai pusat akar verbal}  \label{tab:tautanpusatposneg}
+\begin{tabular}{ | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+Jumlah konstituen & Ragam tulis (+) & Ragam tulis (-) & Ragam lisan (+) & Ragam lisan (-) \\ \hline
+\textless= 5 & 126 & 225 & 849 & 1517 \\ \hline
+6 - 10 & 1355 & 1777 & 2114 & 3126 \\ \hline
+11 - 20 & 5383 & 5602 & 3352 & 3928 \\ \hline
+21 - 30 & 3737 & 3144 & 1318 & 1237 \\ \hline
+31 - 40 & 1357 & 912 & 381 & 325 \\ \hline
+\textgreater 40 & 569 & 300 & 222 & 182 \\ \hline
+   \end{tabular}
+   \end{small}
+\end{center}
+\end{table}
+
+\todo{analisis}
+
+\begin{table}
+\begin{center}
+\begin{small}
+\caption{Frekuensi selisih DL positif dan negatif pada simpai pusat akar verbal}  \label{tab:DLpusatposneg}
+\begin{tabular}{ | p{2cm} | p{2cm} | p{2cm} | p{2cm} | p{2cm} |}
+    \hline
+Jumlah konstituen & Ragam tulis (+ \textgreater -) & Ragam tulis (+ \textless -) & Ragam lisan (+ \textgreater -) & Ragam lisan (+ \textless -) \\ \hline
+\textless= 5 & 33 & 109 & 277 & 711 \\ \hline
+6 - 10 & 342 & 555 & 462 & 956 \\ \hline
+11 - 20 & 1266 & 1412 & 680 & 942 \\ \hline
+21 - 30 & 862 & 675 & 271 & 205 \\ \hline
+31 - 40 & 295 & 159 & 85 & 60 \\ \hline
+\textgreater 40 & 126 & 37 & 43 & 21 \\ \hline
+   \end{tabular}
+   \end{small}
+\end{center}
+\end{table}
+
+\todo{analisis}
 
 %%-----------------------------------------------------------------------------%
 \subsection{Percabangan searah dan keseimbangan antara tautan dependensi positif dan negatif}
