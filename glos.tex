@@ -1,107 +1,107 @@
 \newglossaryentry{tautan-dependensi}
 {
     name=tautan dependensi,
-    description={Relasi semantik antar konstituan dalam sebuah kalimat}
+    description={Tautan yang menghubungkan dua konstituen yang memiliki relasi semantik sesuai dengan teori dependensi}
 }
 
 \newglossaryentry{konstituen}
 {
     name=konstituen,
-    description={satuan bahasa dalam sebuah kalimat}
+    description={Istilah untuk unit-unit linguistik dalam sebuah kalimat}
 }
 
 \newglossaryentry{akar}
 {
     name=akar,
-    description={Konstituen induk dari keseluruhan kalimat (root)}
+    description={Konstituen yang memiliki hierarki lebih superior dan mengendalikan konstituen lain dalam sebuah tautan dependensi, serta merupakan induk utama dari keseluruhan kalimat karena konstituen yang paling sensitif terhadap perubahan kalimat. Dalam bahasa Inggris disebut dengan \textit{root}}
 }
 
 \newglossaryentry{induk}
 {
     name=induk,
-    description={Konstituen yang bukan merupakan induk dari keseluruhan kalimat namun mengikat konstituen lain (head)}
+    description={Konstituen yang memiliki hierarki lebih superior dan mengendalikan konstituen lain dalam sebuah tautan dependensi, tetapi bukan merupakan induk utama dari keseluruhan kalimat. Dalam bahasa Inggris disebut dengan (\textit{head})}
 }
 
 \newglossaryentry{konstituen-terikat}
 {
     name=konstituen terikat,
-    description={Konstituen yang  memiliki hierarki yang lebih inferior dan bersifat dikendalikan oleh konstituen lainnya (dependent)}
+    description={Konstituen yang memiliki hierarki lebih inferior dan bersifat dikendalikan oleh induk dalam sebuah tautan dependensi. Dalam bahasa Inggris disebut dengan (\textit{dependent})}
 }
 
 \newglossaryentry{simpai}
 {
     name=simpai,
-    description={lorem ipsum (node)}
+    description={Titik lokasi sebuah konstituen yang mencakup tautan-tautan dependensi yang terhubung langsung padanya. Dalam bahasa Inggris disebut dengan \textit{node}}
 }
 
 \newglossaryentry{tipe-dependensi}
 {
     name=tipe dependensi,
-    description={lorem ipsum}
-}
-
-\newglossaryentry{panjang-dependensi}
-{
-    name=panjang dependensi,
-    description={lorem ipsum (DL)}
+    description={Kategori tautan dependensi dilihat dari hubungan antara dua konstituen yang memiliki tautan langsung}
 }
 
 \newglossaryentry{jarak-dependensi}
 {
     name=jarak dependensi,
-    description={lorem ipsum (DD)}
+    description={Jarak antara dua konstituen yang memiliki tautan dependensi langsung dihitung dengan satuan berupa konstituen. Dalam bahasa Inggris disebut dengan \textit{Dependency Distance} dan disingkat menjadi DD}
 }
 
-\newglossaryentry{rata-panjang-dependensi}
+\newglossaryentry{panjang-dependensi}
 {
-    name=rata-rata panjang dependensi,
-    description={lorem ipsum (MDD)}
+    name=panjang dependensi,
+    description={Jumlah nilai jarak dependensi dari seluruh tautan dependensi dalam satu kalimat (atau pengelompokkan tertentu). Dalam bahasa Inggris disebut dengan \textit{Dependency Length} dan disingkat menjadi DL}
+}
+
+\newglossaryentry{rata-jarak-dependensi}
+{
+    name=rata-rata jarak dependensi,
+    description={Panjang dependensi dibagi dengan jumlah tautan dalam satu kalimat (atau pengelompokkan tertentu) dengan satuan berupa konstituen. Dalam bahasa Inggris disebut dengan \textit{Mean Dependency Distance} dan disingkat menjadi MDD}
 }
 
 \newglossaryentry{pengurangan-panjang-dependensi}
 {
     name=pengurangan panjang dependensi,
-    description={lorem ipsum (DLM)}
+    description={Salah satu hipotesis yang merepresentasikan bagaimana penutur mendekatkan dua konstituen yang memiliki tautan dependensi. Hipotesis ini menggunakan panjang dependensi (DL) dalam penghitungannya. Dalam bahasa Inggris disebut dengan \textit{Dependency Length Minimization} dan disingkat menjadi DLM}
 }
 
 \newglossaryentry{pengurangan-jarak-dependensi}
 {
     name=pengurangan jarak dependensi,
-    description={lorem ipsum (DDM)}
+    description={Salah satu hipotesis yang merepresentasikan bagaimana penutur mendekatkan dua konstituen yang memiliki tautan dependensi. Hipotesis ini menggunakan rata-rata jarak dependensi (MDD) dalam penghitungannya. Dalam bahasa Inggris disebut dengan \textit{Dependency Distance Minimization} dan disingkat menjadi DDM}
 }
 
-\newglossaryentry{arah-dependensi}
+\newglossaryentry{direksionalitas-induk}
 {
-    name=arah dependensi,
-    description={lorem ipsum (head directionality)}
+    name=direksionalitas induk,
+    description={Arah sebuah tautan dependensi yang direpresentasikan oleh panah yang mengarah dari konstituen yang lebih superior atau induk ke konstituen yang lebih inferior atau konstituen terikat}
 }
 
-\newglossaryentry{dependensi-positif}
+\newglossaryentry{diawali-induk}
 {
-    name=dependensi positif,
-    description={lorem ipsum (head initial)}
+    name=diawali induk,
+    description={Bentuk relasi yang direpresentasikan oleh sebuah tautan dependensi di mana induk berada di posisi sebelum konstituen terikat dalam urutan linear sebuah kalimat atau ujaran. Dalam bahasa Inggris disebut dengan \textit{head-initial} dan memiliki anotasi nilai dependensi positif}
 }
 
-\newglossaryentry{dependensi-negatif}
+\newglossaryentry{diakhiri-induk}
 {
-    name=dependensi negatif,
-    description={lorem ipsum (head final)}
+    name=diakhiri induk,
+    description={Bentuk relasi yang direpresentasikan oleh sebuah tautan dependensi di mana induk berada di posisi setelah konstituen terikat dalam urutan linear sebuah kalimat atau ujaran. Dalam bahasa Inggris disebut dengan \textit{head-final) dan memiliki anotasi nilai dependensi negatif}
 }
 
 \newglossaryentry{percabangan-searah}
 {
     name=percabangan searah,
-    description={lorem ipsum (same-branching)}
+    description={Konsep sekumpulan tautan dependensi dalam sebuah kalimat atau ujaran yang memiliki pola saling berlanjut dan bergerak ke arah yang sama. Dalam bahasa Inggris disebut dengan \textit{same-branching}}
 }
 
 \newglossaryentry{percabangan-beda-arah}
 {
     name=percabangan beda arah,
-    description={lorem ipsum (mixed-branching)}
+    description={Konsep sekumpulan tautan dependensi dalam sebuah kalimat atau ujaran yang memiliki pola saling tidak berlanjut dan bergerak ke arah yang berbeda secara maju mundur dan masih di bawah satu tautan dependensi utama. Dalam bahasa Inggris disebut dengan \textit{mixed-branching}}
 }
 
 \newglossaryentry{valensi}
 {
     name=valensi,
-    description={lorem ipsum}
+    description={Kemampuan sebuah unit linguistik untuk mengikat unit linguistik lain secara langsung. Dalam penelitian ini, valensi yang dibahas berada dalam ranah teori dependensi}
 }
