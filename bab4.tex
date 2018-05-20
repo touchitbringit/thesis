@@ -473,7 +473,7 @@ Berdasarkan data yang dikumpulkan, pada klasifikasi menengah dan panjang, teks y
 %%-----------------------------------------------------------------------------%
 \section{Direksionalitas induk dan jumlah valensi}
 %%-----------------------------------------------------------------------------%
-Pada pembahasan temuan-temuan di atas, sudah dibahas sedikit mengenai struktur kalimat terkait posisi akar dan pola percabangannya. Seperti yang dijelaskan sebelumnya, belum ada konvensi mengenai arah dependensi terkait hierarki dan pengolahan dalam memori kerja. Nilai dependensi negatif dibentuk dari relasi induk setelah konstituen terikat atau \textit{head-final}. Bahasa Indonesia memiliki urutan kata yang cenderung bebas \citep{sneddon2010indonesian}. Dalam aturan tata bahasa yang mengadopsi prinsip struktur frasa, banyak urutan kata dalam aturan terkait frasa memiliki kepala (\textit{head}) yang mendahului pewatas (\textit{modifier}) \citep{sneddon2010indonesian}. Akan tetapi, teori struktur frasa berbeda dengan dependensi dan belum ada penelitian yang melihat relasi induk dan konstituen terikat terkait arah dan posisi induknya (\textit{head directionality}). 
+Pada pembahasan temuan-temuan di atas, sudah dibahas sedikit mengenai struktur kalimat terkait posisi akar dan pola percabangannya. Seperti yang dijelaskan sebelumnya, belum ada konvensi mengenai arah dependensi terkait hierarki dan pengolahan dalam memori kerja. Nilai dependensi positif dihasilkan dari bentuk relasi induk sebelum konstituen terikat (\textit{head-initial}), dan sebaliknya, nilai dependensi negatif dihasilkan dari bentuk relasi induk setelah konstituen terikat (\textit{head-final}). Bahasa Indonesia memiliki urutan kata yang cenderung bebas \citep{sneddon2010indonesian}. Dalam aturan tata bahasa yang mengadopsi prinsip struktur frasa, banyak urutan kata dalam aturan terkait frasa yang memiliki kepala (\textit{head}) mendahului pewatas (\textit{modifier}) \citep{sneddon2010indonesian}. Akan tetapi, teori struktur frasa berbeda dengan dependensi dan belum ada penelitian yang melihat relasi induk dan konstituen terikat terkait arah dan posisi induknya (\textit{head directionality}). 
 
 Hipotesis yang digunakan pada beberapa penelitian yang melihat Pengurangan Panjang Dependensi (DLM) \citep{futrell2015large} serta Pengurangan Jarak Dependensi (DDM) \citep{liu2017dependency} menyebutkan bahwa kebebasan urutan kata ini mungkin dimanfaatkan oleh penutur menjadi strategi utama dalam menghasilkan kalimat yang efisien terutama mengenai peletakan konstituen dalam urutan sebuah kalimat. Pada pembahasan ini, penghitungan nilai DL tautan dependensi yang bernilai positif (konstituen terikat setelah akar atau induk) dipisahkan dengan yang bernilai negatif (konstituen terikat sebelum akar atau induk). Pada bagian pertama analisis nilai DL positif dan negatif, kedua jenis nilai didapatkan dengan memisahkan total nilai dependensi positif dan negatif pada setiap kalimat. Nilai DL positif dan negatif ini memberikan gambaran kasus tautan akar atau induk dengan konstituen terikat secara general dan berkontribusi untuk membentuk asumsi kecenderungan karakteristik bahasa dilihat dari posisi induknya \citep{wang2017effects}. 
 
@@ -499,7 +499,7 @@ Hipotesis yang digunakan pada beberapa penelitian yang melihat Pengurangan Panja
 \end{figure}
 
 
-Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang jauh berada di atas garis regresi tautan dependensi negatif dan pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin besar. Seperti yang dijelaskan sebelumnya, nilai DL cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi induk sebelum dan sesudah konstituen terikat saling berkaitan. Hal ini berarti ada pola kecenderungan preferensi terhadap hubungan akar atau induk sebelum konstituen terikat (\textit{head-initial}) dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik nilai DL ragam lisan (\pic~\ref{fig:lisan_DLposneg}), garis regresi tautan dependensi negatif menunjukkan adanya kurva parabola terbuka ke bawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap nilai DL negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menandakan bahwa mulai panjang kalimat tertentu, total tautan dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
+Berdasarkan \pic~\ref{fig:tulis_DLposneg} dan \pic~\ref{fig:lisan_DLposneg}, kedua korpus data menunjukkan garis regresi tautan dependensi positif yang jauh berada di atas garis regresi tautan dependensi negatif dan pada kalimat dengan jumlah konstituen yang semakin banyak, jarak antara keduanya semakin besar. Seperti yang dijelaskan sebelumnya, nilai DL cukup sensitif terhadap panjang kalimat dan keduanya memiliki hubungan linear. Dalam sebuah kalimat, perbandingan jumlah bentuk relasi induk sebelum dan sesudah konstituen terikat saling berkaitan. Hal ini berarti ada pola kecenderungan preferensi terhadap hubungan akar atau induk sebelum konstituen terikat (\textit{head-initial}) dan menandakan kesesuaian data observasi dengan tata bahasa yang berlaku. Namun, pada grafik nilai DL ragam lisan (\pic~\ref{fig:lisan_DLposneg}), garis regresi tautan dependensi negatif menunjukkan adanya kurva parabola terbuka ke bawah sehingga muncul asumsi adanya nilai tertinggi atau ambang batas (\textit{threshold}) terhadap nilai DL negatif pada korpus data ragam lisan. Berdasarkan korpus data yang terkumpul, dugaan ambang batas tautan dependensi negatif ini menimbulkan asumsi bahwa mulai panjang kalimat tertentu, total tautan dependensi negatif dalam sebuah kalimat mungkin tidak akan melebihi nilai tertentu juga. 
 
 \begin{table}
 \begin{center}
@@ -519,7 +519,7 @@ Jumlah konstituen & Ragam tulis (+) & Ragam tulis (-) & Ragam lisan (+) & Ragam 
 \end{center}
 \end{table}
 
-\todo{analisis}
+\tab~\ref{tab:tautanposneg} merupakan tabel yang berisi frekuensi tautan dependensi positif dan negatif dalam kedua korpus data. Frekuensi ini hanya menggambarkan jumlah kemunculan tautan dan tidak memiliki nilai jarak dependensi. Pada tabel ini, tautan-tautan dependensi tidak dikelompokkan per kalimat sehingga dapat memberikan gambaran jumlah tautan yang ada dalam keseluruhan korpus. Kedua ragam menunjukkan bahwa mulai dari panjang kalimat 6 konstituen, frekuensi tautan dependensi negatif lebih sedikit dibandingkan tautan dependensi positif. Hal ini menandakan bahwa pada kalimat yang semakin panjang, bentuk relasi induk sebelum konstituen terikat lebih banyak digunakan oleh penutur bahasa Indonesia. Seiring bertambahnya jumlah konstituen, rasio frekuensi tautan dependensi positif dan negatif semakin besar pada kedua ragam. Namun, perbedaan rasio dari setiap kategori jumlah konstituen pada ragam lisan tidak sejauh ragam tulis. Pada kategori kalimat terpanjang dalam ragam tulis, frekuensi tautan dependensi positif dapat mencapai dua kali tautan dependensi negatif. Sementara pada ragam lisan, perbandingan terbesar hanya mencapai 1,35 banding 1. Temuan pada \tab~\ref{tab:tautanposneg} menunjukkan indikasi bahwa kecenderungan bentuk relasi \textit{head-initial} lebih terlihat pada data ragam tulis.
 
 \begin{table}
 \begin{center}
@@ -548,7 +548,7 @@ Panjang kalimat & min & med	& max & mean & min & med & max & mean & \\ \cline{1-
 \end{center}
 \end{table}
 
-\todo{analisis}
+
 
 \begin{table}
 \begin{center}
@@ -649,7 +649,7 @@ Jumlah konstituen & Ragam tulis (+) & Ragam tulis (-) & Ragam lisan (+) & Ragam 
 \end{center}
 \end{table}
 
-\todo{analisis}
+Berbeda dengan tabel frekuensi tautan dependensi positif dan negatif secara keseluruhan (\tab~\ref{tab:tautanposneg}), \tab~\ref{tab:tautanpusatposneg} menunjukkan frekuensi tautan dependensi positif dan negatif hanya pada simpai pusat yang memiliki akar verbal. Sebagai contoh, simpai pusat kalimat L4 \textit{Hasil surveynya cukup mengejutkan} pada \pic~\ref{fig:ls1102} memiliki 3 konstituen yang saling bertautan, yaitu \textit{mengejutkan} dengan \textit{hasil} dan \textit{mengejutkan} dengan \textit{cukup}. Kedua tautan memiliki bentuk relasi induk setelah konstituen terikat, sehingga frekuensi dalam kalimat ini adalah 2 tautan dependensi negatif. \tab~\ref{tab:tautanpusatposneg} memperlihatkan bahwa pada simpai pusat akar verbal, kecenderungan untuk menggunakan bentuk relasi \textit{head-initial} baru terlihat pada panjang kalimat mulai 21 konstituen. Pada kalimat-kalimat yang lebih pendek dari itu, tautan dependensi negatif yang merepresentasikan bentuk relasi \textit{head-final} justru lebih banyak. 
 
 \begin{table}
 \begin{center}
@@ -669,7 +669,7 @@ Jumlah konstituen & Ragam tulis (+ \textgreater -) & Ragam tulis (+ \textless -)
 \end{center}
 \end{table}
 
-\todo{analisis}
+\tab~\ref{tab:DLpusatposneg} berisi jumlah-jumlah kalimat dengan melihat apakah kalimat tersebut memiliki nilai DL postif yang lebih besar atau sebaliknya. Hal ini berarti kalimat yang memiliki nilai DL positif dan negatif sama besar tidak diperhitungkan. Seperti pada \tab~\ref{tab:tautanpusatposneg}, kalimat yang nilai DL positifnya lebih besar ditemukan lebih banyak pada kalimat-kalimat panjang (mulai 21 konstituen). 
 
 %%-----------------------------------------------------------------------------%
 \subsection{Percabangan searah dan keseimbangan antara tautan dependensi positif dan negatif}
