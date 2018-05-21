@@ -80,12 +80,12 @@ Penguraian kalimat merupakan tahapan komputasional utama dalam tahap pengolahan 
 
 \begin{figure}
 	\centering \includegraphics[width=0.5
-	\textwidth] {pics/contohtulis.png} \caption{Contoh hasil penguraian kalimat untuk data ragam tulis} 
+	\textwidth] {pics/contohtulis.png} \caption{Contoh hasil penguraian kalimat data ragam tulis} 
 \label{fig:contohtulis} \end{figure}
 
 \begin{figure}
 	\centering \includegraphics[width=0.85
-	\textwidth] {pics/contohlisan.png} \caption{Contoh hasil penguraian kalimat untuk ragam lisan} 
+	\textwidth] {pics/contohlisan.png} \caption{Contoh hasil penguraian kalimat data ragam lisan} 
 \label{fig:contohlisan} \end{figure}
 
 Kontekstualisasi treebank dependensi yang bersifat lintas bahasa dilakukan dengan melibatkan MorphInd \citep{larasati2011indonesian}, sebuah pendekatan morfologis dan penguraian lemma untuk pengolahan bahasa. MorphInd memiliki aturan morfofonemik dan morfosintaktis untuk menganalisis kata-kata Bahasa Indonesia yang mengalami infleksi dan derivasi. Hasil olahan MorphInd mengintegrasikan penandaan morfologis pada sebuah kata seperti pada \pic~\ref{fig:morphind_schema}.
@@ -108,7 +108,7 @@ Penelitian ini mengikuti panduan dependensi milik Stanford Parser \citep{de2008s
 \begin{table}
 \begin{center}
 \begin{footnotesize}
-\caption{Kerangka anotasi berdasarkan \textit{universal Stanford Dependencies} (USD) \citep{de2014universal}} \label{tab:tipe_anotasi}
+\caption{Kerangka anotasi berdasarkan \textit{Universal Stanford Dependencies} (USD) \citep{de2014universal}} \label{tab:tipe_anotasi}
 \begin{tabular}{ l l l }
     \hline
 
@@ -230,7 +230,7 @@ Tipe-tipe dependensi dalam \textit{universal Stanford Dependencies} (USD) \citep
 
 
 %-----------------------------------------------------------------------------%
-\subsection{Anotasi nilai panjang dependensi kalimat dan rata-rata jarak dependensi antarkonstituen}
+\subsection{Anotasi panjang dependensi kalimat dan rata-rata jarak dependensi antarkonstituen}
 %-----------------------------------------------------------------------------%
 Setelah kedua korpus data diuraikan dengan pendekatan komputasional, tabel hasil penguraian data diberikan anotasi kolom tambahan berisi anotasi nilai hasil penghitungan panjang dependensi kalimat (yang selanjutnya disingkat menjadi DL) dan rata-rata jarak dependensi antarkonstituen (yang selanjutnya disingkat menjadi MDD). Anotasi ini dilakukan tidak hanya pada masing-masing kalimat, namun juga pada masing-masing relasi yang ada dalam kalimat tersebut. Penghitungan untuk mendapatkan nilai DL dan MDD tergabung menjadi dua tahapan yang berkelanjutan karena untuk mendapatkan nilai MDD, dibutuhkan nilai DL terlebih dahulu. Langkah pertama dalam tahapan anotasi nilai DL dan MDD ini adalah menguraikan kalimat di dalam kedua korpus sesuai prinsip penghitungan panjang dan jarak dependensi. Seluruh kalimat di dalam kedua korpus diperlakukan sebagai deretan konstituen $W1...Wi...Wn$. Jarak dependensi (yang selanjutnya disingkat menjadi DD) antara konstituen $Wa$ dengan konstituen $Wb$ dapat dihitung dari selisih keduanya (\citealp{liu2008dependency, liu2017dependency, futrell2015large}) sehingga konstituen-konstituen yang bersebelahan atau berdampingan memiliki jarak dependensi sejumlah 1. Untuk memperhitungkan arah dependensi dalam penghitungan ini, selisih antara kedua konstituen perlu dibedakan menyesuaikan dengan arah panah tautan dependensi tersebut:
 \begin{itemize}
@@ -253,13 +253,13 @@ Pada kedua rumus tersebut, $n$ adalah jumlah konstituen di sebuah kelimat. $DDi$
 
 \begin{figure}
 	\centering \includegraphics[width=0.5
-	\textwidth] {pics/contohtulis_DLMDD.png} \caption{Contoh hasil olahan penghitungan jarak antarkata data ragam tulis} 
+	\textwidth] {pics/contohtulis_DLMDD.png} \caption{Contoh hasil penghitungan jarak antarkonstituen data ragam tulis} 
 \label{fig:contohtulis_DLMDD} 
 \end{figure}
 
 \begin{figure}
 	\centering \includegraphics[width=0.85
-	\textwidth] {pics/contohlisan_DLMDD.png} \caption{Contoh hasil olahan penghitungan jarak antarkata data ragam lisan} 
+	\textwidth] {pics/contohlisan_DLMDD.png} \caption{Contoh hasil penghitungan jarak antarkonstituen data ragam lisan} 
 \label{fig:contohlisan_DLMDD} 
 \end{figure}
 
@@ -299,7 +299,7 @@ Kedua poin ini mendasari langkah klasifikasi terhadap kedua korpus data untuk me
 Serangkaian tahapan analisis data dengan pendekatan kuantitatif dan kualitatif dilakukan untuk mendapatkan gambaran awal mengenai fenomena efisiensi kalimat dalam bahasa Indonesia dipandang dari segi dependensi serta strategi-strategi yang mungkin diterapkan oleh penutur untuk menghasilkan efisiensi tersebut. Sejauh pemahaman saya dari hasil tinjauan terhadap penelitian-penelitian terdahulu, penelitian ini merupakan penelitian pertama yang mencoba untuk memberikan wawasan linguistik terhadap masalah tersebut sehingga beberapa metode-metode analisis yang diterapkan untuk menganalisis hasil olahan data bersifat eksperimental karena mengadopsi pendekatan yang sebelumnya menggunakan data bahasa lain. Tahap analisis ini diawali dengan uji hipotesis fenomena DLM dalam bahasa Indonesia untuk memberikan bukti empiris adanya efisiensi kalimat berdasarkan korpus data yang dikumpulkan. Langkah-langkah selanjutnya menggabungkan ancangan kuantitatif dan kualitatif untuk membedah hasil olahan data sesuai dengan pokok permasalahan penelitian yang diajukan pada Bab 1.
 
 %-----------------------------------------------------------------------------%
-\subsection{Percobaan acak untuk menguji hipotesis DLM dalam bahasa Indonesia}
+\subsection{Percobaan acak untuk meninjau efisiensi kalimat dalam bahasa Indonesia}
 %-----------------------------------------------------------------------------%
 Sebelum melakukan identifikasi terhadap karakteristik struktur dependensi berdasarkan korpus data yang dikumpulkan, perlu dilakukan uji hipotesis terhadap asumsi adanya efisiensi kalimat dalam bahasa Indonesia dari segi dependensi. Sebelumnya, uji hipotesis efisiensi kalimat dengan melihat nilai DLM pada bahasa Indonesia pernah dilakukan oleh \cite{futrell2015large} secara lintas bahasa. Namun, percobaan yang dilakukan \cite{futrell2015large} menggunakan korpus data yang berbeda, yaitu data ragam tulis dalam berbagai aliran teks seperti artikel penelitian, \textit{blog}, artikel berita, dan data dari media sosial. Penelitian ini mengadopsi pendekatan percobaan acak yang dilakukan oleh \cite{futrell2015large} dan \cite{gildea2010grammars}. \cite{futrell2015large} menyebut algoritma acak ini dengan istilah \textit{Free Word Order Baseline}, sedangkan \cite{gildea2010grammars} menyebut algoritma acak ini dengan istilah \textit{unlabeled Dependency Linearization Algorithm} (\textit{unlabeled} DLA). Secara prinsip, kedua algoritma ini memiliki kesamaan, yaitu kedua algoritma acak tersebut menyusun ulang konstituen-konstituen dalam kalimat tanpa memperhitungkan aturan tata bahasa yang ada. Sebagai contoh, tidak ada konsistensi apakah aktor pelaku mendahului atau berada setelah verba. Perbedaan kedua algoritma ini terletak pada penerapan algoritma tersebut. 
 
@@ -350,14 +350,14 @@ Langkah pertama yang dilakukan adalah membandingkan persebaran frekuensi panjang
 Perbandingan antara nilai-nilai dari masing-masing klasifikasi pada data ragam tulis dengan data ragam lisan dianalisis untuk melihat adanya perbedaan perilaku efisiensi kalimat (DLM dan DDM). Uji hipotesis pada bagian analisis ini juga menggunakan uji beda rata-rata dua populasi berbeda di mana nilai varians populasi diketahui (\textit{z-test}). Analisis kualitatif dilakukan untuk melihat adanya perbedaan struktur kalimat pada masing-masing klasifikasi atau antara kedua korpus data.
 
 %-----------------------------------------------------------------------------%
-\subsection{Analisis arah dependensi dan direksionalitas induk}
+\subsection{Analisis direksionalitas induk}
 %-----------------------------------------------------------------------------%
 Salah satu pertanyaan penelitian menitikberatkan pada jarak dan arah dependensi yang muncul berdasarkan data yang dikumpulkan. Arah dependensi berkaitan dengan hierarki relasi antara induk dan konstituen terikatnya. Seperti yang dijelaskan pada bab sebelumnya dan divisualisasikan pada \pic~\ref{fig:tautandependensi}, relasi antara dua konstituen dihubungkan dengan sebuah tautan yang memiliki panah. Arah panah tersebut merepresentasikan hierarki relasi antara keduanya. Arah panah ke kanan menandakan tautan yang bernilai positif, dan sebaliknya, arah panah ke kiri menandakan tautan yang bernilai negatif. Hal ini dapat dilihat juga pada visualisasi dari dua kalimat contoh yang diambil dari data ragam tulis (\pic~\ref{fig:contohtulis}) dan ragam lisan (\pic~\ref{fig:contohlisan}). Kedua visualisasi ini mengandung nilai-nilai tautan dengan anotasi positif ($+$) dan anotasi negatif ($-$) (yang juga dibedakan oleh warna biru dan merah) untuk memberikan gambaran terhadap perbedaan arah tautan dependensi dalam sebuah kalimat. Sebagai contoh, \pic~\ref{fig:contohtulis} memiliki 4 tautan positif dan 1 tautan negatif, sehingga pada kalimat ini relasi di mana induk direalisasikan sebelum konstituen terikat mendominasi kalimat tersebut. Pada level dependensi utama atau simpai pusat, \textit{menggelar} memiliki 2 tautan positif terhadap \textit{program} dan \textit{Cassina} serta 0 tautan negatif.
 
 Simpai pusat merepresentasikan relasi-relasi utama dalam sebuah kalimat berdasarkan dependensi. Pada kalimat yang lebih kompleks, simpai pusat juga memberikan gambaran terhadap relasi-relasi utama, namun terkadang banyak relasi pada cabang yang tidak terwakili. Oleh karena itu, pemaparan kedua analisis arah dependensi pada relasi-relasi secara keseluruhan dan pada simpai pusat penting untuk disampaikan. Pada tahap anotasi nilai DL, setiap relasi antara dua konstituen dalam sebuah kalimat sudah diberikan anotasi positif maupun negatif. Oleh sebab itu, pada tahap ini hanya perlu dilakukan agregasi data terhadap relasi-relasi bernilai positif dan relasi-relasi bernilai negatif. Tahap analisis ini didasarkan pada pembahasan mengenai percabangan searah dan percabangan beda arah yang dibahas oleh \cite{temperley2008dependency} dan \cite{dryer1992greenbergian} untuk melihat adanya kecenderungan dalam menerapkan tipe percabangan keduanya. Uji hipotesis untuk bagian analisis ini dilakukan dengan pendekatan penghitungan statistika deskriptif.
 
 %-----------------------------------------------------------------------------%
-\subsection{Pengamatan perubahan valensi akar verbal}
+\subsection{Tinjauan perubahan valensi akar verbal}
 %-----------------------------------------------------------------------------%
 Tahap analisis ini masih berkaitan erat dengan analisis arah dependensi karena keterkaitan valensi konstituen dalam sebuah kalimat dengan efisiensi kalimat tersebut tidak hanya dapat diamati melalui pengurangan nilai valensi. Sebuah konstituen dapat mempertahankan nilai valensinya tetapi tetap menghasilkan kalimat yang efisien, yaitu dengan mengatur letak konstituen yang diikatnya sehingga menempati posisi yang paling optimal (menghasilkan nilai DL terkecil). Analisis ini saya lakukan untuk melihat tautan dependensi dan hubungan induk dengan konstituen terikat secara lebih dekat terutama terkait kecenderungan penutur dalam menghasilkan kalimat yang efisien. Meskipun penelitian ini tidak menganalisis leksikon, prinsip dasar yang membentuk kemungkinan pola valensi dalam \textit{Probabilistic Valency Pattern} (PVP) \citep{liu2006syntactic} menjadi dasar pengamatan ini. Perlu saya tekankan bahwa \cite{liu2006syntactic} menganggap valensi sebagai kapasitas sebuah konstituen yang memiliki kualitas gabungan (\textit{combinatorial}). Hal ini berarti sebuah konstituen memiliki valensi tertentu dalam arti dapat mengikat konstituen lain, tetapi juga dapat bertindak sebagai konstituen yang diikat oleh induk lain. Penelitian ini mengamati valensi akar verbal pada simpai pusat pada tataran kalimat sehingga tidak ada aspek konstituen tersebut sebagai konstituen yang diikat induk lain karena dalam kalimat tersebut, konstituen yang diamati berada di posisi teratas dari hierarki dependensi.
 
