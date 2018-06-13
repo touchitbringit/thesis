@@ -3,9 +3,14 @@
 %-----------------------------------------------------------------------------%
 
 %-----------------------------------------------------------------------------%
-\section{Pendahuluan}
+\section{Pengantar}
 %-----------------------------------------------------------------------------%
 Pada bab ini, analisis korpus data jurnalistik Bahasa Indonesia termutakhir ragam tulis dan lisan dijabarkan melalui beberapa tahap. Kedua korpus dianalisis secara terpisah agar temuan analisis dapat disandingkan untuk melihat perbedaan karakter serta signifikansi perbedaan tersebut antara data ragam tulis dan ragam lisan. Tahap pertama merupakan proses penguraian kalimat dengan metode komputasional berdasarkan dependensinya. Merujuk pada penjelasan dalam Bab 3, penguraian kalimat ini dilakukan dengan bantuan sebuah kerangka kerja yang dapat dilatih ulang untuk pengkategorian token, penguraian lemma, dan penguraian kalimat bernama UDPipe \citep{udpipe2017}. Tahap kedua adalah proses penghitungan untuk mendapatkan panjang dependensi kalimat (DL) dengan pendekatan yang diadopsi dari penelitian \cite{gildea2010grammars} dan \cite{futrell2015large} serta rata-rata jarak dependensi antarkonstituen (MDD) dengan pendekatan yang diadopsi dari penelitian \cite{liu2017dependency}. Kemudian, pada tahap ketiga dilakukan percobaan acak dengan mengadopsi prinsip langkah-langkah \textit{Free Word Order Baseline} \citep{futrell2015large} terhadap tabel yang dihasilkan dari tahap-tahap sebelumnya. Tahap terakhir melibatkan penghitungan statistika deskriptif dan analisis secara kualitatif terhadap kalimat-kalimat di dalam kedua korpus yang mewakili aspek-aspek temuan penelitian berdasarkan analisis kuantitatif.
+
+%-----------------------------------------------------------------------------%
+\section{Prosedur analisis}
+%-----------------------------------------------------------------------------%
+Pada tahap pertama, kedua korpus data jurnalistik dipersiapkan untuk dapat diolah dengan metode komputasional. Dalam data ragam lisan ditemukan beberapa kalimat yang tidak lengkap. Karena metode penguraian kalimat belum dapat mengolah kalimat seperti ini, kalimat-kalimat tidak lengkap dikeluarkan dari korpus terlebih dahulu agar tidak mempengaruhi hasil penghitungan secara keseluruhan. Untuk memastikan kualitas penguraian kalimat dan anotasi yang sesuai dengan standar analisis, dilakukan tahap tambahan yaitu pemeriksaan secara manual. Berdasarkan pemeriksaan ini, kualitas penguraian kalimat untuk data ragam tulis terbilang sudah bagus, namun pada ragam lisan masih diperlukan pengembangan terutama untuk kata-kata informal atau sehari-hari. 
 
 \begin{center}
 \begin{table} \caption{Penggalan penguraian kalimat diambil dari korpus yang dianalisis}\label{tab:penggalan_kalimat}
@@ -33,7 +38,7 @@ tulis & Mengingat fungsi dari telepon seluler tersebut sebagai sarana komunikasi
 \end{table}
 \end{center}
 
-Pada tahap pertama, kedua korpus data jurnalistik dipersiapkan untuk dapat diolah dengan metode komputasional. Dalam data ragam lisan ditemukan beberapa kalimat yang tidak lengkap. Karena metode penguraian kalimat belum dapat mengolah kalimat seperti ini, kalimat-kalimat tidak lengkap dikeluarkan dari korpus terlebih dahulu agar tidak mempengaruhi hasil penghitungan secara keseluruhan. Hasil dari tahap penguraian kalimat ini berupa tabel yang berisi anotasi konstituen-konstituen kalimat seperti contoh pada \tab~\ref{tab:penggalan_kalimat}. Berdasarkan penguraian kalimat ini, kedua korpus memiliki total 19.530 kalimat atau 270.409 konstituen dengan data ragam tulis berjumlah 9311 kalimat atau 162.201 konstituen dan data ragam lisan berjumlah 10.219 kalimat atau 108.208 konstituen. Untuk memastikan kualitas penguraian kalimat dan anotasi yang sesuai dengan standar analisis, dilakukan tahap tambahan yaitu pemeriksaan secara manual. Berdasarkan pemeriksaan ini, kualitas penguraian kalimat untuk data ragam tulis terbilang sudah bagus, namun pada ragam lisan masih diperlukan pengembangan terutama untuk kata-kata informal atau sehari-hari. Contoh hasil penguraian pada \tab~\ref{tab:penggalan_kalimat} memperlihatkan kalimat \textit{Mengingat fungsi dari telepon seluler tersebut sebagai sarana komunikasi yang berdampak pada peningkatan ekonomi} yang telah diekstraksi menjadi sekumpulan konstituen yang telah dianotasikan berdasarkan kelas katanya serta relasi antarkonstituennya. 
+Hasil dari tahap penguraian kalimat ini berupa tabel yang berisi anotasi konstituen-konstituen kalimat seperti contoh pada \tab~\ref{tab:penggalan_kalimat}. Berdasarkan penguraian kalimat ini, kedua korpus memiliki total 19.530 kalimat atau 270.409 konstituen dengan data ragam tulis berjumlah 9311 kalimat atau 162.201 konstituen dan data ragam lisan berjumlah 10.219 kalimat atau 108.208 konstituen. Contoh hasil penguraian pada \tab~\ref{tab:penggalan_kalimat} memperlihatkan kalimat \textit{Mengingat fungsi dari telepon seluler tersebut sebagai sarana komunikasi yang berdampak pada peningkatan ekonomi} yang telah diekstraksi menjadi sekumpulan konstituen yang telah dianotasikan berdasarkan kelas katanya serta relasi antarkonstituennya. 
 
 \begin{figure}
 	\centering \includegraphics[width=0.8
@@ -164,7 +169,7 @@ Beberapa histogram berikut menunjukkan perbandingan antara DL dari semua kalimat
   \begin{tabular}{ | l | l | l | l |}
     \hline
     	Jumlah konstituen & Rata-rata nilai DL (observasi) & Rata-rata nilai DL (acak) & p-value \\ \hline
-	10 & \textbf{18,14} & 33,01 & \textless \0,001 \\ \hline
+	10 & \textbf{18,14} & 33,01 & \textless 0,001 \\ \hline
 	14 & \textbf{29,11} & 64,95 & \textless 0,001 \\ \hline
 	21 & \textbf{51,59} & 146,67 & \textless 0,001 \\ \hline
   \end{tabular}
