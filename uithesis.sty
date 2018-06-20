@@ -192,6 +192,15 @@
 % digunakan untuk membuat glossaries
 %
 \usepackage{glossaries}
+
+%
+%
+%
+\usepackage{titlesec}
+%\titleformat{\chapter}{\normalfont\fontsize{12}{12}\bfseries\centering}{\MakeUppercase{\chaptername} \CHAPTERTITLENAME\ \thechapter }{1em}{}
+\titleformat{\section}{\normalfont\fontsize{12}{12}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\fontsize{12}{12}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\fontsize{12}{12}}{\thesubsubsection}{1em}{}
 %-----------------------------------------------------------------------------%
 % Konfigurasi
 %-----------------------------------------------------------------------------%
@@ -225,7 +234,7 @@
 \renewcommand\section{\@startsection {section}{1}{\z@}%
                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
                                   {2.3ex \@plus.2ex}%
-                                  {\large\bfseries}}
+                                  {\normal\bfseries}}
 \makeatother
 
 \setcounter{secnumdepth}{3}
